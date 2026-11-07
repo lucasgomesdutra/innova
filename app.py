@@ -2,11 +2,6 @@
 =============================================================================
 DETECTOR DE PROBLEMAS NO ATENDIMENTO — SICREDI
 app.py — Servidor Flask com front-end HTML/CSS
-=============================================================================
-
-Execução:
-    python app.py
-Depois acesse: http://localhost:5000
 """
 
 import os
