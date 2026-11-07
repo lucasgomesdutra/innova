@@ -1,0 +1,1081 @@
+﻿id,texto,categoria,sentimento,nota,canal,data,texto_limpo
+1,Atendimento humanizado e eficiente.,Elogios e avaliações positivas,positivo,5,agência,2024-02-09,humanizado eficiente
+2,A transferência está aparecendo como processando há horas.,Problemas com Pix e transferências,negativo,2,email,2024-12-12,transferencia aparecendo processando ha horas
+3,"Pix enviado para chave errada, quero estorno.",Problemas com Pix e transferências,negativo,2,chat,2024-10-10,pix enviado chave errada estorno
+4,Não consigo falar com um atendente.,Demora no atendimento,negativo,2,chat,2024-08-21,nao falar atendente
+5,O limite de Pix noturno está bloqueando minha transferência.,Problemas com Pix e transferências,negativo,1,agência,2024-12-08,limite pix noturno bloqueando transferencia
+6,"O atendimento foi excelente, fiquei muito satisfeito.",Elogios e avaliações positivas,positivo,5,agência,2024-07-10,excelente fiquei satisfeito
+7,"O atendimento foi excelente, fiquei muito satisfeito.",Elogios e avaliações positivas,positivo,5,agência,2024-04-02,excelente fiquei satisfeito
+8,O aplicativo ficou lento e não carrega as informações.,Problemas no aplicativo,negativo,2,aplicativo,2024-04-27,aplicativo ficou lento nao carrega informacoes
+9,Processo de financiamento foi simples e rápido.,Elogios e avaliações positivas,positivo,5,telefone,2024-02-24,processo financiamento simples rapido
+10,Não consigo desbloquear meu cartão.,Problemas com cartões,negativo,2,chat,2024-09-22,nao desbloquear cartao
+11,A equipe resolveu meu problema rapidamente.,Elogios e avaliações positivas,positivo,5,agência,2024-07-12,equipe resolveu problema rapidamente
+12,Gostei muito da forma como fui atendido.,Elogios e avaliações positivas,positivo,5,agência,2024-04-16,gostei forma atendido
+13,Erro ao tentar enviar Pix.,Problemas com Pix e transferências,negativo,1,agência,2024-06-17,erro tentar enviar pix
+14,A senha do cartão não está sendo aceita.,Problemas com cartões,negativo,1,chat,2024-12-29,senha cartao nao sendo aceita
+15,Passei pelo URA e não consegui falar com ninguém.,Demora no atendimento,negativo,2,email,2024-07-06,passei ura nao falar ninguem
+16,Preciso de informações sobre previdência privada.,Outros,neutro,3,telefone,2024-09-21,informacoes sobre previdencia privada
+17,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5,email,2024-12-01,aplicativo
+18,Gostaria de entender os termos do contrato.,Outros,neutro,3,email,2024-07-19,entender termos contrato
+19,Não consigo fazer Pix para outro banco.,Problemas com Pix e transferências,negativo,1,telefone,2024-02-02,nao fazer pix outro
+20,"Pix enviado para chave errada, quero estorno.",Problemas com Pix e transferências,negativo,2,telefone,2024-11-11,pix enviado chave errada estorno
+21,O chip do cartão não funciona.,Problemas com cartões,negativo,1,chat,2024-05-13,chip cartao nao funciona
+22,Minha senha foi bloqueada.,Problemas de acesso à conta,negativo,2,aplicativo,2024-04-02,senha bloqueada
+23,O gerente não retorna as ligações.,Demora no atendimento,negativo,2,chat,2024-01-17,gerente nao retorna ligacoes
+24,Não consigo cadastrar uma chave Pix.,Problemas com Pix e transferências,negativo,2,email,2024-01-05,nao cadastrar chave pix
+25,A corretagem foi cobrada indevidamente.,Cobranças indevidas,negativo,2,email,2024-03-15,corretagem cobrada indevidamente
+26,O login biométrico parou de funcionar no app.,Problemas no aplicativo,negativo,1,aplicativo,2024-10-31,login biometrico parou funcionar app
+27,Fiz uma compra e o cartão foi recusado.,Problemas com cartões,negativo,3,email,2024-01-09,fiz compra cartao recusado
+28,Fui cobrado por limite de crédito que não solicitei.,Cobranças indevidas,negativo,1,telefone,2024-09-22,cobrado limite credito nao solicitei
+29,O saldo do consórcio não atualiza corretamente.,Dificuldades com serviços bancários,negativo,2,email,2024-07-11,saldo consorcio nao atualiza corretamente
+30,Não consigo completar o processo de autenticação.,Problemas de acesso à conta,negativo,3,email,2024-01-22,nao completar processo autenticacao
+31,O cartão foi expirado antes do prazo.,Problemas com cartões,negativo,3,telefone,2024-09-28,cartao expirado antes prazo
+32,Processo de financiamento foi simples e rápido.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-01-09,processo financiamento simples rapido
+33,Verifico no extrato um débito não autorizado.,Cobranças indevidas,negativo,3,agência,2024-03-17,verifico extrato debito nao autorizado
+34,O reconhecimento facial não funciona.,Problemas de acesso à conta,negativo,2,agência,2024-09-25,reconhecimento facial nao funciona
+35,Me cobraram mais do que deveria.,Cobranças indevidas,negativo,2,email,2024-10-18,cobraram deveria
+36,O suporte online é muito eficiente.,Elogios e avaliações positivas,positivo,5,agência,2024-05-02,suporte online eficiente
+37,Ninguém responde os meus e-mails enviados ao suporte.,Demora no atendimento,negativo,1,telefone,2024-05-20,ninguem responde mails enviados suporte
+38,Não consigo cadastrar uma chave Pix.,Problemas com Pix e transferências,negativo,1,chat,2024-03-23,nao cadastrar chave pix
+39,Não consigo entrar na conta pelo internet banking.,Problemas de acesso à conta,negativo,1,email,2024-02-28,nao entrar internet banking
+40,O chatbot não resolve e não passa para humano.,Demora no atendimento,negativo,1,aplicativo,2024-12-04,chatbot nao resolve nao passa humano
+41,Não consigo configurar o segundo fator de autenticação.,Problemas de acesso à conta,negativo,3,email,2024-01-20,nao configurar segundo fator autenticacao
+42,Perdi acesso à conta após atualizar o celular.,Problemas de acesso à conta,negativo,3,email,2024-03-22,perdi acesso apos atualizar celular
+43,Não consigo visualizar meu histórico de transações.,Dificuldades com serviços bancários,negativo,3,email,2024-07-13,nao visualizar historico transacoes
+44,Fica tocando e ninguém atende.,Demora no atendimento,negativo,2,chat,2024-06-22,fica tocando ninguem atende
+45,O aplicativo da Sicredi parou de funcionar no meu celular.,Problemas no aplicativo,negativo,1,aplicativo,2024-07-13,aplicativo parou funcionar celular
+46,O app não abre quando tento acessar.,Problemas no aplicativo,negativo,1,aplicativo,2024-04-21,app nao abre tento acessar
+47,Meu cartão foi clonado.,Problemas com cartões,negativo,1,agência,2024-01-19,cartao clonado
+48,Não consigo completar o processo de autenticação.,Problemas de acesso à conta,negativo,1,chat,2024-11-05,nao completar processo autenticacao
+49,Preciso de informações sobre crédito rural.,Outros,neutro,3,email,2024-04-05,informacoes sobre credito rural
+50,Recomendo a Sicredi pelo atendimento diferenciado.,Elogios e avaliações positivas,positivo,4,agência,2024-07-08,recomendo diferenciado
+51,App fecha sozinho sem motivo aparente.,Problemas no aplicativo,negativo,3,telefone,2024-12-26,app fecha sozinho motivo aparente
+52,Quero cancelar um Pix agendado mas não consigo.,Problemas com Pix e transferências,negativo,2,telefone,2024-08-24,cancelar pix agendado nao
+53,Apareceu uma cobrança que não reconheço no extrato.,Cobranças indevidas,negativo,3,chat,2024-08-30,apareceu cobranca nao reconheco extrato
+54,Cobrança duplicada no mesmo extrato.,Cobranças indevidas,negativo,1,aplicativo,2024-07-28,cobranca duplicada extrato
+55,O processo de encerramento de conta é complicado.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-09-18,processo encerramento complicado
+56,O aplicativo da Sicredi parou de funcionar no meu celular.,Problemas no aplicativo,negativo,2,telefone,2024-07-08,aplicativo parou funcionar celular
+57,O aplicativo está com problema de conexão.,Problemas no aplicativo,negativo,1,aplicativo,2024-08-22,aplicativo problema conexao
+58,Verifico no extrato um débito não autorizado.,Cobranças indevidas,negativo,3,chat,2024-01-02,verifico extrato debito nao autorizado
+59,O processo de encerramento de conta é complicado.,Dificuldades com serviços bancários,negativo,3,telefone,2024-03-25,processo encerramento complicado
+60,Gostaria de entender os termos do contrato.,Outros,neutro,4,chat,2024-11-01,entender termos contrato
+61,Não consigo configurar o segundo fator de autenticação.,Problemas de acesso à conta,negativo,3,agência,2024-03-19,nao configurar segundo fator autenticacao
+62,A corretagem foi cobrada indevidamente.,Cobranças indevidas,negativo,3,telefone,2024-02-05,corretagem cobrada indevidamente
+63,O atendimento é sempre cordial e profissional.,Elogios e avaliações positivas,positivo,4,chat,2024-08-15,sempre cordial profissional
+64,Quero saber sobre os benefícios do cartão.,Outros,neutro,3,aplicativo,2024-01-06,saber sobre beneficios cartao
+65,Meu cartão virtual não aparece no aplicativo.,Problemas com cartões,negativo,2,email,2024-08-06,cartao virtual nao aparece aplicativo
+66,Não consigo falar com um atendente.,Demora no atendimento,negativo,3,chat,2024-11-23,nao falar atendente
+67,Minha solicitação está sem resposta há muito tempo.,Demora no atendimento,negativo,1,aplicativo,2024-11-17,solicitacao resposta ha tempo
+68,O gerente foi muito atencioso e prestativo.,Elogios e avaliações positivas,positivo,5,agência,2024-01-09,gerente atencioso prestativo
+69,Não entendo as taxas cobradas no meu financiamento.,Dificuldades com serviços bancários,negativo,2,chat,2024-10-25,nao entendo taxas cobradas financiamento
+70,Minha conta foi bloqueada sem motivo.,Problemas de acesso à conta,negativo,2,agência,2024-11-06,bloqueada motivo
+71,Preciso de renegociação mas o sistema não permite.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-10-20,renegociacao sistema nao permite
+72,O limite do cartão está errado.,Problemas com cartões,negativo,1,telefone,2024-05-26,limite cartao errado
+73,O Pix foi cancelado automaticamente.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-05-22,pix cancelado automaticamente
+74,O atendente foi muito prestativo e resolveu tudo.,Elogios e avaliações positivas,positivo,5,email,2024-12-10,atendente prestativo resolveu tudo
+75,Não consigo agendar pagamentos futuros.,Dificuldades com serviços bancários,negativo,2,telefone,2024-08-22,nao agendar pagamentos futuros
+76,"Ótimo atendimento, parabéns à equipe.",Elogios e avaliações positivas,positivo,5,telefone,2024-08-23,otimo parabens equipe
+77,Preciso de renegociação mas o sistema não permite.,Dificuldades com serviços bancários,negativo,1,telefone,2024-01-10,renegociacao sistema nao permite
+78,Meu cartão virtual não aparece no aplicativo.,Problemas com cartões,negativo,2,aplicativo,2024-06-29,cartao virtual nao aparece aplicativo
+79,O aplicativo está com problema de conexão.,Problemas no aplicativo,negativo,2,agência,2024-06-10,aplicativo problema conexao
+80,Não consigo ver meu limite disponível.,Problemas com cartões,negativo,2,agência,2024-10-21,nao ver limite disponivel
+81,Processo de financiamento foi simples e rápido.,Elogios e avaliações positivas,positivo,4,email,2024-12-23,processo financiamento simples rapido
+82,Passei pelo URA e não consegui falar com ninguém.,Demora no atendimento,negativo,1,telefone,2024-12-12,passei ura nao falar ninguem
+83,Os juros do financiamento são diferentes do informado.,Dificuldades com serviços bancários,negativo,1,email,2024-11-18,juros financiamento sao diferentes informado
+84,Gostaria de participar das assembleias da cooperativa.,Outros,neutro,3,chat,2024-12-25,participar assembleias cooperativa
+85,Aplicativo não abre desde ontem.,Problemas no aplicativo,negativo,1,email,2024-09-28,aplicativo nao abre desde ontem
+86,Fui cobrado por limite de crédito que não solicitei.,Cobranças indevidas,negativo,2,email,2024-09-12,cobrado limite credito nao solicitei
+87,Pix ficou pendente há mais de dois dias.,Problemas com Pix e transferências,negativo,3,agência,2024-11-13,pix ficou pendente ha dois dias
+88,Troquei de número e perdi o acesso ao aplicativo.,Problemas de acesso à conta,negativo,3,email,2024-06-14,troquei numero perdi acesso aplicativo
+89,O aplicativo não reconhece minha digital.,Problemas de acesso à conta,negativo,2,agência,2024-09-14,aplicativo nao reconhece digital
+90,Preciso de um gerente para falar sobre minha conta.,Outros,neutro,3,agência,2024-10-21,gerente falar sobre
+91,Cobrou por dois meses no mesmo dia.,Cobranças indevidas,negativo,1,chat,2024-12-04,cobrou dois meses
+92,Gostei muito da forma como fui atendido.,Elogios e avaliações positivas,positivo,4,aplicativo,2024-04-06,gostei forma atendido
+93,Estou muito satisfeito com os serviços da Sicredi.,Elogios e avaliações positivas,positivo,5,telefone,2024-06-03,satisfeito servicos
+94,Preciso de um gerente para falar sobre minha conta.,Outros,neutro,3,agência,2024-06-12,gerente falar sobre
+95,"Adorei o novo aplicativo, ficou muito intuitivo.",Elogios e avaliações positivas,positivo,5,telefone,2024-02-04,adorei novo aplicativo ficou intuitivo
+96,Não recebi o comprovante de abertura de conta.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-10-07,nao recebi comprovante abertura
+97,Não consigo fazer Pix para outro banco.,Problemas com Pix e transferências,negativo,2,chat,2024-06-12,nao fazer pix outro
+98,Quero fazer portabilidade de salário mas não sei como.,Dificuldades com serviços bancários,negativo,1,telefone,2024-01-03,fazer portabilidade salario nao sei
+99,Preciso de informações sobre crédito rural.,Outros,neutro,3,aplicativo,2024-05-14,informacoes sobre credito rural
+100,Preciso de informações sobre os produtos disponíveis.,Outros,neutro,3,agência,2024-06-02,informacoes sobre produtos disponiveis
+101,"O atendimento foi excelente, fiquei muito satisfeito.",Elogios e avaliações positivas,positivo,4,agência,2024-01-17,excelente fiquei satisfeito
+102,Gostaria de entender os termos do contrato.,Outros,neutro,4,aplicativo,2024-06-27,entender termos contrato
+103,Tenho dúvidas sobre a cobrança de IOF.,Outros,neutro,3,chat,2024-11-10,duvidas sobre cobranca iof
+104,A fatura veio com cobrança duplicada.,Cobranças indevidas,negativo,1,chat,2024-10-09,fatura veio cobranca duplicada
+105,Meu cartão foi clonado.,Problemas com cartões,negativo,1,agência,2024-12-22,cartao clonado
+106,Como funciona a portabilidade de crédito?,Outros,neutro,4,email,2024-12-18,funciona portabilidade credito
+107,Descontaram um valor da minha conta sem autorização.,Cobranças indevidas,negativo,2,chat,2024-12-24,descontaram valor autorizacao
+108,Como funciona o seguro residencial da Sicredi?,Outros,neutro,4,agência,2024-07-21,funciona seguro residencial
+109,O tempo de espera no telefone é inaceitável.,Demora no atendimento,negativo,3,chat,2024-08-22,tempo espera telefone inaceitavel
+110,Apareceu uma cobrança que não reconheço no extrato.,Cobranças indevidas,negativo,1,agência,2024-12-20,apareceu cobranca nao reconheco extrato
+111,Não consigo fazer o cadastro de nova senha.,Problemas de acesso à conta,negativo,2,chat,2024-02-15,nao fazer cadastro nova senha
+112,Fui debitado por um seguro que não contratei.,Cobranças indevidas,negativo,2,email,2024-06-18,debitado seguro nao contratei
+113,Quero saber como abrir uma conta na Sicredi.,Outros,neutro,4,agência,2024-03-27,saber abrir
+114,O limite do cartão está errado.,Problemas com cartões,negativo,2,aplicativo,2024-12-01,limite cartao errado
+115,O cartão não funciona pelo Google Pay.,Problemas com cartões,negativo,2,agência,2024-11-11,cartao nao funciona google pay
+116,Meu Pix foi devolvido sem justificativa.,Problemas com Pix e transferências,negativo,2,chat,2024-04-18,pix devolvido justificativa
+117,Gostaria de falar sobre o seguro de vida.,Outros,neutro,4,chat,2024-05-28,falar sobre seguro vida
+118,Quero saber mais sobre o programa de pontos.,Outros,neutro,4,aplicativo,2024-10-22,saber sobre programa pontos
+119,Ninguém responde os meus e-mails enviados ao suporte.,Demora no atendimento,negativo,3,email,2024-10-07,ninguem responde mails enviados suporte
+120,Fiz uma compra e o cartão foi recusado.,Problemas com cartões,negativo,1,chat,2024-08-07,fiz compra cartao recusado
+121,Não aparece saldo no aplicativo.,Problemas no aplicativo,negativo,2,agência,2024-09-21,nao aparece saldo aplicativo
+122,Nunca tive problemas com a Sicredi.,Elogios e avaliações positivas,positivo,5,telefone,2024-12-31,nunca problemas
+123,Estão cobrando tarifas que não concordei.,Cobranças indevidas,negativo,2,agência,2024-08-17,estao cobrando tarifas nao concordei
+124,Não consigo entrar na conta pelo internet banking.,Problemas de acesso à conta,negativo,2,agência,2024-05-19,nao entrar internet banking
+125,O sistema diz que meu usuário não existe.,Problemas de acesso à conta,negativo,1,email,2024-12-05,sistema diz usuario nao existe
+126,O atendente foi muito prestativo e resolveu tudo.,Elogios e avaliações positivas,positivo,4,telefone,2024-01-23,atendente prestativo resolveu tudo
+127,O sistema de chat não funciona bem.,Demora no atendimento,negativo,1,agência,2024-12-24,sistema chat nao funciona bem
+128,"Problema resolvido no mesmo dia, parabéns.",Elogios e avaliações positivas,positivo,4,chat,2024-10-10,problema resolvido parabens
+129,Tentei agendar e não encontrei horário disponível.,Demora no atendimento,negativo,1,agência,2024-08-17,tentei agendar nao encontrei horario disponivel
+130,O suporte online é muito eficiente.,Elogios e avaliações positivas,positivo,5,chat,2024-07-13,suporte online eficiente
+131,O cartão não funciona pelo Google Pay.,Problemas com cartões,negativo,1,aplicativo,2024-01-26,cartao nao funciona google pay
+132,Esqueci a senha e o processo de recuperação não funciona.,Problemas de acesso à conta,negativo,1,agência,2024-02-11,esqueci senha processo recuperacao nao funciona
+133,Não consigo usar o cartão para pagamentos recorrentes.,Problemas com cartões,negativo,1,agência,2024-03-03,nao usar cartao pagamentos recorrentes
+134,O sistema não aceita minha senha eletrônica.,Problemas de acesso à conta,negativo,3,email,2024-02-13,sistema nao aceita senha eletronica
+135,A fatura veio com cobrança duplicada.,Cobranças indevidas,negativo,1,email,2024-07-27,fatura veio cobranca duplicada
+136,Pix não chegou na conta do destinatário.,Problemas com Pix e transferências,negativo,3,agência,2024-01-26,pix nao chegou destinatario
+137,O app não abre quando tento acessar.,Problemas no aplicativo,negativo,3,agência,2024-04-22,app nao abre tento acessar
+138,O chip do cartão não funciona.,Problemas com cartões,negativo,2,telefone,2024-11-09,chip cartao nao funciona
+139,Não recebi confirmação do Pix enviado.,Problemas com Pix e transferências,negativo,2,email,2024-03-02,nao recebi confirmacao pix enviado
+140,Minha solicitação de crédito foi negada sem justificativa.,Dificuldades com serviços bancários,negativo,2,telefone,2024-05-15,solicitacao credito negada justificativa
+141,"Fui bem atendido na agência, serviço de qualidade.",Elogios e avaliações positivas,positivo,5,email,2024-06-12,bem atendido agencia servico qualidade
+142,Preciso emitir uma certidão negativa de débitos.,Outros,neutro,4,email,2024-11-30,emitir certidao negativa debitos
+143,O atendimento online está muito lento.,Demora no atendimento,negativo,1,aplicativo,2024-08-09,online lento
+144,Gostaria de falar sobre o seguro de vida.,Outros,neutro,3,aplicativo,2024-05-21,falar sobre seguro vida
+145,Meu cartão foi cancelado sem aviso prévio.,Problemas com cartões,negativo,1,aplicativo,2024-03-21,cartao cancelado aviso previo
+146,O aplicativo é fácil de usar e funciona muito bem.,Elogios e avaliações positivas,positivo,5,email,2024-04-23,aplicativo facil usar funciona bem
+147,O suporte não retornou minha solicitação.,Demora no atendimento,negativo,2,telefone,2024-07-15,suporte nao retornou solicitacao
+148,A transferência foi estornada sem motivo.,Problemas com Pix e transferências,negativo,1,email,2024-01-19,transferencia estornada motivo
+149,Como faço para aumentar meu limite de crédito?,Outros,neutro,3,chat,2024-01-17,faco aumentar limite credito
+150,Meu acesso está sendo negado mesmo com credenciais corretas.,Problemas de acesso à conta,negativo,1,chat,2024-08-29,acesso sendo negado credenciais corretas
+151,A fatura veio com cobrança duplicada.,Cobranças indevidas,negativo,3,telefone,2024-12-29,fatura veio cobranca duplicada
+152,Chave Pix não está sendo aceita.,Problemas com Pix e transferências,negativo,2,agência,2024-07-23,chave pix nao sendo aceita
+153,O app não funciona no meu celular novo.,Problemas no aplicativo,negativo,1,chat,2024-09-13,app nao funciona celular novo
+154,Compras foram feitas com meu cartão sem minha autorização.,Problemas com cartões,negativo,2,aplicativo,2024-12-15,compras feitas cartao autorizacao
+155,A conta poupança não está rendendo como esperado.,Dificuldades com serviços bancários,negativo,2,email,2024-08-29,poupanca nao rendendo esperado
+156,Preciso de uma declaração para imposto de renda.,Outros,neutro,4,chat,2024-05-03,declaracao imposto renda
+157,Conta com tarifa justa e ótimos serviços.,Elogios e avaliações positivas,positivo,5,chat,2024-09-07,tarifa justa otimos servicos
+158,O suporte não retornou minha solicitação.,Demora no atendimento,negativo,2,aplicativo,2024-05-01,suporte nao retornou solicitacao
+159,O chatbot não resolve e não passa para humano.,Demora no atendimento,negativo,1,email,2024-05-08,chatbot nao resolve nao passa humano
+160,Não consigo emitir boleto pelo aplicativo.,Dificuldades com serviços bancários,negativo,1,agência,2024-09-13,nao emitir boleto aplicativo
+161,O tempo de espera na agência é absurdo.,Demora no atendimento,negativo,1,email,2024-07-14,tempo espera agencia absurdo
+162,Tentei usar o aplicativo várias vezes e não carrega.,Problemas no aplicativo,negativo,1,email,2024-03-05,tentei usar aplicativo varias vezes nao carrega
+163,Preciso acessar a conta mas o sistema rejeita minhas credenciais.,Problemas de acesso à conta,negativo,1,email,2024-03-04,acessar sistema rejeita credenciais
+164,A conta foi bloqueada por tentativas erradas de senha.,Problemas de acesso à conta,negativo,2,agência,2024-04-29,bloqueada tentativas erradas senha
+165,O aplicativo não atualiza o extrato.,Problemas no aplicativo,negativo,1,chat,2024-02-06,aplicativo nao atualiza extrato
+166,Gostaria de informações sobre os seguros oferecidos.,Outros,neutro,3,agência,2024-03-26,informacoes sobre seguros oferecidos
+167,Quero entender meu extrato do consórcio.,Outros,neutro,3,chat,2024-10-05,entender extrato consorcio
+168,Preciso acessar a conta mas o sistema rejeita minhas credenciais.,Problemas de acesso à conta,negativo,2,aplicativo,2024-03-23,acessar sistema rejeita credenciais
+169,Não consigo falar com um atendente.,Demora no atendimento,negativo,2,email,2024-03-21,nao falar atendente
+170,Tarifa de manutenção cobrada indevidamente.,Cobranças indevidas,negativo,2,aplicativo,2024-02-03,tarifa manutencao cobrada indevidamente
+171,O aplicativo não atualiza o extrato.,Problemas no aplicativo,negativo,1,email,2024-04-22,aplicativo nao atualiza extrato
+172,Pix não chegou na conta do destinatário.,Problemas com Pix e transferências,negativo,2,telefone,2024-08-25,pix nao chegou destinatario
+173,Meu acesso está sendo negado mesmo com credenciais corretas.,Problemas de acesso à conta,negativo,2,telefone,2024-01-15,acesso sendo negado credenciais corretas
+174,O aplicativo está fora do ar.,Problemas no aplicativo,negativo,1,chat,2024-09-27,aplicativo ar
+175,Esperei 40 minutos na fila da agência.,Demora no atendimento,negativo,1,agência,2024-01-13,esperei minutos fila agencia
+176,Fiquei na fila por muito tempo sem ser chamado.,Demora no atendimento,negativo,2,aplicativo,2024-11-20,fiquei fila tempo chamado
+177,Tentei pagar uma conta por transferência e deu erro.,Problemas com Pix e transferências,negativo,1,telefone,2024-06-08,tentei pagar transferencia deu erro
+178,O valor debitado está diferente do combinado.,Cobranças indevidas,negativo,3,telefone,2024-08-05,valor debitado diferente combinado
+179,Excelente experiência com o internet banking.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-08-28,excelente experiencia internet banking
+180,Fui cobrado por um serviço que não contratei.,Cobranças indevidas,negativo,2,aplicativo,2024-08-03,cobrado servico nao contratei
+181,Fiz transferência e o valor foi debitado duas vezes.,Problemas com Pix e transferências,negativo,3,email,2024-10-31,fiz transferencia valor debitado duas vezes
+182,O sistema não aceita minha senha eletrônica.,Problemas de acesso à conta,negativo,2,chat,2024-06-15,sistema nao aceita senha eletronica
+183,O processo de portabilidade está travado.,Dificuldades com serviços bancários,negativo,2,email,2024-06-02,processo portabilidade travado
+184,Não há atendimento disponível nos horários que preciso.,Demora no atendimento,negativo,1,email,2024-09-16,nao ha disponivel horarios
+185,A fatura do cartão está incorreta.,Problemas com cartões,negativo,1,aplicativo,2024-03-14,fatura cartao incorreta
+186,Gostaria de mudar de agência.,Outros,neutro,3,agência,2024-02-19,mudar agencia
+187,A simulação de crédito apresenta valores inconsistentes.,Dificuldades com serviços bancários,negativo,1,telefone,2024-03-12,simulacao credito apresenta valores inconsistentes
+188,Preciso de informações sobre minha previdência privada.,Dificuldades com serviços bancários,negativo,1,email,2024-08-27,informacoes sobre previdencia privada
+189,Nunca tive problemas com a Sicredi.,Elogios e avaliações positivas,positivo,4,aplicativo,2024-05-17,nunca problemas
+190,Quero saber como abrir uma conta na Sicredi.,Outros,neutro,4,email,2024-03-27,saber abrir
+191,Meu acesso está sendo negado mesmo com credenciais corretas.,Problemas de acesso à conta,negativo,2,aplicativo,2024-12-31,acesso sendo negado credenciais corretas
+192,Processo de financiamento foi simples e rápido.,Elogios e avaliações positivas,positivo,5,email,2024-05-26,processo financiamento simples rapido
+193,O aplicativo não reconhece minha senha.,Problemas no aplicativo,negativo,3,email,2024-03-21,aplicativo nao reconhece senha
+194,Não recebi o comprovante de abertura de conta.,Dificuldades com serviços bancários,negativo,2,email,2024-12-26,nao recebi comprovante abertura
+195,"Problema resolvido no mesmo dia, parabéns.",Elogios e avaliações positivas,positivo,5,aplicativo,2024-04-05,problema resolvido parabens
+196,Tenho uma sugestão de melhoria para o aplicativo.,Outros,neutro,3,chat,2024-08-21,sugestao melhoria aplicativo
+197,Me cobraram juros indevidos.,Cobranças indevidas,negativo,2,aplicativo,2024-12-28,cobraram juros indevidos
+198,Função de pagamento do aplicativo não funciona.,Problemas no aplicativo,negativo,2,telefone,2024-10-03,funcao pagamento aplicativo nao funciona
+199,Meu Pix foi devolvido sem justificativa.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-05-13,pix devolvido justificativa
+200,Tenho interesse em investir mas não sei como começar.,Outros,neutro,3,agência,2024-11-29,interesse investir nao sei comecar
+201,Não tenho retorno dos atendentes.,Demora no atendimento,negativo,3,telefone,2024-04-29,nao retorno atendentes
+202,Não entendo as taxas cobradas no meu financiamento.,Dificuldades com serviços bancários,negativo,1,chat,2024-07-15,nao entendo taxas cobradas financiamento
+203,Preciso de comprovante de Pix que não aparece.,Problemas com Pix e transferências,negativo,1,chat,2024-08-13,comprovante pix nao aparece
+204,Não consigo contestar uma compra no cartão.,Problemas com cartões,negativo,3,aplicativo,2024-11-05,nao contestar compra cartao
+205,Quero informações sobre consórcio.,Outros,neutro,3,agência,2024-07-05,informacoes sobre consorcio
+206,Não consigo ver meu limite disponível.,Problemas com cartões,negativo,1,aplicativo,2024-06-07,nao ver limite disponivel
+207,A transferência está aparecendo como processando há horas.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-12-22,transferencia aparecendo processando ha horas
+208,Me cobraram por serviço de internet banking sem ter contratado.,Cobranças indevidas,negativo,3,chat,2024-07-31,cobraram servico internet banking ter contratado
+209,A senha do cartão não está sendo aceita.,Problemas com cartões,negativo,1,agência,2024-09-14,senha cartao nao sendo aceita
+210,Quero informações sobre consórcio.,Outros,neutro,4,email,2024-04-02,informacoes sobre consorcio
+211,O chat demorou para responder.,Demora no atendimento,negativo,2,chat,2024-08-23,chat demorou responder
+212,Esperei 40 minutos na fila da agência.,Demora no atendimento,negativo,2,email,2024-07-14,esperei minutos fila agencia
+213,Não consigo cadastrar conta para transferência.,Problemas com Pix e transferências,negativo,1,email,2024-01-27,nao cadastrar transferencia
+214,Me cobraram mais do que deveria.,Cobranças indevidas,negativo,1,chat,2024-03-13,cobraram deveria
+215,Preciso emitir uma certidão negativa de débitos.,Outros,neutro,3,email,2024-01-28,emitir certidao negativa debitos
+216,O atendimento demorou muito mais que o esperado.,Demora no atendimento,negativo,2,chat,2024-11-15,demorou esperado
+217,Há compras que não reconheço na fatura.,Problemas com cartões,negativo,2,telefone,2024-01-23,ha compras nao reconheco fatura
+218,Não consigo entrar no aplicativo.,Problemas no aplicativo,negativo,3,agência,2024-01-17,nao entrar aplicativo
+219,O app não mostra meus cartões cadastrados.,Problemas no aplicativo,negativo,2,email,2024-11-30,app nao mostra cartoes cadastrados
+220,Verifico no extrato um débito não autorizado.,Cobranças indevidas,negativo,2,chat,2024-10-27,verifico extrato debito nao autorizado
+221,Não consigo fazer um empréstimo pelo sistema.,Dificuldades com serviços bancários,negativo,2,telefone,2024-04-20,nao fazer emprestimo sistema
+222,A conta poupança não está rendendo como esperado.,Dificuldades com serviços bancários,negativo,3,telefone,2024-05-06,poupanca nao rendendo esperado
+223,Valores diferentes dos informados na proposta foram cobrados.,Cobranças indevidas,negativo,1,agência,2024-01-23,valores diferentes informados proposta cobrados
+224,Não consigo realizar transferências pelo aplicativo.,Problemas com Pix e transferências,negativo,1,chat,2024-07-29,nao realizar transferencias aplicativo
+225,O login biométrico parou de funcionar no app.,Problemas no aplicativo,negativo,1,telefone,2024-07-25,login biometrico parou funcionar app
+226,Não consigo realizar transferências pelo aplicativo.,Problemas com Pix e transferências,negativo,1,chat,2024-03-22,nao realizar transferencias aplicativo
+227,Como cancelo um serviço contratado?,Outros,neutro,3,chat,2024-12-21,cancelo servico contratado
+228,Me cobraram por serviço de internet banking sem ter contratado.,Cobranças indevidas,negativo,1,agência,2024-05-29,cobraram servico internet banking ter contratado
+229,Estão cobrando tarifas que não concordei.,Cobranças indevidas,negativo,2,email,2024-05-03,estao cobrando tarifas nao concordei
+230,Não consigo fazer o cadastro de nova senha.,Problemas de acesso à conta,negativo,2,email,2024-07-24,nao fazer cadastro nova senha
+231,O sistema diz que meu usuário não existe.,Problemas de acesso à conta,negativo,2,telefone,2024-10-31,sistema diz usuario nao existe
+232,Meu aplicativo Sicredi não sincroniza.,Problemas no aplicativo,negativo,1,telefone,2024-04-07,aplicativo nao sincroniza
+233,Preciso de ajuda para entender meu extrato.,Outros,neutro,3,chat,2024-07-19,ajuda entender extrato
+234,Me enviaram boleto com valor maior que o contratado.,Cobranças indevidas,negativo,1,email,2024-08-11,enviaram boleto valor maior contratado
+235,Quero cancelar um Pix agendado mas não consigo.,Problemas com Pix e transferências,negativo,1,agência,2024-10-30,cancelar pix agendado nao
+236,A corretagem foi cobrada indevidamente.,Cobranças indevidas,negativo,2,agência,2024-06-23,corretagem cobrada indevidamente
+237,Cobrado duas vezes pelo mesmo Pix.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-12-06,cobrado duas vezes pix
+238,O cartão foi bloqueado após viagem.,Problemas com cartões,negativo,3,email,2024-04-03,cartao bloqueado apos viagem
+239,Fui cobrado por limite de crédito que não solicitei.,Cobranças indevidas,negativo,2,email,2024-01-01,cobrado limite credito nao solicitei
+240,O cartão não funciona em compras internacionais.,Problemas com cartões,negativo,1,email,2024-05-30,cartao nao funciona compras internacionais
+241,Meu cartão foi cancelado sem aviso prévio.,Problemas com cartões,negativo,2,agência,2024-09-04,cartao cancelado aviso previo
+242,O aplicativo da Sicredi parou de funcionar no meu celular.,Problemas no aplicativo,negativo,1,chat,2024-02-10,aplicativo parou funcionar celular
+243,Não consigo desbloquear meu cartão.,Problemas com cartões,negativo,2,aplicativo,2024-08-05,nao desbloquear cartao
+244,Não consigo recuperar meu acesso.,Problemas de acesso à conta,negativo,1,aplicativo,2024-09-11,nao recuperar acesso
+245,Tela do aplicativo ficou preta após a última atualização.,Problemas no aplicativo,negativo,3,chat,2024-04-18,tela aplicativo ficou preta apos ultima atualizacao
+246,A Sicredi sempre supera minhas expectativas.,Elogios e avaliações positivas,positivo,5,telefone,2024-01-09,sempre supera expectativas
+247,Erro ao tentar fazer TED para conta externa.,Problemas com Pix e transferências,negativo,2,agência,2024-08-02,erro tentar fazer ted externa
+248,Aplicativo não abre desde ontem.,Problemas no aplicativo,negativo,2,aplicativo,2024-02-27,aplicativo nao abre desde ontem
+249,Meu cartão foi cancelado sem aviso prévio.,Problemas com cartões,negativo,2,telefone,2024-06-23,cartao cancelado aviso previo
+250,O aplicativo apresenta erro ao tentar abrir.,Problemas no aplicativo,negativo,1,agência,2024-07-14,aplicativo apresenta erro tentar abrir
+251,Cobrança duplicada no mesmo extrato.,Cobranças indevidas,negativo,1,email,2024-02-08,cobranca duplicada extrato
+252,Fiz uma compra e o cartão foi recusado.,Problemas com cartões,negativo,3,email,2024-05-03,fiz compra cartao recusado
+253,Não consigo atualizar meus dados cadastrais.,Dificuldades com serviços bancários,negativo,1,email,2024-07-31,nao atualizar dados cadastrais
+254,O token não está chegando no meu celular.,Problemas de acesso à conta,negativo,3,telefone,2024-06-27,token nao chegando celular
+255,Não consigo emitir boleto pelo aplicativo.,Dificuldades com serviços bancários,negativo,1,email,2024-04-16,nao emitir boleto aplicativo
+256,Não consigo ver meu limite disponível.,Problemas com cartões,negativo,2,agência,2024-09-26,nao ver limite disponivel
+257,Precisei ligar três vezes para resolver uma questão simples.,Demora no atendimento,negativo,2,telefone,2024-07-30,precisei ligar tres vezes resolver questao simples
+258,Houve estorno indevido de um pagamento que eu fiz.,Cobranças indevidas,negativo,3,agência,2024-08-21,estorno indevido pagamento fiz
+259,Minha conta foi bloqueada sem motivo.,Problemas de acesso à conta,negativo,1,chat,2024-08-14,bloqueada motivo
+260,Estou muito satisfeito com os serviços da Sicredi.,Elogios e avaliações positivas,positivo,5,telefone,2024-10-21,satisfeito servicos
+261,O processo de portabilidade está travado.,Dificuldades com serviços bancários,negativo,3,email,2024-09-07,processo portabilidade travado
+262,Apareceu uma cobrança que não reconheço no extrato.,Cobranças indevidas,negativo,3,email,2024-06-25,apareceu cobranca nao reconheco extrato
+263,Quero fazer portabilidade de salário mas não sei como.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-02-21,fazer portabilidade salario nao sei
+264,O cartão foi bloqueado após viagem.,Problemas com cartões,negativo,1,agência,2024-08-26,cartao bloqueado apos viagem
+265,Fiquei na fila por muito tempo sem ser chamado.,Demora no atendimento,negativo,2,telefone,2024-02-16,fiquei fila tempo chamado
+266,Demorou mais de uma semana para resolver meu problema.,Demora no atendimento,negativo,1,email,2024-01-11,demorou semana resolver problema
+267,Me cobraram juros indevidos.,Cobranças indevidas,negativo,1,chat,2024-04-01,cobraram juros indevidos
+268,O app não mostra meus cartões cadastrados.,Problemas no aplicativo,negativo,2,email,2024-12-26,app nao mostra cartoes cadastrados
+269,Quero cancelar um serviço mas não consigo.,Dificuldades com serviços bancários,negativo,2,telefone,2024-11-06,cancelar servico nao
+270,Meu acesso foi revogado sem motivo.,Problemas de acesso à conta,negativo,1,telefone,2024-06-23,acesso revogado motivo
+271,A conta foi bloqueada por tentativas erradas de senha.,Problemas de acesso à conta,negativo,1,agência,2024-11-08,bloqueada tentativas erradas senha
+272,A senha de quatro dígitos não está sendo aceita.,Problemas de acesso à conta,negativo,2,chat,2024-05-09,senha quatro digitos nao sendo aceita
+273,O app apresenta mensagem de erro ao tentar acessar.,Problemas no aplicativo,negativo,1,agência,2024-06-30,app apresenta mensagem erro tentar acessar
+274,Como funciona a participação nos resultados?,Outros,neutro,4,chat,2024-03-26,funciona participacao resultados
+275,Pix ficou pendente há mais de dois dias.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-06-30,pix ficou pendente ha dois dias
+276,Valores diferentes dos informados na proposta foram cobrados.,Cobranças indevidas,negativo,2,agência,2024-12-27,valores diferentes informados proposta cobrados
+277,Estou satisfeito com as taxas e serviços oferecidos.,Elogios e avaliações positivas,positivo,5,telefone,2024-11-13,satisfeito taxas servicos oferecidos
+278,O token não está chegando no meu celular.,Problemas de acesso à conta,negativo,3,aplicativo,2024-09-28,token nao chegando celular
+279,O limite de Pix noturno está bloqueando minha transferência.,Problemas com Pix e transferências,negativo,3,telefone,2024-05-02,limite pix noturno bloqueando transferencia
+280,A transferência foi estornada sem motivo.,Problemas com Pix e transferências,negativo,1,agência,2024-03-06,transferencia estornada motivo
+281,Não consigo confirmar minha identidade pelo sistema.,Problemas de acesso à conta,negativo,2,aplicativo,2024-11-24,nao confirmar identidade sistema
+282,A senha do cartão não está sendo aceita.,Problemas com cartões,negativo,1,chat,2024-03-25,senha cartao nao sendo aceita
+283,O cartão foi debitado mas a compra não foi confirmada.,Problemas com cartões,negativo,3,chat,2024-08-27,cartao debitado compra nao confirmada
+284,Cobrado por serviço que já havia cancelado.,Cobranças indevidas,negativo,1,email,2024-06-04,cobrado servico ja havia cancelado
+285,Preciso de comprovante de Pix que não aparece.,Problemas com Pix e transferências,negativo,1,chat,2024-04-30,comprovante pix nao aparece
+286,Fiz transferência e o valor foi debitado duas vezes.,Problemas com Pix e transferências,negativo,2,agência,2024-11-09,fiz transferencia valor debitado duas vezes
+287,Tenho interesse em financiamento imobiliário.,Outros,neutro,4,telefone,2024-06-14,interesse financiamento imobiliario
+288,Não consigo fazer Pix para outro banco.,Problemas com Pix e transferências,negativo,1,telefone,2024-07-15,nao fazer pix outro
+289,Meu cartão virtual não aparece no aplicativo.,Problemas com cartões,negativo,3,agência,2024-05-20,cartao virtual nao aparece aplicativo
+290,Perdi acesso à conta após atualizar o celular.,Problemas de acesso à conta,negativo,3,aplicativo,2024-11-19,perdi acesso apos atualizar celular
+291,O limite do cartão está errado.,Problemas com cartões,negativo,2,agência,2024-07-23,limite cartao errado
+292,Não consigo assinar contratos digitalmente.,Dificuldades com serviços bancários,negativo,2,chat,2024-12-01,nao assinar contratos digitalmente
+293,Fui cobrado por um serviço que não contratei.,Cobranças indevidas,negativo,2,aplicativo,2024-08-09,cobrado servico nao contratei
+294,Tenho dúvidas sobre a cobrança de IOF.,Outros,neutro,3,chat,2024-03-01,duvidas sobre cobranca iof
+295,A fila de espera está sempre muito longa.,Demora no atendimento,negativo,1,agência,2024-08-20,fila espera sempre longa
+296,Tenho dificuldade em usar o serviço de débito automático.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-07-22,dificuldade usar servico debito automatico
+297,O sistema não aceita meu CPF para login.,Problemas de acesso à conta,negativo,1,chat,2024-08-24,sistema nao aceita cpf login
+298,O cartão chegou com o nome errado.,Problemas com cartões,negativo,1,chat,2024-02-04,cartao chegou nome errado
+299,O Pix foi cancelado automaticamente.,Problemas com Pix e transferências,negativo,2,email,2024-07-23,pix cancelado automaticamente
+300,A corretagem foi cobrada indevidamente.,Cobranças indevidas,negativo,2,telefone,2024-11-02,corretagem cobrada indevidamente
+301,Troquei de número e perdi o acesso ao aplicativo.,Problemas de acesso à conta,negativo,3,agência,2024-12-14,troquei numero perdi acesso aplicativo
+302,O aplicativo trava toda vez que abro.,Problemas no aplicativo,negativo,1,chat,2024-06-25,aplicativo trava toda vez abro
+303,A conta poupança não está rendendo como esperado.,Dificuldades com serviços bancários,negativo,3,aplicativo,2024-09-26,poupanca nao rendendo esperado
+304,O token não está chegando no meu celular.,Problemas de acesso à conta,negativo,2,chat,2024-04-23,token nao chegando celular
+305,Esperei mais de uma hora para ser atendido.,Demora no atendimento,negativo,2,aplicativo,2024-08-13,esperei hora atendido
+306,A senha de quatro dígitos não está sendo aceita.,Problemas de acesso à conta,negativo,2,aplicativo,2024-06-17,senha quatro digitos nao sendo aceita
+307,O gerente foi muito atencioso e prestativo.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-04-21,gerente atencioso prestativo
+308,O atendimento é sempre cordial e profissional.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-02-16,sempre cordial profissional
+309,Solicitar segunda via do cartão está muito difícil.,Problemas com cartões,negativo,1,chat,2024-09-22,solicitar segunda via cartao dificil
+310,Tenho dificuldade em usar o serviço de débito automático.,Dificuldades com serviços bancários,negativo,2,telefone,2024-05-28,dificuldade usar servico debito automatico
+311,Não consigo completar o processo de autenticação.,Problemas de acesso à conta,negativo,2,email,2024-03-18,nao completar processo autenticacao
+312,Tenho uma sugestão de melhoria para o aplicativo.,Outros,neutro,3,telefone,2024-06-27,sugestao melhoria aplicativo
+313,O sistema não aceita minha senha eletrônica.,Problemas de acesso à conta,negativo,1,agência,2024-08-02,sistema nao aceita senha eletronica
+314,Não recebo o código SMS para autenticação.,Problemas de acesso à conta,negativo,2,chat,2024-03-06,nao recebo codigo sms autenticacao
+315,Cobrou por dois meses no mesmo dia.,Cobranças indevidas,negativo,3,aplicativo,2024-11-08,cobrou dois meses
+316,O sistema recusou minha transferência bancária.,Problemas com Pix e transferências,negativo,3,agência,2024-07-31,sistema recusou transferencia bancaria
+317,"Não consigo abrir o app, fica carregando e não entra.",Problemas no aplicativo,negativo,2,aplicativo,2024-11-07,nao abrir app fica carregando nao entra
+318,O app não funciona no meu celular novo.,Problemas no aplicativo,negativo,1,email,2024-02-24,app nao funciona celular novo
+319,A atendente não sabia resolver meu problema.,Demora no atendimento,negativo,3,chat,2024-08-20,atendente nao sabia resolver problema
+320,Quero saber mais sobre o programa de pontos.,Outros,neutro,3,aplicativo,2024-12-26,saber sobre programa pontos
+321,Erro ao tentar enviar Pix.,Problemas com Pix e transferências,negativo,2,telefone,2024-04-12,erro tentar enviar pix
+322,O chat demorou para responder.,Demora no atendimento,negativo,2,aplicativo,2024-08-26,chat demorou responder
+323,Tive problemas para contratar o seguro de vida.,Dificuldades com serviços bancários,negativo,1,email,2024-05-18,problemas contratar seguro vida
+324,O novo sistema de Pix ficou muito prático.,Elogios e avaliações positivas,positivo,5,agência,2024-07-12,novo sistema pix ficou pratico
+325,Não aparece o histórico de Pix no aplicativo.,Problemas com Pix e transferências,negativo,2,agência,2024-09-05,nao aparece historico pix aplicativo
+326,Compras foram feitas com meu cartão sem minha autorização.,Problemas com cartões,negativo,2,telefone,2024-12-31,compras feitas cartao autorizacao
+327,Não consigo emitir boleto pelo aplicativo.,Dificuldades com serviços bancários,negativo,3,agência,2024-02-01,nao emitir boleto aplicativo
+328,Minha solicitação está sem resposta há muito tempo.,Demora no atendimento,negativo,1,chat,2024-08-13,solicitacao resposta ha tempo
+329,O suporte não retornou minha solicitação.,Demora no atendimento,negativo,2,email,2024-07-02,suporte nao retornou solicitacao
+330,O gerente foi muito atencioso e prestativo.,Elogios e avaliações positivas,positivo,4,email,2024-10-09,gerente atencioso prestativo
+331,Não consigo acessar minha conta bancária.,Problemas de acesso à conta,negativo,2,telefone,2024-02-25,nao acessar bancaria
+332,Fui bem orientado sobre meus investimentos.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-06-23,bem orientado sobre investimentos
+333,Descontaram um valor da minha conta sem autorização.,Cobranças indevidas,negativo,2,chat,2024-09-13,descontaram valor autorizacao
+334,A equipe resolveu meu problema rapidamente.,Elogios e avaliações positivas,positivo,5,email,2024-07-20,equipe resolveu problema rapidamente
+335,Não recebi meu novo cartão.,Problemas com cartões,negativo,2,chat,2024-05-09,nao recebi novo cartao
+336,O aplicativo trava toda vez que abro.,Problemas no aplicativo,negativo,2,email,2024-03-04,aplicativo trava toda vez abro
+337,Há uma cobrança estranha na minha fatura.,Cobranças indevidas,negativo,2,telefone,2024-02-14,ha cobranca estranha fatura
+338,Não consigo usar o cartão para pagamentos recorrentes.,Problemas com cartões,negativo,1,chat,2024-09-20,nao usar cartao pagamentos recorrentes
+339,Me cobraram mais do que deveria.,Cobranças indevidas,negativo,1,email,2024-04-25,cobraram deveria
+340,Minha transferência foi recusada sem explicação.,Problemas com Pix e transferências,negativo,2,telefone,2024-12-03,transferencia recusada explicacao
+341,Não consigo fazer um empréstimo pelo sistema.,Dificuldades com serviços bancários,negativo,1,chat,2024-09-10,nao fazer emprestimo sistema
+342,Tarifa de manutenção cobrada indevidamente.,Cobranças indevidas,negativo,2,agência,2024-06-23,tarifa manutencao cobrada indevidamente
+343,"Depois de atualizar o app, não consigo mais fazer login.",Problemas no aplicativo,negativo,2,telefone,2024-03-11,atualizar app nao fazer login
+344,Meu aplicativo Sicredi não sincroniza.,Problemas no aplicativo,negativo,3,agência,2024-03-12,aplicativo nao sincroniza
+345,Não consigo atualizar meus dados cadastrais.,Dificuldades com serviços bancários,negativo,3,agência,2024-12-10,nao atualizar dados cadastrais
+346,O aplicativo demora demais para carregar.,Problemas no aplicativo,negativo,1,telefone,2024-03-26,aplicativo demora demais carregar
+347,Minha transferência foi recusada sem explicação.,Problemas com Pix e transferências,negativo,3,chat,2024-02-17,transferencia recusada explicacao
+348,O extrato bancário não está correto.,Dificuldades com serviços bancários,negativo,1,chat,2024-06-13,extrato bancario nao correto
+349,Meu chamado foi aberto há dias e ninguém me contatou.,Demora no atendimento,negativo,2,aplicativo,2024-07-22,chamado aberto ha dias ninguem contatou
+350,Esqueci a senha e o processo de recuperação não funciona.,Problemas de acesso à conta,negativo,1,agência,2024-01-28,esqueci senha processo recuperacao nao funciona
+351,Não consigo desbloquear meu cartão.,Problemas com cartões,negativo,2,agência,2024-06-22,nao desbloquear cartao
+352,Não consigo entrar na conta pelo internet banking.,Problemas de acesso à conta,negativo,2,agência,2024-02-26,nao entrar internet banking
+353,A fila de espera está sempre muito longa.,Demora no atendimento,negativo,1,aplicativo,2024-01-20,fila espera sempre longa
+354,O gerente foi muito atencioso e prestativo.,Elogios e avaliações positivas,positivo,5,chat,2024-01-31,gerente atencioso prestativo
+355,Como cancelo um serviço contratado?,Outros,neutro,3,email,2024-03-11,cancelo servico contratado
+356,Como funciona a participação nos resultados?,Outros,neutro,3,aplicativo,2024-05-07,funciona participacao resultados
+357,Meu aplicativo Sicredi não sincroniza.,Problemas no aplicativo,negativo,2,telefone,2024-05-22,aplicativo nao sincroniza
+358,Excelente experiência com o internet banking.,Elogios e avaliações positivas,positivo,5,email,2024-09-11,excelente experiencia internet banking
+359,Preciso de uma declaração para imposto de renda.,Outros,neutro,3,telefone,2024-08-04,declaracao imposto renda
+360,Recebi desconto em dobro no mesmo mês.,Cobranças indevidas,negativo,2,email,2024-03-08,recebi desconto dobro mes
+361,Cobrou por dois meses no mesmo dia.,Cobranças indevidas,negativo,1,telefone,2024-05-02,cobrou dois meses
+362,A Sicredi sempre supera minhas expectativas.,Elogios e avaliações positivas,positivo,5,agência,2024-01-24,sempre supera expectativas
+363,Tentei agendar e não encontrei horário disponível.,Demora no atendimento,negativo,2,email,2024-10-30,tentei agendar nao encontrei horario disponivel
+364,Preciso de comprovante de Pix que não aparece.,Problemas com Pix e transferências,negativo,2,chat,2024-05-06,comprovante pix nao aparece
+365,Estornaram um valor errado da minha conta.,Cobranças indevidas,negativo,3,chat,2024-08-28,estornaram valor errado
+366,O tempo de espera na agência é absurdo.,Demora no atendimento,negativo,1,telefone,2024-03-30,tempo espera agencia absurdo
+367,O gerente não retorna as ligações.,Demora no atendimento,negativo,2,email,2024-08-02,gerente nao retorna ligacoes
+368,Minha conta foi bloqueada sem motivo.,Problemas de acesso à conta,negativo,3,aplicativo,2024-12-11,bloqueada motivo
+369,Não aparece o histórico de Pix no aplicativo.,Problemas com Pix e transferências,negativo,2,telefone,2024-08-27,nao aparece historico pix aplicativo
+370,O aplicativo melhorou muito com a atualização.,Elogios e avaliações positivas,positivo,4,chat,2024-10-05,aplicativo melhorou atualizacao
+371,Quero cancelar um Pix agendado mas não consigo.,Problemas com Pix e transferências,negativo,3,aplicativo,2024-02-12,cancelar pix agendado nao
+372,A conta ficou inacessível após troca de celular.,Problemas de acesso à conta,negativo,2,telefone,2024-11-12,ficou inacessivel apos troca celular
+373,Não consigo fazer Pix para outro banco.,Problemas com Pix e transferências,negativo,3,aplicativo,2024-03-11,nao fazer pix outro
+374,Meu cartão novo não chegou depois de 20 dias.,Problemas com cartões,negativo,3,email,2024-06-21,cartao novo nao chegou dias
+375,O limite do cartão está errado.,Problemas com cartões,negativo,2,chat,2024-03-04,limite cartao errado
+376,A proposta de financiamento sumiu do sistema.,Dificuldades com serviços bancários,negativo,2,email,2024-06-01,proposta financiamento sumiu sistema
+377,Me sinto bem atendido como cooperado.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-12-28,sinto bem atendido cooperado
+378,Recomendo a Sicredi pelo atendimento diferenciado.,Elogios e avaliações positivas,positivo,5,telefone,2024-06-18,recomendo diferenciado
+379,Tenho interesse em financiamento imobiliário.,Outros,neutro,3,email,2024-06-28,interesse financiamento imobiliario
+380,Tela do aplicativo ficou preta após a última atualização.,Problemas no aplicativo,negativo,2,telefone,2024-05-15,tela aplicativo ficou preta apos ultima atualizacao
+381,Meu cartão novo não chegou depois de 20 dias.,Problemas com cartões,negativo,3,aplicativo,2024-09-14,cartao novo nao chegou dias
+382,Meu Pix foi debitado mas não foi recebido.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-06-19,pix debitado nao recebido
+383,App não abre após atualização do sistema operacional.,Problemas no aplicativo,negativo,2,telefone,2024-05-15,app nao abre apos atualizacao sistema operacional
+384,A cooperativa se preocupa com o cliente.,Elogios e avaliações positivas,positivo,5,chat,2024-01-16,cooperativa preocupa
+385,Como faço para aumentar meu limite de crédito?,Outros,neutro,3,telefone,2024-10-02,faco aumentar limite credito
+386,Minha solicitação de crédito foi negada sem justificativa.,Dificuldades com serviços bancários,negativo,3,aplicativo,2024-02-25,solicitacao credito negada justificativa
+387,Não consegui cancelar uma transferência agendada.,Problemas com Pix e transferências,negativo,2,agência,2024-08-14,nao cancelar transferencia agendada
+388,Não entendo como funciona meu investimento.,Dificuldades com serviços bancários,negativo,2,telefone,2024-04-11,nao entendo funciona investimento
+389,Não consigo configurar o segundo fator de autenticação.,Problemas de acesso à conta,negativo,2,email,2024-03-08,nao configurar segundo fator autenticacao
+390,Tive dificuldades para abrir minha conta.,Dificuldades com serviços bancários,negativo,1,agência,2024-01-27,dificuldades abrir
+391,Demorou mais de uma semana para resolver meu problema.,Demora no atendimento,negativo,1,chat,2024-05-04,demorou semana resolver problema
+392,Os juros do financiamento são diferentes do informado.,Dificuldades com serviços bancários,negativo,1,email,2024-09-02,juros financiamento sao diferentes informado
+393,"Adorei o novo aplicativo, ficou muito intuitivo.",Elogios e avaliações positivas,positivo,5,aplicativo,2024-01-17,adorei novo aplicativo ficou intuitivo
+394,"O atendimento foi excelente, fiquei muito satisfeito.",Elogios e avaliações positivas,positivo,4,email,2024-01-31,excelente fiquei satisfeito
+395,Meu cartão de crédito foi cancelado indevidamente.,Problemas com cartões,negativo,1,email,2024-06-29,cartao credito cancelado indevidamente
+396,A conta ficou inacessível após troca de celular.,Problemas de acesso à conta,negativo,3,agência,2024-10-20,ficou inacessivel apos troca celular
+397,Fiz um Pix e o dinheiro não chegou para o destinatário.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-10-10,fiz pix dinheiro nao chegou destinatario
+398,"Depois de atualizar o app, não consigo mais fazer login.",Problemas no aplicativo,negativo,3,agência,2024-02-16,atualizar app nao fazer login
+399,Não consigo visualizar meu histórico de transações.,Dificuldades com serviços bancários,negativo,2,chat,2024-03-15,nao visualizar historico transacoes
+400,Não consigo acessar minha conta bancária.,Problemas de acesso à conta,negativo,2,email,2024-07-07,nao acessar bancaria
+401,Há compras que não reconheço na fatura.,Problemas com cartões,negativo,1,aplicativo,2024-06-10,ha compras nao reconheco fatura
+402,Fui bem orientado sobre meus investimentos.,Elogios e avaliações positivas,positivo,4,email,2024-06-26,bem orientado sobre investimentos
+403,Minha solicitação de crédito foi negada sem justificativa.,Dificuldades com serviços bancários,negativo,2,agência,2024-07-06,solicitacao credito negada justificativa
+404,Tive o cartão furtado e o bloqueio foi demorado.,Problemas com cartões,negativo,2,agência,2024-01-12,cartao furtado bloqueio demorado
+405,Ninguém responde os meus e-mails enviados ao suporte.,Demora no atendimento,negativo,2,email,2024-03-16,ninguem responde mails enviados suporte
+406,Recebi mensagem de erro inesperado no aplicativo.,Problemas no aplicativo,negativo,3,chat,2024-03-08,recebi mensagem erro inesperado aplicativo
+407,Cobrança indevida de IOF.,Cobranças indevidas,negativo,2,chat,2024-11-05,cobranca indevida iof
+408,Não tenho retorno dos atendentes.,Demora no atendimento,negativo,1,email,2024-04-16,nao retorno atendentes
+409,Minha senha foi bloqueada.,Problemas de acesso à conta,negativo,2,chat,2024-06-22,senha bloqueada
+410,Não recebi meu novo cartão.,Problemas com cartões,negativo,3,email,2024-09-16,nao recebi novo cartao
+411,App fecha sozinho sem motivo aparente.,Problemas no aplicativo,negativo,2,aplicativo,2024-10-09,app fecha sozinho motivo aparente
+412,A Sicredi sempre supera minhas expectativas.,Elogios e avaliações positivas,positivo,5,telefone,2024-07-08,sempre supera expectativas
+413,Aguardo resposta há três dias.,Demora no atendimento,negativo,3,aplicativo,2024-11-06,aguardo resposta ha tres dias
+414,Transação foi aprovada mas o produto não foi entregue.,Problemas com cartões,negativo,3,chat,2024-11-24,transacao aprovada produto nao entregue
+415,O atendente foi muito prestativo e resolveu tudo.,Elogios e avaliações positivas,positivo,4,email,2024-01-18,atendente prestativo resolveu tudo
+416,O aplicativo melhorou muito com a atualização.,Elogios e avaliações positivas,positivo,5,chat,2024-01-24,aplicativo melhorou atualizacao
+417,"Fui bem atendido na agência, serviço de qualidade.",Elogios e avaliações positivas,positivo,5,agência,2024-03-17,bem atendido agencia servico qualidade
+418,Liguei para o atendimento e fiquei esperando muito tempo.,Demora no atendimento,negativo,2,aplicativo,2024-01-24,liguei fiquei esperando tempo
+419,O processo de encerramento de conta é complicado.,Dificuldades com serviços bancários,negativo,1,telefone,2024-10-25,processo encerramento complicado
+420,Tive problemas para contratar o seguro de vida.,Dificuldades com serviços bancários,negativo,2,agência,2024-04-19,problemas contratar seguro vida
+421,O Pix foi cancelado automaticamente.,Problemas com Pix e transferências,negativo,3,chat,2024-01-15,pix cancelado automaticamente
+422,O suporte online é muito eficiente.,Elogios e avaliações positivas,positivo,5,telefone,2024-03-01,suporte online eficiente
+423,Liguei para o atendimento e fiquei esperando muito tempo.,Demora no atendimento,negativo,2,chat,2024-08-08,liguei fiquei esperando tempo
+424,A transferência sumiu da minha conta.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-12-28,transferencia sumiu
+425,Conta com tarifa justa e ótimos serviços.,Elogios e avaliações positivas,positivo,5,agência,2024-03-27,tarifa justa otimos servicos
+426,O cartão não está sendo aceito nas maquininhas.,Problemas com cartões,negativo,3,agência,2024-02-26,cartao nao sendo aceito maquininhas
+427,O sistema de chat não funciona bem.,Demora no atendimento,negativo,3,telefone,2024-11-27,sistema chat nao funciona bem
+428,O valor debitado está diferente do combinado.,Cobranças indevidas,negativo,2,aplicativo,2024-12-17,valor debitado diferente combinado
+429,Me cobraram por serviço de internet banking sem ter contratado.,Cobranças indevidas,negativo,2,aplicativo,2024-11-27,cobraram servico internet banking ter contratado
+430,Recebi mensagem de erro inesperado no aplicativo.,Problemas no aplicativo,negativo,2,aplicativo,2024-05-05,recebi mensagem erro inesperado aplicativo
+431,Chave Pix não está sendo aceita.,Problemas com Pix e transferências,negativo,1,telefone,2024-12-01,chave pix nao sendo aceita
+432,Quero atualizar meu endereço no cadastro.,Outros,neutro,3,agência,2024-11-21,atualizar endereco cadastro
+433,Não há atendimento disponível nos horários que preciso.,Demora no atendimento,negativo,1,telefone,2024-12-02,nao ha disponivel horarios
+434,Tenho dificuldade em usar o serviço de débito automático.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-06-01,dificuldade usar servico debito automatico
+435,Me sinto bem atendido como cooperado.,Elogios e avaliações positivas,positivo,4,email,2024-01-18,sinto bem atendido cooperado
+436,Não recebo o código SMS para autenticação.,Problemas de acesso à conta,negativo,1,chat,2024-06-07,nao recebo codigo sms autenticacao
+437,O sistema não aceita minha senha eletrônica.,Problemas de acesso à conta,negativo,2,chat,2024-03-21,sistema nao aceita senha eletronica
+438,Cobrado duas vezes pelo mesmo Pix.,Problemas com Pix e transferências,negativo,1,chat,2024-09-16,cobrado duas vezes pix
+439,Recebi desconto em dobro no mesmo mês.,Cobranças indevidas,negativo,2,aplicativo,2024-04-14,recebi desconto dobro mes
+440,Cobraram minha conta duas vezes pelo mesmo serviço.,Cobranças indevidas,negativo,2,email,2024-11-08,cobraram duas vezes servico
+441,O processo de contratação de seguro é muito complicado.,Dificuldades com serviços bancários,negativo,2,chat,2024-10-12,processo contratacao seguro complicado
+442,Meu cartão de crédito foi cancelado indevidamente.,Problemas com cartões,negativo,1,email,2024-08-01,cartao credito cancelado indevidamente
+443,Não consigo cadastrar conta para transferência.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-01-16,nao cadastrar transferencia
+444,Resolvi minha questão rapidamente com a ajuda da equipe.,Elogios e avaliações positivas,positivo,5,email,2024-09-28,resolvi questao rapidamente ajuda equipe
+445,O sistema não aceita meu endereço para cadastro.,Dificuldades com serviços bancários,negativo,3,aplicativo,2024-01-24,sistema nao aceita endereco cadastro
+446,O aplicativo é fácil de usar e funciona muito bem.,Elogios e avaliações positivas,positivo,5,chat,2024-05-20,aplicativo facil usar funciona bem
+447,O atendimento online está muito lento.,Demora no atendimento,negativo,2,chat,2024-12-06,online lento
+448,O cartão não passa no débito.,Problemas com cartões,negativo,3,chat,2024-11-29,cartao nao passa debito
+449,Não consigo configurar o segundo fator de autenticação.,Problemas de acesso à conta,negativo,1,telefone,2024-12-20,nao configurar segundo fator autenticacao
+450,A Sicredi tem os melhores atendentes que já vi.,Elogios e avaliações positivas,positivo,5,agência,2024-01-07,melhores atendentes ja vi
+451,Quero cancelar o débito automático mas não encontro a opção.,Dificuldades com serviços bancários,negativo,2,telefone,2024-02-01,cancelar debito automatico nao encontro opcao
+452,Não consigo confirmar minha identidade pelo sistema.,Problemas de acesso à conta,negativo,3,agência,2024-03-23,nao confirmar identidade sistema
+453,Nunca tive problemas com a Sicredi.,Elogios e avaliações positivas,positivo,5,agência,2024-12-30,nunca problemas
+454,A cooperativa se preocupa com o cliente.,Elogios e avaliações positivas,positivo,5,chat,2024-10-10,cooperativa preocupa
+455,Não recebo o código SMS para autenticação.,Problemas de acesso à conta,negativo,3,aplicativo,2024-11-26,nao recebo codigo sms autenticacao
+456,"Depois de atualizar o app, não consigo mais fazer login.",Problemas no aplicativo,negativo,2,email,2024-07-23,atualizar app nao fazer login
+457,Pix não chegou na conta do destinatário.,Problemas com Pix e transferências,negativo,3,telefone,2024-03-03,pix nao chegou destinatario
+458,O chatbot não resolve e não passa para humano.,Demora no atendimento,negativo,1,chat,2024-03-15,chatbot nao resolve nao passa humano
+459,Minha senha foi bloqueada.,Problemas de acesso à conta,negativo,3,email,2024-12-11,senha bloqueada
+460,"Ótimo atendimento, parabéns à equipe.",Elogios e avaliações positivas,positivo,5,email,2024-07-13,otimo parabens equipe
+461,Como funciona a portabilidade de crédito?,Outros,neutro,3,telefone,2024-04-17,funciona portabilidade credito
+462,Preciso emitir uma certidão negativa de débitos.,Outros,neutro,3,telefone,2024-07-15,emitir certidao negativa debitos
+463,O sistema pede um token que não recebi.,Problemas de acesso à conta,negativo,3,chat,2024-01-24,sistema pede token nao recebi
+464,A senha de quatro dígitos não está sendo aceita.,Problemas de acesso à conta,negativo,1,email,2024-12-13,senha quatro digitos nao sendo aceita
+465,O valor debitado está diferente do combinado.,Cobranças indevidas,negativo,2,chat,2024-12-25,valor debitado diferente combinado
+466,Função de pagamento do aplicativo não funciona.,Problemas no aplicativo,negativo,2,telefone,2024-08-30,funcao pagamento aplicativo nao funciona
+467,Preciso de informações sobre minha previdência privada.,Dificuldades com serviços bancários,negativo,3,email,2024-09-09,informacoes sobre previdencia privada
+468,Gostaria de participar das assembleias da cooperativa.,Outros,neutro,4,email,2024-11-22,participar assembleias cooperativa
+469,"Pix enviado para chave errada, quero estorno.",Problemas com Pix e transferências,negativo,1,telefone,2024-08-03,pix enviado chave errada estorno
+470,Quero cancelar o débito automático mas não encontro a opção.,Dificuldades com serviços bancários,negativo,1,agência,2024-12-17,cancelar debito automatico nao encontro opcao
+471,Desejo indicar um familiar para abrir conta.,Outros,neutro,3,agência,2024-05-29,desejo indicar familiar abrir
+472,Preciso acessar a conta mas o sistema rejeita minhas credenciais.,Problemas de acesso à conta,negativo,1,agência,2024-02-16,acessar sistema rejeita credenciais
+473,O atendimento online está muito lento.,Demora no atendimento,negativo,2,aplicativo,2024-02-16,online lento
+474,Não consigo instalar o aplicativo no meu celular.,Problemas no aplicativo,negativo,1,agência,2024-01-02,nao instalar aplicativo celular
+475,Meu login está bloqueado.,Problemas de acesso à conta,negativo,1,email,2024-10-13,login bloqueado
+476,Minha transferência foi recusada sem explicação.,Problemas com Pix e transferências,negativo,1,chat,2024-09-20,transferencia recusada explicacao
+477,O processo de contratação de seguro é muito complicado.,Dificuldades com serviços bancários,negativo,2,email,2024-05-23,processo contratacao seguro complicado
+478,Esperei 40 minutos na fila da agência.,Demora no atendimento,negativo,2,chat,2024-12-10,esperei minutos fila agencia
+479,O login biométrico parou de funcionar no app.,Problemas no aplicativo,negativo,3,email,2024-01-21,login biometrico parou funcionar app
+480,A senha do cartão não está sendo aceita.,Problemas com cartões,negativo,1,aplicativo,2024-09-22,senha cartao nao sendo aceita
+481,Não estou recebendo notificações de uso do cartão.,Problemas com cartões,negativo,1,email,2024-10-04,nao recebendo notificacoes uso cartao
+482,Preciso de informações sobre previdência privada.,Outros,neutro,3,aplicativo,2024-12-12,informacoes sobre previdencia privada
+483,Não consigo entrar no aplicativo.,Problemas no aplicativo,negativo,1,aplicativo,2024-05-20,nao entrar aplicativo
+484,Preciso de uma declaração bancária mas não consigo emitir.,Dificuldades com serviços bancários,negativo,1,agência,2024-03-19,declaracao bancaria nao emitir
+485,Tive problemas para contratar o seguro de vida.,Dificuldades com serviços bancários,negativo,1,chat,2024-08-14,problemas contratar seguro vida
+486,Estou tendo dificuldades para acessar minha conta pelo aplicativo.,Problemas no aplicativo,negativo,2,chat,2024-05-22,tendo dificuldades acessar aplicativo
+487,Recebi mensagem de erro inesperado no aplicativo.,Problemas no aplicativo,negativo,1,email,2024-04-19,recebi mensagem erro inesperado aplicativo
+488,Me sinto bem atendido como cooperado.,Elogios e avaliações positivas,positivo,5,telefone,2024-11-18,sinto bem atendido cooperado
+489,O app não mostra meus cartões cadastrados.,Problemas no aplicativo,negativo,3,chat,2024-12-05,app nao mostra cartoes cadastrados
+490,Quero fazer portabilidade de salário mas não sei como.,Dificuldades com serviços bancários,negativo,3,telefone,2024-07-27,fazer portabilidade salario nao sei
+491,Erro 500 aparece toda vez que tento usar o aplicativo.,Problemas no aplicativo,negativo,2,aplicativo,2024-05-30,erro aparece toda vez tento usar aplicativo
+492,Não consigo completar o processo de autenticação.,Problemas de acesso à conta,negativo,2,email,2024-11-29,nao completar processo autenticacao
+493,Transação foi aprovada mas o produto não foi entregue.,Problemas com cartões,negativo,3,aplicativo,2024-09-11,transacao aprovada produto nao entregue
+494,Perdi acesso à conta após atualizar o celular.,Problemas de acesso à conta,negativo,2,chat,2024-05-24,perdi acesso apos atualizar celular
+495,A transferência sumiu da minha conta.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-09-23,transferencia sumiu
+496,O processo de contratação de seguro é muito complicado.,Dificuldades com serviços bancários,negativo,1,aplicativo,2024-07-20,processo contratacao seguro complicado
+497,Recebi uma taxa que não estava prevista.,Cobranças indevidas,negativo,2,telefone,2024-06-30,recebi taxa nao prevista
+498,Preciso desbloquear minha conta com urgência.,Problemas de acesso à conta,negativo,2,chat,2024-02-09,desbloquear urgencia
+499,Tentei agendar e não encontrei horário disponível.,Demora no atendimento,negativo,1,email,2024-01-23,tentei agendar nao encontrei horario disponivel
+500,O novo sistema de Pix ficou muito prático.,Elogios e avaliações positivas,positivo,4,aplicativo,2024-02-17,novo sistema pix ficou pratico
+501,Meu chamado foi aberto há dias e ninguém me contatou.,Demora no atendimento,negativo,2,telefone,2024-08-15,chamado aberto ha dias ninguem contatou
+502,O aplicativo é fácil de usar e funciona muito bem.,Elogios e avaliações positivas,positivo,4,email,2024-10-29,aplicativo facil usar funciona bem
+503,O sistema pede um token que não recebi.,Problemas de acesso à conta,negativo,2,telefone,2024-03-11,sistema pede token nao recebi
+504,Transação foi aprovada mas o produto não foi entregue.,Problemas com cartões,negativo,2,agência,2024-05-05,transacao aprovada produto nao entregue
+505,O suporte online é muito eficiente.,Elogios e avaliações positivas,positivo,5,telefone,2024-12-22,suporte online eficiente
+506,Não deveria ter sido cobrado essa taxa.,Cobranças indevidas,negativo,3,email,2024-04-25,nao deveria ter sido cobrado taxa
+507,Não deveria ter sido cobrado essa taxa.,Cobranças indevidas,negativo,2,chat,2024-10-28,nao deveria ter sido cobrado taxa
+508,Minha senha foi bloqueada.,Problemas de acesso à conta,negativo,3,aplicativo,2024-11-07,senha bloqueada
+509,Meu login está bloqueado.,Problemas de acesso à conta,negativo,2,aplicativo,2024-06-09,login bloqueado
+510,Valores diferentes dos informados na proposta foram cobrados.,Cobranças indevidas,negativo,2,agência,2024-12-05,valores diferentes informados proposta cobrados
+511,Esperei mais de uma hora para ser atendido.,Demora no atendimento,negativo,1,email,2024-10-29,esperei hora atendido
+512,O aplicativo ficou lento e não carrega as informações.,Problemas no aplicativo,negativo,2,email,2024-04-22,aplicativo ficou lento nao carrega informacoes
+513,A Sicredi tem os melhores atendentes que já vi.,Elogios e avaliações positivas,positivo,5,agência,2024-07-17,melhores atendentes ja vi
+514,O processo de encerramento de conta é complicado.,Dificuldades com serviços bancários,negativo,2,email,2024-08-14,processo encerramento complicado
+515,A equipe resolveu meu problema rapidamente.,Elogios e avaliações positivas,positivo,5,chat,2024-03-01,equipe resolveu problema rapidamente
+516,Chave Pix não está sendo aceita.,Problemas com Pix e transferências,negativo,2,email,2024-04-09,chave pix nao sendo aceita
+517,Não encontro a opção de Pix no aplicativo.,Problemas com Pix e transferências,negativo,1,telefone,2024-01-13,nao encontro opcao pix aplicativo
+518,Esperei mais de uma hora para ser atendido.,Demora no atendimento,negativo,1,telefone,2024-07-28,esperei hora atendido
+519,O sistema não aceita meu CPF para login.,Problemas de acesso à conta,negativo,2,chat,2024-10-29,sistema nao aceita cpf login
+520,O cartão foi debitado mas a compra não foi confirmada.,Problemas com cartões,negativo,1,aplicativo,2024-04-12,cartao debitado compra nao confirmada
+521,Tentei usar o aplicativo várias vezes e não carrega.,Problemas no aplicativo,negativo,1,aplicativo,2024-09-05,tentei usar aplicativo varias vezes nao carrega
+522,Me cobraram juros indevidos.,Cobranças indevidas,negativo,1,telefone,2024-05-31,cobraram juros indevidos
+523,Excelente experiência com o internet banking.,Elogios e avaliações positivas,positivo,5,chat,2024-05-13,excelente experiencia internet banking
+524,Adoro ser cooperado da Sicredi.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-11-22,adoro cooperado
+525,Fui bem orientado sobre meus investimentos.,Elogios e avaliações positivas,positivo,5,agência,2024-03-12,bem orientado sobre investimentos
+526,Cobrado duas vezes pelo mesmo Pix.,Problemas com Pix e transferências,negativo,2,agência,2024-06-16,cobrado duas vezes pix
+527,Meu cartão novo não chegou depois de 20 dias.,Problemas com cartões,negativo,1,telefone,2024-12-03,cartao novo nao chegou dias
+528,Há compras que não reconheço na fatura.,Problemas com cartões,negativo,3,agência,2024-05-09,ha compras nao reconheco fatura
+529,Não consigo assinar contratos digitalmente.,Dificuldades com serviços bancários,negativo,1,agência,2024-10-25,nao assinar contratos digitalmente
+530,Preciso de uma declaração bancária mas não consigo emitir.,Dificuldades com serviços bancários,negativo,3,telefone,2024-04-22,declaracao bancaria nao emitir
+531,Cobrado por serviço que já havia cancelado.,Cobranças indevidas,negativo,3,agência,2024-11-06,cobrado servico ja havia cancelado
+532,Meu acesso foi revogado sem motivo.,Problemas de acesso à conta,negativo,2,aplicativo,2024-09-16,acesso revogado motivo
+533,O limite de Pix noturno está bloqueando minha transferência.,Problemas com Pix e transferências,negativo,1,telefone,2024-01-11,limite pix noturno bloqueando transferencia
+534,Estão cobrando tarifa de conta que foi encerrada.,Cobranças indevidas,negativo,2,aplicativo,2024-06-10,estao cobrando tarifa encerrada
+535,"Não consigo abrir o app, fica carregando e não entra.",Problemas no aplicativo,negativo,1,email,2024-05-05,nao abrir app fica carregando nao entra
+536,Pix não chegou na conta do destinatário.,Problemas com Pix e transferências,negativo,1,telefone,2024-12-22,pix nao chegou destinatario
+537,Estornaram um valor errado da minha conta.,Cobranças indevidas,negativo,1,aplicativo,2024-10-10,estornaram valor errado
+538,Minha solicitação está sem resposta há muito tempo.,Demora no atendimento,negativo,1,email,2024-05-08,solicitacao resposta ha tempo
+539,Preciso de informações sobre os produtos disponíveis.,Outros,neutro,3,telefone,2024-11-16,informacoes sobre produtos disponiveis
+540,Tive problemas para contratar o seguro de vida.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-05-27,problemas contratar seguro vida
+541,Houve estorno indevido de um pagamento que eu fiz.,Cobranças indevidas,negativo,2,chat,2024-10-09,estorno indevido pagamento fiz
+542,Minha conta foi bloqueada sem motivo.,Problemas de acesso à conta,negativo,1,telefone,2024-03-21,bloqueada motivo
+543,Não lembro minha senha e não consigo redefinir.,Problemas de acesso à conta,negativo,1,aplicativo,2024-09-28,nao lembro senha nao redefinir
+544,O atendimento demorou muito mais que o esperado.,Demora no atendimento,negativo,3,agência,2024-06-11,demorou esperado
+545,Meu acesso foi revogado sem motivo.,Problemas de acesso à conta,negativo,1,telefone,2024-02-09,acesso revogado motivo
+546,App fecha sozinho sem motivo aparente.,Problemas no aplicativo,negativo,1,aplicativo,2024-12-04,app fecha sozinho motivo aparente
+547,Meu cartão foi bloqueado sem justificativa.,Problemas com cartões,negativo,1,chat,2024-04-20,cartao bloqueado justificativa
+548,O sistema não aceita meu CPF para login.,Problemas de acesso à conta,negativo,1,chat,2024-09-16,sistema nao aceita cpf login
+549,Erro ao tentar fazer TED para conta externa.,Problemas com Pix e transferências,negativo,1,email,2024-07-13,erro tentar fazer ted externa
+550,Preciso de informações sobre previdência privada.,Outros,neutro,3,email,2024-08-06,informacoes sobre previdencia privada
+551,Não consigo agendar pagamentos futuros.,Dificuldades com serviços bancários,negativo,2,telefone,2024-02-27,nao agendar pagamentos futuros
+552,A conta poupança não está rendendo como esperado.,Dificuldades com serviços bancários,negativo,2,email,2024-07-10,poupanca nao rendendo esperado
+553,Atendimento humanizado e eficiente.,Elogios e avaliações positivas,positivo,4,telefone,2024-10-27,humanizado eficiente
+554,Não consigo instalar o aplicativo no meu celular.,Problemas no aplicativo,negativo,1,agência,2024-01-31,nao instalar aplicativo celular
+555,O aplicativo está fora do ar.,Problemas no aplicativo,negativo,3,telefone,2024-12-31,aplicativo ar
+556,Não lembro minha senha e não consigo redefinir.,Problemas de acesso à conta,negativo,2,aplicativo,2024-03-13,nao lembro senha nao redefinir
+557,Nunca tive problemas com a Sicredi.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-11-12,nunca problemas
+558,Não consigo recuperar meu acesso.,Problemas de acesso à conta,negativo,2,telefone,2024-03-07,nao recuperar acesso
+559,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5,email,2024-05-05,aplicativo
+560,Resolvi minha questão rapidamente com a ajuda da equipe.,Elogios e avaliações positivas,positivo,5,telefone,2024-08-25,resolvi questao rapidamente ajuda equipe
+561,Tela do aplicativo ficou preta após a última atualização.,Problemas no aplicativo,negativo,1,telefone,2024-10-14,tela aplicativo ficou preta apos ultima atualizacao
+562,Tentei fazer uma transferência TED e não foi.,Problemas com Pix e transferências,negativo,3,chat,2024-01-20,tentei fazer transferencia ted nao
+563,Ninguém responde os meus e-mails enviados ao suporte.,Demora no atendimento,negativo,2,aplicativo,2024-02-11,ninguem responde mails enviados suporte
+564,Não consigo ver meu limite disponível.,Problemas com cartões,negativo,3,telefone,2024-11-09,nao ver limite disponivel
+565,Tarifa de manutenção cobrada indevidamente.,Cobranças indevidas,negativo,1,aplicativo,2024-05-09,tarifa manutencao cobrada indevidamente
+566,Quero saber mais sobre o programa de pontos.,Outros,neutro,3,email,2024-08-07,saber sobre programa pontos
+567,Meu Pix foi devolvido sem justificativa.,Problemas com Pix e transferências,negativo,2,chat,2024-08-03,pix devolvido justificativa
+568,Esperei mais de uma hora para ser atendido.,Demora no atendimento,negativo,1,email,2024-08-21,esperei hora atendido
+569,Resolvi minha questão rapidamente com a ajuda da equipe.,Elogios e avaliações positivas,positivo,5,telefone,2024-04-25,resolvi questao rapidamente ajuda equipe
+570,Não tenho retorno dos atendentes.,Demora no atendimento,negativo,1,email,2024-04-15,nao retorno atendentes
+571,Gostaria de entender como funciona a cooperativa.,Outros,neutro,3,email,2024-11-11,entender funciona cooperativa
+572,O processo de solicitação de limite é burocrático demais.,Dificuldades com serviços bancários,negativo,3,telefone,2024-11-22,processo solicitacao limite burocratico demais
+573,Não consigo visualizar meu histórico de transações.,Dificuldades com serviços bancários,negativo,2,chat,2024-10-13,nao visualizar historico transacoes
+574,Fica tocando e ninguém atende.,Demora no atendimento,negativo,2,email,2024-09-13,fica tocando ninguem atende
+575,O chatbot não resolve e não passa para humano.,Demora no atendimento,negativo,1,telefone,2024-01-08,chatbot nao resolve nao passa humano
+576,Minha transferência foi recusada sem explicação.,Problemas com Pix e transferências,negativo,2,telefone,2024-09-18,transferencia recusada explicacao
+577,O app não funciona no meu celular novo.,Problemas no aplicativo,negativo,1,telefone,2024-07-10,app nao funciona celular novo
+578,Fui direcionado para vários setores sem resolver meu caso.,Demora no atendimento,negativo,1,chat,2024-03-07,direcionado varios setores resolver caso
+579,O aplicativo apresenta erro ao tentar abrir.,Problemas no aplicativo,negativo,3,agência,2024-09-27,aplicativo apresenta erro tentar abrir
+580,Meu Pix foi debitado mas não foi recebido.,Problemas com Pix e transferências,negativo,2,chat,2024-01-27,pix debitado nao recebido
+581,A fatura veio com cobrança duplicada.,Cobranças indevidas,negativo,1,telefone,2024-02-28,fatura veio cobranca duplicada
+582,Tenho dúvidas sobre a cobrança de IOF.,Outros,neutro,3,chat,2024-02-29,duvidas sobre cobranca iof
+583,Não consigo cadastrar uma chave Pix.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-12-19,nao cadastrar chave pix
+584,O tempo de espera no telefone é inaceitável.,Demora no atendimento,negativo,2,agência,2024-12-17,tempo espera telefone inaceitavel
+585,Esqueci a senha e o processo de recuperação não funciona.,Problemas de acesso à conta,negativo,1,agência,2024-06-27,esqueci senha processo recuperacao nao funciona
+586,Não aparece saldo no aplicativo.,Problemas no aplicativo,negativo,1,aplicativo,2024-06-22,nao aparece saldo aplicativo
+587,O aplicativo da Sicredi parou de funcionar no meu celular.,Problemas no aplicativo,negativo,2,agência,2024-11-21,aplicativo parou funcionar celular
+588,Meu cartão virtual não aparece no aplicativo.,Problemas com cartões,negativo,1,agência,2024-06-28,cartao virtual nao aparece aplicativo
+589,O extrato bancário não está correto.,Dificuldades com serviços bancários,negativo,3,telefone,2024-09-30,extrato bancario nao correto
+590,Não estou recebendo notificações de uso do cartão.,Problemas com cartões,negativo,2,chat,2024-12-29,nao recebendo notificacoes uso cartao
+591,Como faço para aumentar meu limite de crédito?,Outros,neutro,3,telefone,2024-08-22,faco aumentar limite credito
+592,Não consigo fazer um empréstimo pelo sistema.,Dificuldades com serviços bancários,negativo,3,chat,2024-01-25,nao fazer emprestimo sistema
+593,O sistema recusou minha transferência bancária.,Problemas com Pix e transferências,negativo,1,telefone,2024-08-03,sistema recusou transferencia bancaria
+594,Quero saber como abrir uma conta na Sicredi.,Outros,neutro,3,chat,2024-06-03,saber abrir
+595,O limite de Pix noturno está bloqueando minha transferência.,Problemas com Pix e transferências,negativo,1,email,2024-04-21,limite pix noturno bloqueando transferencia
+596,Preciso de um gerente para falar sobre minha conta.,Outros,neutro,3,agência,2024-06-09,gerente falar sobre
+597,Os juros do financiamento são diferentes do informado.,Dificuldades com serviços bancários,negativo,3,email,2024-04-26,juros financiamento sao diferentes informado
+598,Meu Pix foi debitado mas não foi recebido.,Problemas com Pix e transferências,negativo,1,chat,2024-09-15,pix debitado nao recebido
+599,Preciso de informações sobre previdência privada.,Outros,neutro,3,email,2024-03-22,informacoes sobre previdencia privada
+600,Tenho interesse em investir mas não sei como começar.,Outros,neutro,3,email,2024-12-21,interesse investir nao sei comecar
+601,Fui direcionado para vários setores sem resolver meu caso.,Demora no atendimento,negativo,3,aplicativo,2024-10-27,direcionado varios setores resolver caso
+602,O aplicativo não reconhece minha senha.,Problemas no aplicativo,negativo,1,chat,2024-01-30,aplicativo nao reconhece senha
+603,Recebi uma taxa que não estava prevista.,Cobranças indevidas,negativo,1,email,2024-04-07,recebi taxa nao prevista
+604,O sistema diz que meu usuário não existe.,Problemas de acesso à conta,negativo,1,chat,2024-10-13,sistema diz usuario nao existe
+605,Quero entender meu extrato do consórcio.,Outros,neutro,3,email,2024-01-22,entender extrato consorcio
+606,A fatura do cartão está incorreta.,Problemas com cartões,negativo,1,aplicativo,2024-12-09,fatura cartao incorreta
+607,Preciso de informações sobre crédito rural.,Outros,neutro,3,chat,2024-04-10,informacoes sobre credito rural
+608,O aplicativo ficou lento e não carrega as informações.,Problemas no aplicativo,negativo,2,aplicativo,2024-04-18,aplicativo ficou lento nao carrega informacoes
+609,Não encontro a opção de Pix no aplicativo.,Problemas com Pix e transferências,negativo,1,telefone,2024-08-31,nao encontro opcao pix aplicativo
+610,Fui debitado por um seguro que não contratei.,Cobranças indevidas,negativo,2,chat,2024-04-28,debitado seguro nao contratei
+611,Gostaria de entender como funciona a cooperativa.,Outros,neutro,3,chat,2024-01-04,entender funciona cooperativa
+612,O app não funciona no meu celular novo.,Problemas no aplicativo,negativo,2,email,2024-11-07,app nao funciona celular novo
+613,O token não está chegando no meu celular.,Problemas de acesso à conta,negativo,2,telefone,2024-02-09,token nao chegando celular
+614,Gostaria de mudar de agência.,Outros,neutro,3,chat,2024-01-23,mudar agencia
+615,O atendimento demorou muito mais que o esperado.,Demora no atendimento,negativo,1,aplicativo,2024-08-28,demorou esperado
+616,Não entendo como funciona meu investimento.,Dificuldades com serviços bancários,negativo,3,email,2024-07-24,nao entendo funciona investimento
+617,Preciso de ajuda para entender meu extrato.,Outros,neutro,3,email,2024-12-19,ajuda entender extrato
+618,O Pix foi cancelado automaticamente.,Problemas com Pix e transferências,negativo,1,chat,2024-04-01,pix cancelado automaticamente
+619,Tive o cartão furtado e o bloqueio foi demorado.,Problemas com cartões,negativo,1,telefone,2024-09-12,cartao furtado bloqueio demorado
+620,Estou muito satisfeito com os serviços da Sicredi.,Elogios e avaliações positivas,positivo,5,email,2024-11-02,satisfeito servicos
+621,O aplicativo apresenta erro ao tentar abrir.,Problemas no aplicativo,negativo,1,agência,2024-11-01,aplicativo apresenta erro tentar abrir
+622,Não recebi meu novo cartão.,Problemas com cartões,negativo,3,aplicativo,2024-07-18,nao recebi novo cartao
+623,Não consigo usar o cartão para pagamentos recorrentes.,Problemas com cartões,negativo,2,chat,2024-07-23,nao usar cartao pagamentos recorrentes
+624,Não consigo emitir boleto pelo aplicativo.,Dificuldades com serviços bancários,negativo,3,chat,2024-12-05,nao emitir boleto aplicativo
+625,Aplicativo fica pedindo atualização mas não atualiza.,Problemas no aplicativo,negativo,2,agência,2024-12-22,aplicativo fica pedindo atualizacao nao atualiza
+626,Tive dificuldades para abrir minha conta.,Dificuldades com serviços bancários,negativo,2,email,2024-05-27,dificuldades abrir
+627,Gostaria de falar sobre o seguro de vida.,Outros,neutro,4,aplicativo,2024-03-10,falar sobre seguro vida
+628,Fui direcionado para vários setores sem resolver meu caso.,Demora no atendimento,negativo,3,email,2024-06-17,direcionado varios setores resolver caso
+629,Cobrança indevida de IOF.,Cobranças indevidas,negativo,1,email,2024-10-27,cobranca indevida iof
+630,A atendente não sabia resolver meu problema.,Demora no atendimento,negativo,3,email,2024-08-08,atendente nao sabia resolver problema
+631,Quero cancelar um Pix agendado mas não consigo.,Problemas com Pix e transferências,negativo,1,email,2024-09-30,cancelar pix agendado nao
+632,O atendimento demorou muito mais que o esperado.,Demora no atendimento,negativo,2,aplicativo,2024-06-17,demorou esperado
+633,O reconhecimento facial não funciona.,Problemas de acesso à conta,negativo,1,agência,2024-02-22,reconhecimento facial nao funciona
+634,Desejo indicar um familiar para abrir conta.,Outros,neutro,4,agência,2024-03-12,desejo indicar familiar abrir
+635,O sistema de chat não funciona bem.,Demora no atendimento,negativo,3,email,2024-06-16,sistema chat nao funciona bem
+636,O seguro foi cobrado mesmo após o cancelamento.,Cobranças indevidas,negativo,2,agência,2024-06-19,seguro cobrado apos cancelamento
+637,Não há atendimento disponível nos horários que preciso.,Demora no atendimento,negativo,3,chat,2024-06-29,nao ha disponivel horarios
+638,A atendente não sabia resolver meu problema.,Demora no atendimento,negativo,2,agência,2024-11-01,atendente nao sabia resolver problema
+639,"Problema resolvido no mesmo dia, parabéns.",Elogios e avaliações positivas,positivo,5,agência,2024-10-12,problema resolvido parabens
+640,O aplicativo está com problema de conexão.,Problemas no aplicativo,negativo,2,telefone,2024-12-09,aplicativo problema conexao
+641,Não consigo atualizar meus dados cadastrais.,Dificuldades com serviços bancários,negativo,2,email,2024-01-30,nao atualizar dados cadastrais
+642,O aplicativo está com problema de conexão.,Problemas no aplicativo,negativo,3,email,2024-02-21,aplicativo problema conexao
+643,Meu acesso está sendo negado mesmo com credenciais corretas.,Problemas de acesso à conta,negativo,2,telefone,2024-03-11,acesso sendo negado credenciais corretas
+644,Pix ficou pendente há mais de dois dias.,Problemas com Pix e transferências,negativo,1,telefone,2024-03-24,pix ficou pendente ha dois dias
+645,Erro ao tentar fazer TED para conta externa.,Problemas com Pix e transferências,negativo,3,email,2024-11-04,erro tentar fazer ted externa
+646,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5,chat,2024-04-27,aplicativo
+647,Tenho uma sugestão de melhoria para o aplicativo.,Outros,neutro,3,agência,2024-02-13,sugestao melhoria aplicativo
+648,O processo de solicitação de limite é burocrático demais.,Dificuldades com serviços bancários,negativo,3,chat,2024-03-11,processo solicitacao limite burocratico demais
+649,A atendente não sabia resolver meu problema.,Demora no atendimento,negativo,1,aplicativo,2024-12-01,atendente nao sabia resolver problema
+650,Quero saber mais sobre o programa de pontos.,Outros,neutro,3,telefone,2024-05-22,saber sobre programa pontos
+651,Preciso de informações sobre os produtos disponíveis.,Outros,neutro,3,aplicativo,2024-07-03,informacoes sobre produtos disponiveis
+652,O atendimento telefônico é muito demorado.,Demora no atendimento,negativo,2,agência,2024-03-30,telefonico demorado
+653,Adoro ser cooperado da Sicredi.,Elogios e avaliações positivas,positivo,5,email,2024-02-18,adoro cooperado
+654,Como cancelo um serviço contratado?,Outros,neutro,4,agência,2024-08-04,cancelo servico contratado
+655,Desejo indicar um familiar para abrir conta.,Outros,neutro,4,agência,2024-12-28,desejo indicar familiar abrir
+656,Fui cobrado por um serviço que não contratei.,Cobranças indevidas,negativo,2,agência,2024-12-28,cobrado servico nao contratei
+657,A transferência foi estornada sem motivo.,Problemas com Pix e transferências,negativo,2,email,2024-10-09,transferencia estornada motivo
+658,O atendimento presencial está sobrecarregado.,Demora no atendimento,negativo,2,aplicativo,2024-03-30,presencial sobrecarregado
+659,O aplicativo está fora do ar.,Problemas no aplicativo,negativo,2,agência,2024-12-09,aplicativo ar
+660,O aplicativo não reconhece minha digital.,Problemas de acesso à conta,negativo,2,telefone,2024-07-07,aplicativo nao reconhece digital
+661,O cartão não está sendo aceito nas maquininhas.,Problemas com cartões,negativo,1,aplicativo,2024-05-02,cartao nao sendo aceito maquininhas
+662,O app apresenta mensagem de erro ao tentar acessar.,Problemas no aplicativo,negativo,2,telefone,2024-02-18,app apresenta mensagem erro tentar acessar
+663,O atendimento telefônico é muito demorado.,Demora no atendimento,negativo,1,telefone,2024-10-03,telefonico demorado
+664,Não consigo contestar uma compra no cartão.,Problemas com cartões,negativo,1,aplicativo,2024-04-30,nao contestar compra cartao
+665,Quero saber como abrir uma conta na Sicredi.,Outros,neutro,3,agência,2024-03-15,saber abrir
+666,A conta ficou inacessível após troca de celular.,Problemas de acesso à conta,negativo,2,agência,2024-05-28,ficou inacessivel apos troca celular
+667,Quero saber sobre os benefícios do cartão.,Outros,neutro,4,email,2024-04-23,saber sobre beneficios cartao
+668,Esqueci a senha e o processo de recuperação não funciona.,Problemas de acesso à conta,negativo,2,email,2024-07-10,esqueci senha processo recuperacao nao funciona
+669,O novo sistema de Pix ficou muito prático.,Elogios e avaliações positivas,positivo,5,telefone,2024-06-02,novo sistema pix ficou pratico
+670,O atendimento online está muito lento.,Demora no atendimento,negativo,2,chat,2024-03-19,online lento
+671,Quero cancelar um serviço mas não consigo.,Dificuldades com serviços bancários,negativo,3,telefone,2024-06-16,cancelar servico nao
+672,A fila de espera está sempre muito longa.,Demora no atendimento,negativo,1,telefone,2024-10-02,fila espera sempre longa
+673,Troquei de número e perdi o acesso ao aplicativo.,Problemas de acesso à conta,negativo,2,agência,2024-10-15,troquei numero perdi acesso aplicativo
+674,Não recebi confirmação do Pix enviado.,Problemas com Pix e transferências,negativo,3,aplicativo,2024-06-26,nao recebi confirmacao pix enviado
+675,Erro 500 aparece toda vez que tento usar o aplicativo.,Problemas no aplicativo,negativo,2,email,2024-01-06,erro aparece toda vez tento usar aplicativo
+676,Aplicativo fica pedindo atualização mas não atualiza.,Problemas no aplicativo,negativo,1,email,2024-10-04,aplicativo fica pedindo atualizacao nao atualiza
+677,Cobrado por serviço que já havia cancelado.,Cobranças indevidas,negativo,1,telefone,2024-03-01,cobrado servico ja havia cancelado
+678,Erro ao tentar enviar Pix.,Problemas com Pix e transferências,negativo,2,chat,2024-06-05,erro tentar enviar pix
+679,Estou muito satisfeito com os serviços da Sicredi.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-03-12,satisfeito servicos
+680,Não consigo entrar na conta pelo internet banking.,Problemas de acesso à conta,negativo,2,email,2024-09-06,nao entrar internet banking
+681,A simulação de crédito apresenta valores inconsistentes.,Dificuldades com serviços bancários,negativo,2,agência,2024-09-20,simulacao credito apresenta valores inconsistentes
+682,Fui cobrado por um serviço que não contratei.,Cobranças indevidas,negativo,1,agência,2024-03-31,cobrado servico nao contratei
+683,Preciso desbloquear minha conta com urgência.,Problemas de acesso à conta,negativo,1,email,2024-10-31,desbloquear urgencia
+684,Me sinto bem atendido como cooperado.,Elogios e avaliações positivas,positivo,4,aplicativo,2024-01-04,sinto bem atendido cooperado
+685,App não abre após atualização do sistema operacional.,Problemas no aplicativo,negativo,2,chat,2024-04-14,app nao abre apos atualizacao sistema operacional
+686,Cobrança indevida de IOF.,Cobranças indevidas,negativo,2,aplicativo,2024-02-16,cobranca indevida iof
+687,Não consigo falar com um atendente.,Demora no atendimento,negativo,1,agência,2024-06-25,nao falar atendente
+688,A simulação de crédito apresenta valores inconsistentes.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-07-24,simulacao credito apresenta valores inconsistentes
+689,Tenho interesse em financiamento imobiliário.,Outros,neutro,3,telefone,2024-04-15,interesse financiamento imobiliario
+690,O processo de solicitação de limite é burocrático demais.,Dificuldades com serviços bancários,negativo,1,telefone,2024-01-26,processo solicitacao limite burocratico demais
+691,Gostaria de participar das assembleias da cooperativa.,Outros,neutro,3,email,2024-09-16,participar assembleias cooperativa
+692,A fatura do cartão está incorreta.,Problemas com cartões,negativo,3,agência,2024-01-18,fatura cartao incorreta
+693,Houve estorno indevido de um pagamento que eu fiz.,Cobranças indevidas,negativo,2,telefone,2024-12-23,estorno indevido pagamento fiz
+694,Perdi acesso à conta após atualizar o celular.,Problemas de acesso à conta,negativo,2,agência,2024-06-22,perdi acesso apos atualizar celular
+695,Não recebi confirmação do Pix enviado.,Problemas com Pix e transferências,negativo,3,agência,2024-12-04,nao recebi confirmacao pix enviado
+696,"Não consigo abrir o app, fica carregando e não entra.",Problemas no aplicativo,negativo,2,telefone,2024-12-09,nao abrir app fica carregando nao entra
+697,O sistema de chat não funciona bem.,Demora no atendimento,negativo,2,agência,2024-02-29,sistema chat nao funciona bem
+698,O app não abre quando tento acessar.,Problemas no aplicativo,negativo,1,email,2024-04-11,app nao abre tento acessar
+699,Preciso de segunda via do boleto de mensalidade.,Outros,neutro,3,agência,2024-05-14,segunda via boleto mensalidade
+700,Cobraram minha conta duas vezes pelo mesmo serviço.,Cobranças indevidas,negativo,2,chat,2024-04-03,cobraram duas vezes servico
+701,Resolvi minha questão rapidamente com a ajuda da equipe.,Elogios e avaliações positivas,positivo,4,email,2024-07-30,resolvi questao rapidamente ajuda equipe
+702,O sistema recusou minha transferência bancária.,Problemas com Pix e transferências,negativo,2,agência,2024-06-18,sistema recusou transferencia bancaria
+703,O sistema pede um token que não recebi.,Problemas de acesso à conta,negativo,1,agência,2024-11-02,sistema pede token nao recebi
+704,O cartão não está sendo aceito nas maquininhas.,Problemas com cartões,negativo,2,telefone,2024-06-03,cartao nao sendo aceito maquininhas
+705,Preciso de uma declaração para imposto de renda.,Outros,neutro,3,aplicativo,2024-08-17,declaracao imposto renda
+706,Fui direcionado para vários setores sem resolver meu caso.,Demora no atendimento,negativo,1,agência,2024-06-30,direcionado varios setores resolver caso
+707,Cobraram minha conta duas vezes pelo mesmo serviço.,Cobranças indevidas,negativo,2,agência,2024-05-04,cobraram duas vezes servico
+708,Não consigo desbloquear meu cartão.,Problemas com cartões,negativo,1,agência,2024-12-20,nao desbloquear cartao
+709,Descontaram um valor da minha conta sem autorização.,Cobranças indevidas,negativo,3,agência,2024-08-12,descontaram valor autorizacao
+710,A conta foi bloqueada por tentativas erradas de senha.,Problemas de acesso à conta,negativo,1,agência,2024-07-05,bloqueada tentativas erradas senha
+711,Cobrança duplicada no mesmo extrato.,Cobranças indevidas,negativo,2,email,2024-08-28,cobranca duplicada extrato
+712,Erro ao tentar fazer TED para conta externa.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-06-29,erro tentar fazer ted externa
+713,O tempo de espera na agência é absurdo.,Demora no atendimento,negativo,2,email,2024-12-15,tempo espera agencia absurdo
+714,A Sicredi tem os melhores atendentes que já vi.,Elogios e avaliações positivas,positivo,4,email,2024-11-02,melhores atendentes ja vi
+715,Precisei ligar três vezes para resolver uma questão simples.,Demora no atendimento,negativo,2,aplicativo,2024-06-09,precisei ligar tres vezes resolver questao simples
+716,Tenho uma sugestão de melhoria para o aplicativo.,Outros,neutro,3,email,2024-09-04,sugestao melhoria aplicativo
+717,Preciso de uma declaração bancária mas não consigo emitir.,Dificuldades com serviços bancários,negativo,3,chat,2024-12-19,declaracao bancaria nao emitir
+718,Recebi desconto em dobro no mesmo mês.,Cobranças indevidas,negativo,2,aplicativo,2024-01-15,recebi desconto dobro mes
+719,Me enviaram boleto com valor maior que o contratado.,Cobranças indevidas,negativo,3,agência,2024-05-22,enviaram boleto valor maior contratado
+720,Não deveria ter sido cobrado essa taxa.,Cobranças indevidas,negativo,3,agência,2024-08-18,nao deveria ter sido cobrado taxa
+721,Não há atendimento disponível nos horários que preciso.,Demora no atendimento,negativo,2,aplicativo,2024-05-27,nao ha disponivel horarios
+722,A Sicredi tem os melhores atendentes que já vi.,Elogios e avaliações positivas,positivo,4,email,2024-05-04,melhores atendentes ja vi
+723,Passei pelo URA e não consegui falar com ninguém.,Demora no atendimento,negativo,1,agência,2024-01-08,passei ura nao falar ninguem
+724,"Adorei o novo aplicativo, ficou muito intuitivo.",Elogios e avaliações positivas,positivo,5,telefone,2024-05-21,adorei novo aplicativo ficou intuitivo
+725,Minha conta foi suspensa sem comunicação.,Problemas de acesso à conta,negativo,2,telefone,2024-04-30,suspensa comunicacao
+726,Tentei pagar uma conta por transferência e deu erro.,Problemas com Pix e transferências,negativo,2,chat,2024-07-07,tentei pagar transferencia deu erro
+727,O processo de portabilidade está travado.,Dificuldades com serviços bancários,negativo,3,chat,2024-09-16,processo portabilidade travado
+728,Gostaria de mudar de agência.,Outros,neutro,4,aplicativo,2024-01-12,mudar agencia
+729,Solicitar segunda via do cartão está muito difícil.,Problemas com cartões,negativo,2,aplicativo,2024-05-08,solicitar segunda via cartao dificil
+730,Meu login está bloqueado.,Problemas de acesso à conta,negativo,1,agência,2024-01-10,login bloqueado
+731,Não consigo agendar pagamentos futuros.,Dificuldades com serviços bancários,negativo,2,chat,2024-10-17,nao agendar pagamentos futuros
+732,O chat demorou para responder.,Demora no atendimento,negativo,3,telefone,2024-04-28,chat demorou responder
+733,Não consigo confirmar minha identidade pelo sistema.,Problemas de acesso à conta,negativo,1,email,2024-03-11,nao confirmar identidade sistema
+734,Como faço para aumentar meu limite de crédito?,Outros,neutro,4,agência,2024-10-08,faco aumentar limite credito
+735,Estornaram um valor errado da minha conta.,Cobranças indevidas,negativo,2,telefone,2024-11-22,estornaram valor errado
+736,Estão cobrando tarifa de conta que foi encerrada.,Cobranças indevidas,negativo,2,chat,2024-02-29,estao cobrando tarifa encerrada
+737,O gerente não retorna as ligações.,Demora no atendimento,negativo,1,agência,2024-11-11,gerente nao retorna ligacoes
+738,O novo sistema de Pix ficou muito prático.,Elogios e avaliações positivas,positivo,5,agência,2024-10-16,novo sistema pix ficou pratico
+739,Fui cobrado por limite de crédito que não solicitei.,Cobranças indevidas,negativo,3,agência,2024-07-30,cobrado limite credito nao solicitei
+740,Tentei pagar uma conta por transferência e deu erro.,Problemas com Pix e transferências,negativo,1,email,2024-11-06,tentei pagar transferencia deu erro
+741,Meu chamado foi aberto há dias e ninguém me contatou.,Demora no atendimento,negativo,2,telefone,2024-07-04,chamado aberto ha dias ninguem contatou
+742,Preciso de ajuda para entender meu extrato.,Outros,neutro,4,telefone,2024-06-25,ajuda entender extrato
+743,Tive dificuldades para abrir minha conta.,Dificuldades com serviços bancários,negativo,1,agência,2024-09-15,dificuldades abrir
+744,Estou satisfeito com as taxas e serviços oferecidos.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-07-10,satisfeito taxas servicos oferecidos
+745,"Depois de atualizar o app, não consigo mais fazer login.",Problemas no aplicativo,negativo,3,chat,2024-10-26,atualizar app nao fazer login
+746,Chave Pix não está sendo aceita.,Problemas com Pix e transferências,negativo,1,aplicativo,2024-08-05,chave pix nao sendo aceita
+747,Tentei fazer uma transferência TED e não foi.,Problemas com Pix e transferências,negativo,1,email,2024-08-10,tentei fazer transferencia ted nao
+748,Preciso de um gerente para falar sobre minha conta.,Outros,neutro,3,chat,2024-07-11,gerente falar sobre
+749,Liguei para o atendimento e fiquei esperando muito tempo.,Demora no atendimento,negativo,1,agência,2024-03-26,liguei fiquei esperando tempo
+750,Não consigo acessar minha conta bancária.,Problemas de acesso à conta,negativo,1,agência,2024-10-14,nao acessar bancaria
+751,Erro 500 aparece toda vez que tento usar o aplicativo.,Problemas no aplicativo,negativo,2,telefone,2024-08-20,erro aparece toda vez tento usar aplicativo
+752,Preciso de uma declaração bancária mas não consigo emitir.,Dificuldades com serviços bancários,negativo,1,chat,2024-07-07,declaracao bancaria nao emitir
+753,Preciso de informações sobre os produtos disponíveis.,Outros,neutro,3,telefone,2024-08-10,informacoes sobre produtos disponiveis
+754,Erro 500 aparece toda vez que tento usar o aplicativo.,Problemas no aplicativo,negativo,1,email,2024-05-16,erro aparece toda vez tento usar aplicativo
+755,Não consigo entrar no aplicativo.,Problemas no aplicativo,negativo,1,email,2024-02-14,nao entrar aplicativo
+756,Gostaria de entender como funciona a cooperativa.,Outros,neutro,3,chat,2024-11-13,entender funciona cooperativa
+757,A transferência está aparecendo como processando há horas.,Problemas com Pix e transferências,negativo,2,agência,2024-04-11,transferencia aparecendo processando ha horas
+758,Gostaria de informações sobre os seguros oferecidos.,Outros,neutro,3,agência,2024-12-16,informacoes sobre seguros oferecidos
+759,Quero cancelar um serviço mas não consigo.,Dificuldades com serviços bancários,negativo,2,agência,2024-09-22,cancelar servico nao
+760,Solicitar segunda via do cartão está muito difícil.,Problemas com cartões,negativo,1,email,2024-05-20,solicitar segunda via cartao dificil
+761,Não consigo confirmar minha identidade pelo sistema.,Problemas de acesso à conta,negativo,2,chat,2024-10-10,nao confirmar identidade sistema
+762,Tenho interesse em investir mas não sei como começar.,Outros,neutro,4,telefone,2024-06-02,interesse investir nao sei comecar
+763,Apareceu uma cobrança que não reconheço no extrato.,Cobranças indevidas,negativo,1,chat,2024-12-05,apareceu cobranca nao reconheco extrato
+764,Cobrado duas vezes pelo mesmo Pix.,Problemas com Pix e transferências,negativo,2,email,2024-06-09,cobrado duas vezes pix
+765,Tenho interesse em investir mas não sei como começar.,Outros,neutro,3,chat,2024-08-13,interesse investir nao sei comecar
+766,O extrato bancário não está correto.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-02-15,extrato bancario nao correto
+767,Quero atualizar meu endereço no cadastro.,Outros,neutro,4,telefone,2024-10-11,atualizar endereco cadastro
+768,Excelente experiência com o internet banking.,Elogios e avaliações positivas,positivo,5,email,2024-11-28,excelente experiencia internet banking
+769,Adoro ser cooperado da Sicredi.,Elogios e avaliações positivas,positivo,5,agência,2024-11-26,adoro cooperado
+770,Fiquei na fila por muito tempo sem ser chamado.,Demora no atendimento,negativo,2,email,2024-01-19,fiquei fila tempo chamado
+771,O sistema não aceita meu endereço para cadastro.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-04-21,sistema nao aceita endereco cadastro
+772,Precisei ligar três vezes para resolver uma questão simples.,Demora no atendimento,negativo,2,agência,2024-07-23,precisei ligar tres vezes resolver questao simples
+773,Preciso de informações sobre minha previdência privada.,Dificuldades com serviços bancários,negativo,3,email,2024-02-24,informacoes sobre previdencia privada
+774,O app apresenta mensagem de erro ao tentar acessar.,Problemas no aplicativo,negativo,2,agência,2024-08-27,app apresenta mensagem erro tentar acessar
+775,O cartão não funciona em compras internacionais.,Problemas com cartões,negativo,2,aplicativo,2024-02-10,cartao nao funciona compras internacionais
+776,Preciso acessar a conta mas o sistema rejeita minhas credenciais.,Problemas de acesso à conta,negativo,2,agência,2024-09-19,acessar sistema rejeita credenciais
+777,"Adorei o novo aplicativo, ficou muito intuitivo.",Elogios e avaliações positivas,positivo,5,email,2024-01-09,adorei novo aplicativo ficou intuitivo
+778,A cobrança de anuidade foi feita incorretamente.,Cobranças indevidas,negativo,1,telefone,2024-04-20,cobranca anuidade feita incorretamente
+779,Não aparece saldo no aplicativo.,Problemas no aplicativo,negativo,2,aplicativo,2024-05-06,nao aparece saldo aplicativo
+780,O sistema não aceita meu CPF para login.,Problemas de acesso à conta,negativo,1,agência,2024-08-14,sistema nao aceita cpf login
+781,Estornaram um valor errado da minha conta.,Cobranças indevidas,negativo,2,aplicativo,2024-01-07,estornaram valor errado
+782,O aplicativo melhorou muito com a atualização.,Elogios e avaliações positivas,positivo,4,telefone,2024-04-18,aplicativo melhorou atualizacao
+783,Me cobraram por serviço de internet banking sem ter contratado.,Cobranças indevidas,negativo,2,agência,2024-05-04,cobraram servico internet banking ter contratado
+784,O aplicativo ficou lento e não carrega as informações.,Problemas no aplicativo,negativo,1,chat,2024-07-24,aplicativo ficou lento nao carrega informacoes
+785,Fiz um Pix e o dinheiro não chegou para o destinatário.,Problemas com Pix e transferências,negativo,1,telefone,2024-05-15,fiz pix dinheiro nao chegou destinatario
+786,Não consigo assinar contratos digitalmente.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-11-01,nao assinar contratos digitalmente
+787,Me cobraram juros indevidos.,Cobranças indevidas,negativo,3,telefone,2024-05-20,cobraram juros indevidos
+788,O saldo do consórcio não atualiza corretamente.,Dificuldades com serviços bancários,negativo,2,chat,2024-11-08,saldo consorcio nao atualiza corretamente
+789,Gostaria de informações sobre os seguros oferecidos.,Outros,neutro,3,agência,2024-12-29,informacoes sobre seguros oferecidos
+790,Como funciona o seguro residencial da Sicredi?,Outros,neutro,3,telefone,2024-07-26,funciona seguro residencial
+791,Não consegui cancelar uma transferência agendada.,Problemas com Pix e transferências,negativo,3,email,2024-12-01,nao cancelar transferencia agendada
+792,Fui debitado por um seguro que não contratei.,Cobranças indevidas,negativo,2,agência,2024-05-18,debitado seguro nao contratei
+793,Estou satisfeito com as taxas e serviços oferecidos.,Elogios e avaliações positivas,positivo,4,email,2024-03-17,satisfeito taxas servicos oferecidos
+794,Minha conta foi suspensa sem comunicação.,Problemas de acesso à conta,negativo,1,telefone,2024-05-11,suspensa comunicacao
+795,Troquei de número e perdi o acesso ao aplicativo.,Problemas de acesso à conta,negativo,2,telefone,2024-08-13,troquei numero perdi acesso aplicativo
+796,Houve estorno indevido de um pagamento que eu fiz.,Cobranças indevidas,negativo,1,email,2024-07-15,estorno indevido pagamento fiz
+797,Não consigo recuperar meu acesso.,Problemas de acesso à conta,negativo,2,chat,2024-06-16,nao recuperar acesso
+798,"Pix enviado para chave errada, quero estorno.",Problemas com Pix e transferências,negativo,3,chat,2024-07-26,pix enviado chave errada estorno
+799,Estou tendo dificuldades para acessar minha conta pelo aplicativo.,Problemas no aplicativo,negativo,1,telefone,2024-06-21,tendo dificuldades acessar aplicativo
+800,"Ótimo atendimento, parabéns à equipe.",Elogios e avaliações positivas,positivo,4,chat,2024-08-25,otimo parabens equipe
+801,Gostaria de entender como funciona a cooperativa.,Outros,neutro,3,agência,2024-02-24,entender funciona cooperativa
+802,Minha solicitação de crédito foi negada sem justificativa.,Dificuldades com serviços bancários,negativo,3,agência,2024-05-26,solicitacao credito negada justificativa
+803,Gostei muito da forma como fui atendido.,Elogios e avaliações positivas,positivo,5,chat,2024-01-08,gostei forma atendido
+804,Fiz um Pix e o dinheiro não chegou para o destinatário.,Problemas com Pix e transferências,negativo,1,chat,2024-05-24,fiz pix dinheiro nao chegou destinatario
+805,Não encontro a opção de Pix no aplicativo.,Problemas com Pix e transferências,negativo,3,aplicativo,2024-08-21,nao encontro opcao pix aplicativo
+806,Preciso de renegociação mas o sistema não permite.,Dificuldades com serviços bancários,negativo,2,chat,2024-08-02,renegociacao sistema nao permite
+807,O cartão foi debitado mas a compra não foi confirmada.,Problemas com cartões,negativo,1,telefone,2024-09-09,cartao debitado compra nao confirmada
+808,Preciso de renegociação mas o sistema não permite.,Dificuldades com serviços bancários,negativo,1,agência,2024-12-19,renegociacao sistema nao permite
+809,O cartão foi bloqueado após viagem.,Problemas com cartões,negativo,3,chat,2024-03-06,cartao bloqueado apos viagem
+810,Me enviaram boleto com valor maior que o contratado.,Cobranças indevidas,negativo,1,chat,2024-10-22,enviaram boleto valor maior contratado
+811,Tentei usar o aplicativo várias vezes e não carrega.,Problemas no aplicativo,negativo,1,telefone,2024-10-17,tentei usar aplicativo varias vezes nao carrega
+812,O cartão chegou com o nome errado.,Problemas com cartões,negativo,1,aplicativo,2024-06-29,cartao chegou nome errado
+813,Meu cartão foi clonado.,Problemas com cartões,negativo,2,telefone,2024-03-10,cartao clonado
+814,Precisei ligar três vezes para resolver uma questão simples.,Demora no atendimento,negativo,3,telefone,2024-08-08,precisei ligar tres vezes resolver questao simples
+815,O app não mostra meus cartões cadastrados.,Problemas no aplicativo,negativo,3,aplicativo,2024-12-07,app nao mostra cartoes cadastrados
+816,O atendimento presencial está sobrecarregado.,Demora no atendimento,negativo,2,telefone,2024-10-28,presencial sobrecarregado
+817,Quero entender meu extrato do consórcio.,Outros,neutro,4,agência,2024-10-06,entender extrato consorcio
+818,Cobraram minha conta duas vezes pelo mesmo serviço.,Cobranças indevidas,negativo,2,chat,2024-01-15,cobraram duas vezes servico
+819,Tentei usar o aplicativo várias vezes e não carrega.,Problemas no aplicativo,negativo,1,agência,2024-10-08,tentei usar aplicativo varias vezes nao carrega
+820,Há uma cobrança estranha na minha fatura.,Cobranças indevidas,negativo,3,chat,2024-11-11,ha cobranca estranha fatura
+821,Quero entender meu extrato do consórcio.,Outros,neutro,4,aplicativo,2024-10-20,entender extrato consorcio
+822,O atendimento presencial está sobrecarregado.,Demora no atendimento,negativo,2,email,2024-02-28,presencial sobrecarregado
+823,O cartão não funciona pelo Google Pay.,Problemas com cartões,negativo,2,telefone,2024-03-22,cartao nao funciona google pay
+824,O sistema não aceita meu endereço para cadastro.,Dificuldades com serviços bancários,negativo,2,chat,2024-12-24,sistema nao aceita endereco cadastro
+825,Não aparece saldo no aplicativo.,Problemas no aplicativo,negativo,1,email,2024-10-10,nao aparece saldo aplicativo
+826,O cartão foi expirado antes do prazo.,Problemas com cartões,negativo,2,agência,2024-06-09,cartao expirado antes prazo
+827,O cartão não passa no débito.,Problemas com cartões,negativo,1,aplicativo,2024-11-24,cartao nao passa debito
+828,"Problema resolvido no mesmo dia, parabéns.",Elogios e avaliações positivas,positivo,5,aplicativo,2024-01-14,problema resolvido parabens
+829,"Fui bem atendido na agência, serviço de qualidade.",Elogios e avaliações positivas,positivo,5,agência,2024-04-04,bem atendido agencia servico qualidade
+830,A fatura do cartão está incorreta.,Problemas com cartões,negativo,2,chat,2024-09-19,fatura cartao incorreta
+831,Meu cartão foi bloqueado sem justificativa.,Problemas com cartões,negativo,1,agência,2024-08-17,cartao bloqueado justificativa
+832,O atendimento telefônico é muito demorado.,Demora no atendimento,negativo,1,email,2024-07-05,telefonico demorado
+833,Recebi desconto em dobro no mesmo mês.,Cobranças indevidas,negativo,2,agência,2024-12-23,recebi desconto dobro mes
+834,A equipe resolveu meu problema rapidamente.,Elogios e avaliações positivas,positivo,5,aplicativo,2024-12-15,equipe resolveu problema rapidamente
+835,A transferência sumiu da minha conta.,Problemas com Pix e transferências,negativo,3,telefone,2024-07-05,transferencia sumiu
+836,Não recebi o comprovante de abertura de conta.,Dificuldades com serviços bancários,negativo,3,telefone,2024-10-20,nao recebi comprovante abertura
+837,Não aparece o histórico de Pix no aplicativo.,Problemas com Pix e transferências,negativo,1,agência,2024-04-22,nao aparece historico pix aplicativo
+838,Não consigo fazer o cadastro de nova senha.,Problemas de acesso à conta,negativo,3,aplicativo,2024-07-21,nao fazer cadastro nova senha
+839,Meu aplicativo Sicredi não sincroniza.,Problemas no aplicativo,negativo,2,chat,2024-02-25,aplicativo nao sincroniza
+840,Me enviaram boleto com valor maior que o contratado.,Cobranças indevidas,negativo,1,telefone,2024-08-28,enviaram boleto valor maior contratado
+841,O aplicativo demora demais para carregar.,Problemas no aplicativo,negativo,2,email,2024-02-20,aplicativo demora demais carregar
+842,Cobrado por serviço que já havia cancelado.,Cobranças indevidas,negativo,3,aplicativo,2024-03-18,cobrado servico ja havia cancelado
+843,A transferência sumiu da minha conta.,Problemas com Pix e transferências,negativo,2,email,2024-04-07,transferencia sumiu
+844,A cooperativa se preocupa com o cliente.,Elogios e avaliações positivas,positivo,5,agência,2024-04-05,cooperativa preocupa
+845,Como funciona a portabilidade de crédito?,Outros,neutro,3,email,2024-11-19,funciona portabilidade credito
+846,Quero atualizar meu endereço no cadastro.,Outros,neutro,3,telefone,2024-06-10,atualizar endereco cadastro
+847,Não consigo contestar uma compra no cartão.,Problemas com cartões,negativo,1,agência,2024-07-08,nao contestar compra cartao
+848,Como funciona o seguro residencial da Sicredi?,Outros,neutro,4,telefone,2024-04-05,funciona seguro residencial
+849,Passei pelo URA e não consegui falar com ninguém.,Demora no atendimento,negativo,2,email,2024-03-04,passei ura nao falar ninguem
+850,Tive o cartão furtado e o bloqueio foi demorado.,Problemas com cartões,negativo,3,agência,2024-09-12,cartao furtado bloqueio demorado
+851,Preciso emitir uma certidão negativa de débitos.,Outros,neutro,3,aplicativo,2024-09-05,emitir certidao negativa debitos
+852,O gerente não retorna as ligações.,Demora no atendimento,negativo,3,telefone,2024-07-31,gerente nao retorna ligacoes
+853,Quero fazer portabilidade de salário mas não sei como.,Dificuldades com serviços bancários,negativo,2,chat,2024-08-29,fazer portabilidade salario nao sei
+854,Meu login está bloqueado.,Problemas de acesso à conta,negativo,2,aplicativo,2024-07-22,login bloqueado
+855,Tive dificuldades para abrir minha conta.,Dificuldades com serviços bancários,negativo,3,email,2024-04-09,dificuldades abrir
+856,O atendimento é sempre cordial e profissional.,Elogios e avaliações positivas,positivo,5,agência,2024-06-11,sempre cordial profissional
+857,Cobrou por dois meses no mesmo dia.,Cobranças indevidas,negativo,1,telefone,2024-11-16,cobrou dois meses
+858,A conta ficou inacessível após troca de celular.,Problemas de acesso à conta,negativo,1,agência,2024-01-11,ficou inacessivel apos troca celular
+859,Fica tocando e ninguém atende.,Demora no atendimento,negativo,1,agência,2024-02-08,fica tocando ninguem atende
+860,Não entendo as taxas cobradas no meu financiamento.,Dificuldades com serviços bancários,negativo,2,chat,2024-05-07,nao entendo taxas cobradas financiamento
+861,O aplicativo está fora do ar.,Problemas no aplicativo,negativo,3,agência,2024-04-18,aplicativo ar
+862,O aplicativo apresenta erro ao tentar abrir.,Problemas no aplicativo,negativo,1,aplicativo,2024-03-19,aplicativo apresenta erro tentar abrir
+863,Não consigo cadastrar conta para transferência.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-08-28,nao cadastrar transferencia
+864,A cobrança de anuidade foi feita incorretamente.,Cobranças indevidas,negativo,1,email,2024-12-19,cobranca anuidade feita incorretamente
+865,O aplicativo trava toda vez que abro.,Problemas no aplicativo,negativo,3,chat,2024-01-23,aplicativo trava toda vez abro
+866,O aplicativo não atualiza o extrato.,Problemas no aplicativo,negativo,1,aplicativo,2024-12-28,aplicativo nao atualiza extrato
+867,Meu cartão foi bloqueado sem justificativa.,Problemas com cartões,negativo,3,aplicativo,2024-02-10,cartao bloqueado justificativa
+868,App fecha sozinho sem motivo aparente.,Problemas no aplicativo,negativo,2,email,2024-07-04,app fecha sozinho motivo aparente
+869,Função de pagamento do aplicativo não funciona.,Problemas no aplicativo,negativo,1,email,2024-10-22,funcao pagamento aplicativo nao funciona
+870,O extrato bancário não está correto.,Dificuldades com serviços bancários,negativo,2,agência,2024-11-29,extrato bancario nao correto
+871,Não consigo acessar minha conta bancária.,Problemas de acesso à conta,negativo,1,chat,2024-10-20,nao acessar bancaria
+872,O processo de solicitação de limite é burocrático demais.,Dificuldades com serviços bancários,negativo,1,email,2024-10-27,processo solicitacao limite burocratico demais
+873,Não encontro a opção de Pix no aplicativo.,Problemas com Pix e transferências,negativo,1,chat,2024-04-25,nao encontro opcao pix aplicativo
+874,O cartão não passa no débito.,Problemas com cartões,negativo,1,email,2024-08-01,cartao nao passa debito
+875,A senha de quatro dígitos não está sendo aceita.,Problemas de acesso à conta,negativo,3,telefone,2024-06-19,senha quatro digitos nao sendo aceita
+876,Liguei para o atendimento e fiquei esperando muito tempo.,Demora no atendimento,negativo,2,aplicativo,2024-05-30,liguei fiquei esperando tempo
+877,Meu chamado foi aberto há dias e ninguém me contatou.,Demora no atendimento,negativo,1,chat,2024-10-05,chamado aberto ha dias ninguem contatou
+878,O aplicativo não reconhece minha digital.,Problemas de acesso à conta,negativo,3,agência,2024-08-24,aplicativo nao reconhece digital
+879,O atendente foi muito prestativo e resolveu tudo.,Elogios e avaliações positivas,positivo,5,agência,2024-04-29,atendente prestativo resolveu tudo
+880,Minha solicitação está sem resposta há muito tempo.,Demora no atendimento,negativo,3,chat,2024-04-22,solicitacao resposta ha tempo
+881,Quero informações sobre consórcio.,Outros,neutro,4,email,2024-01-14,informacoes sobre consorcio
+882,Estão cobrando tarifa de conta que foi encerrada.,Cobranças indevidas,negativo,2,chat,2024-12-05,estao cobrando tarifa encerrada
+883,Fiquei na fila por muito tempo sem ser chamado.,Demora no atendimento,negativo,3,aplicativo,2024-04-30,fiquei fila tempo chamado
+884,O aplicativo trava toda vez que abro.,Problemas no aplicativo,negativo,1,aplicativo,2024-07-13,aplicativo trava toda vez abro
+885,Preciso desbloquear minha conta com urgência.,Problemas de acesso à conta,negativo,2,aplicativo,2024-01-30,desbloquear urgencia
+886,Quero informações sobre consórcio.,Outros,neutro,3,email,2024-04-12,informacoes sobre consorcio
+887,Fiz uma compra e o cartão foi recusado.,Problemas com cartões,negativo,1,aplicativo,2024-09-12,fiz compra cartao recusado
+888,Não consigo contestar uma compra no cartão.,Problemas com cartões,negativo,2,chat,2024-07-15,nao contestar compra cartao
+889,Gostaria de falar sobre o seguro de vida.,Outros,neutro,4,chat,2024-09-20,falar sobre seguro vida
+890,Há uma cobrança estranha na minha fatura.,Cobranças indevidas,negativo,2,email,2024-05-17,ha cobranca estranha fatura
+891,Recebi mensagem de erro inesperado no aplicativo.,Problemas no aplicativo,negativo,2,chat,2024-03-21,recebi mensagem erro inesperado aplicativo
+892,Aguardo resposta há três dias.,Demora no atendimento,negativo,2,chat,2024-04-27,aguardo resposta ha tres dias
+893,Tenho interesse em financiamento imobiliário.,Outros,neutro,4,chat,2024-11-01,interesse financiamento imobiliario
+894,Há uma cobrança estranha na minha fatura.,Cobranças indevidas,negativo,3,agência,2024-08-26,ha cobranca estranha fatura
+895,Quero cancelar o débito automático mas não encontro a opção.,Dificuldades com serviços bancários,negativo,3,aplicativo,2024-05-13,cancelar debito automatico nao encontro opcao
+896,Não consigo agendar pagamentos futuros.,Dificuldades com serviços bancários,negativo,2,telefone,2024-01-08,nao agendar pagamentos futuros
+897,Aplicativo não abre desde ontem.,Problemas no aplicativo,negativo,2,chat,2024-05-02,aplicativo nao abre desde ontem
+898,Quero atualizar meu endereço no cadastro.,Outros,neutro,3,agência,2024-05-27,atualizar endereco cadastro
+899,O valor debitado está diferente do combinado.,Cobranças indevidas,negativo,1,chat,2024-11-16,valor debitado diferente combinado
+900,O atendimento telefônico é muito demorado.,Demora no atendimento,negativo,1,aplicativo,2024-05-31,telefonico demorado
+901,O saldo do consórcio não atualiza corretamente.,Dificuldades com serviços bancários,negativo,2,telefone,2024-08-23,saldo consorcio nao atualiza corretamente
+902,Preciso de comprovante de Pix que não aparece.,Problemas com Pix e transferências,negativo,2,email,2024-09-05,comprovante pix nao aparece
+903,Não consigo fazer o cadastro de nova senha.,Problemas de acesso à conta,negativo,2,aplicativo,2024-05-04,nao fazer cadastro nova senha
+904,O cartão chegou com o nome errado.,Problemas com cartões,negativo,2,telefone,2024-12-02,cartao chegou nome errado
+905,Minha conta foi suspensa sem comunicação.,Problemas de acesso à conta,negativo,1,telefone,2024-11-04,suspensa comunicacao
+906,Não aparece o histórico de Pix no aplicativo.,Problemas com Pix e transferências,negativo,1,agência,2024-06-21,nao aparece historico pix aplicativo
+907,Descontaram um valor da minha conta sem autorização.,Cobranças indevidas,negativo,2,agência,2024-03-04,descontaram valor autorizacao
+908,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5,chat,2024-03-19,aplicativo
+909,O cartão foi debitado mas a compra não foi confirmada.,Problemas com cartões,negativo,1,chat,2024-10-10,cartao debitado compra nao confirmada
+910,O aplicativo é fácil de usar e funciona muito bem.,Elogios e avaliações positivas,positivo,5,agência,2024-10-11,aplicativo facil usar funciona bem
+911,"Fui bem atendido na agência, serviço de qualidade.",Elogios e avaliações positivas,positivo,5,aplicativo,2024-06-25,bem atendido agencia servico qualidade
+912,"Não consigo abrir o app, fica carregando e não entra.",Problemas no aplicativo,negativo,1,agência,2024-07-13,nao abrir app fica carregando nao entra
+913,Meu cartão foi cancelado sem aviso prévio.,Problemas com cartões,negativo,3,telefone,2024-06-09,cartao cancelado aviso previo
+914,Preciso de informações sobre minha previdência privada.,Dificuldades com serviços bancários,negativo,2,chat,2024-08-20,informacoes sobre previdencia privada
+915,Como funciona a portabilidade de crédito?,Outros,neutro,3,telefone,2024-11-11,funciona portabilidade credito
+916,O cartão chegou com o nome errado.,Problemas com cartões,negativo,1,email,2024-06-19,cartao chegou nome errado
+917,Como funciona o seguro residencial da Sicredi?,Outros,neutro,3,email,2024-04-11,funciona seguro residencial
+918,Meu cartão de crédito foi cancelado indevidamente.,Problemas com cartões,negativo,1,aplicativo,2024-09-25,cartao credito cancelado indevidamente
+919,Meu cartão de crédito foi cancelado indevidamente.,Problemas com cartões,negativo,2,aplicativo,2024-09-26,cartao credito cancelado indevidamente
+920,Não recebo o código SMS para autenticação.,Problemas de acesso à conta,negativo,2,email,2024-07-04,nao recebo codigo sms autenticacao
+921,Gostaria de entender os termos do contrato.,Outros,neutro,3,agência,2024-11-12,entender termos contrato
+922,O aplicativo demora demais para carregar.,Problemas no aplicativo,negativo,1,email,2024-01-08,aplicativo demora demais carregar
+923,O chip do cartão não funciona.,Problemas com cartões,negativo,1,telefone,2024-09-12,chip cartao nao funciona
+924,Tarifa de manutenção cobrada indevidamente.,Cobranças indevidas,negativo,2,agência,2024-02-07,tarifa manutencao cobrada indevidamente
+925,Recebi uma taxa que não estava prevista.,Cobranças indevidas,negativo,2,chat,2024-05-23,recebi taxa nao prevista
+926,Atendimento humanizado e eficiente.,Elogios e avaliações positivas,positivo,5,email,2024-07-18,humanizado eficiente
+927,Não entendo as taxas cobradas no meu financiamento.,Dificuldades com serviços bancários,negativo,1,agência,2024-05-16,nao entendo taxas cobradas financiamento
+928,O seguro foi cobrado mesmo após o cancelamento.,Cobranças indevidas,negativo,2,aplicativo,2024-03-23,seguro cobrado apos cancelamento
+929,Preciso de ajuda para entender meu extrato.,Outros,neutro,3,agência,2024-02-23,ajuda entender extrato
+930,O atendimento é sempre cordial e profissional.,Elogios e avaliações positivas,positivo,5,chat,2024-02-22,sempre cordial profissional
+931,Aguardo resposta há três dias.,Demora no atendimento,negativo,2,chat,2024-01-05,aguardo resposta ha tres dias
+932,O processo de portabilidade está travado.,Dificuldades com serviços bancários,negativo,3,chat,2024-08-31,processo portabilidade travado
+933,Meu cartão foi bloqueado sem justificativa.,Problemas com cartões,negativo,1,email,2024-11-07,cartao bloqueado justificativa
+934,Meu Pix foi debitado mas não foi recebido.,Problemas com Pix e transferências,negativo,1,agência,2024-05-21,pix debitado nao recebido
+935,A proposta de financiamento sumiu do sistema.,Dificuldades com serviços bancários,negativo,1,chat,2024-05-27,proposta financiamento sumiu sistema
+936,Não consigo realizar transferências pelo aplicativo.,Problemas com Pix e transferências,negativo,1,agência,2024-01-20,nao realizar transferencias aplicativo
+937,O login biométrico parou de funcionar no app.,Problemas no aplicativo,negativo,1,email,2024-05-06,login biometrico parou funcionar app
+938,Estou satisfeito com as taxas e serviços oferecidos.,Elogios e avaliações positivas,positivo,5,chat,2024-05-16,satisfeito taxas servicos oferecidos
+939,Não consigo instalar o aplicativo no meu celular.,Problemas no aplicativo,negativo,2,agência,2024-09-03,nao instalar aplicativo celular
+940,Não consigo cadastrar conta para transferência.,Problemas com Pix e transferências,negativo,2,telefone,2024-11-28,nao cadastrar transferencia
+941,Desejo indicar um familiar para abrir conta.,Outros,neutro,4,aplicativo,2024-07-28,desejo indicar familiar abrir
+942,O tempo de espera no telefone é inaceitável.,Demora no atendimento,negativo,1,aplicativo,2024-09-02,tempo espera telefone inaceitavel
+943,Como cancelo um serviço contratado?,Outros,neutro,3,email,2024-07-17,cancelo servico contratado
+944,Há compras que não reconheço na fatura.,Problemas com cartões,negativo,2,email,2024-07-22,ha compras nao reconheco fatura
+945,A fila de espera está sempre muito longa.,Demora no atendimento,negativo,2,agência,2024-02-29,fila espera sempre longa
+946,Tenho dúvidas sobre a cobrança de IOF.,Outros,neutro,4,aplicativo,2024-12-10,duvidas sobre cobranca iof
+947,Tentei fazer uma transferência TED e não foi.,Problemas com Pix e transferências,negativo,3,email,2024-02-29,tentei fazer transferencia ted nao
+948,O saldo do consórcio não atualiza corretamente.,Dificuldades com serviços bancários,negativo,3,chat,2024-10-06,saldo consorcio nao atualiza corretamente
+949,O cartão não funciona em compras internacionais.,Problemas com cartões,negativo,2,chat,2024-06-05,cartao nao funciona compras internacionais
+950,Quero saber sobre os benefícios do cartão.,Outros,neutro,3,chat,2024-04-23,saber sobre beneficios cartao
+951,Não entendo como funciona meu investimento.,Dificuldades com serviços bancários,negativo,1,telefone,2024-12-31,nao entendo funciona investimento
+952,Valores diferentes dos informados na proposta foram cobrados.,Cobranças indevidas,negativo,1,agência,2024-01-19,valores diferentes informados proposta cobrados
+953,Tentei agendar e não encontrei horário disponível.,Demora no atendimento,negativo,1,agência,2024-09-14,tentei agendar nao encontrei horario disponivel
+954,Não consegui cancelar uma transferência agendada.,Problemas com Pix e transferências,negativo,3,aplicativo,2024-06-04,nao cancelar transferencia agendada
+955,Compras foram feitas com meu cartão sem minha autorização.,Problemas com cartões,negativo,1,telefone,2024-02-07,compras feitas cartao autorizacao
+956,Meu cartão foi clonado.,Problemas com cartões,negativo,3,chat,2024-11-25,cartao clonado
+957,Preciso de uma declaração para imposto de renda.,Outros,neutro,4,agência,2024-10-25,declaracao imposto renda
+958,A conta foi bloqueada por tentativas erradas de senha.,Problemas de acesso à conta,negativo,3,telefone,2024-08-12,bloqueada tentativas erradas senha
+959,Preciso desbloquear minha conta com urgência.,Problemas de acesso à conta,negativo,3,agência,2024-08-24,desbloquear urgencia
+960,O aplicativo não atualiza o extrato.,Problemas no aplicativo,negativo,1,telefone,2024-02-04,aplicativo nao atualiza extrato
+961,Erro ao tentar enviar Pix.,Problemas com Pix e transferências,negativo,1,telefone,2024-01-13,erro tentar enviar pix
+962,Meu cartão novo não chegou depois de 20 dias.,Problemas com cartões,negativo,1,email,2024-10-24,cartao novo nao chegou dias
+963,O cartão foi expirado antes do prazo.,Problemas com cartões,negativo,2,agência,2024-02-09,cartao expirado antes prazo
+964,Pix ficou pendente há mais de dois dias.,Problemas com Pix e transferências,negativo,1,chat,2024-04-17,pix ficou pendente ha dois dias
+965,A Sicredi sempre supera minhas expectativas.,Elogios e avaliações positivas,positivo,5,email,2024-10-26,sempre supera expectativas
+966,A proposta de financiamento sumiu do sistema.,Dificuldades com serviços bancários,negativo,1,agência,2024-06-11,proposta financiamento sumiu sistema
+967,Não consigo atualizar meus dados cadastrais.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-08-20,nao atualizar dados cadastrais
+968,Tenho dificuldade em usar o serviço de débito automático.,Dificuldades com serviços bancários,negativo,1,telefone,2024-08-01,dificuldade usar servico debito automatico
+969,O suporte não retornou minha solicitação.,Demora no atendimento,negativo,3,chat,2024-12-24,suporte nao retornou solicitacao
+970,Não consigo realizar transferências pelo aplicativo.,Problemas com Pix e transferências,negativo,1,agência,2024-01-13,nao realizar transferencias aplicativo
+971,Me cobraram mais do que deveria.,Cobranças indevidas,negativo,1,aplicativo,2024-03-25,cobraram deveria
+972,Conta com tarifa justa e ótimos serviços.,Elogios e avaliações positivas,positivo,5,telefone,2024-03-12,tarifa justa otimos servicos
+973,O tempo de espera na agência é absurdo.,Demora no atendimento,negativo,1,telefone,2024-09-28,tempo espera agencia absurdo
+974,O seguro foi cobrado mesmo após o cancelamento.,Cobranças indevidas,negativo,2,aplicativo,2024-08-28,seguro cobrado apos cancelamento
+975,App não abre após atualização do sistema operacional.,Problemas no aplicativo,negativo,3,email,2024-09-24,app nao abre apos atualizacao sistema operacional
+976,App não abre após atualização do sistema operacional.,Problemas no aplicativo,negativo,3,aplicativo,2024-08-02,app nao abre apos atualizacao sistema operacional
+977,Preciso de segunda via do boleto de mensalidade.,Outros,neutro,3,agência,2024-02-22,segunda via boleto mensalidade
+978,Não consigo assinar contratos digitalmente.,Dificuldades com serviços bancários,negativo,1,chat,2024-06-18,nao assinar contratos digitalmente
+979,Não consigo instalar o aplicativo no meu celular.,Problemas no aplicativo,negativo,2,chat,2024-08-20,nao instalar aplicativo celular
+980,Aguardo resposta há três dias.,Demora no atendimento,negativo,2,aplicativo,2024-12-03,aguardo resposta ha tres dias
+981,A transferência está aparecendo como processando há horas.,Problemas com Pix e transferências,negativo,1,email,2024-12-19,transferencia aparecendo processando ha horas
+982,Função de pagamento do aplicativo não funciona.,Problemas no aplicativo,negativo,3,telefone,2024-05-22,funcao pagamento aplicativo nao funciona
+983,Não lembro minha senha e não consigo redefinir.,Problemas de acesso à conta,negativo,1,email,2024-12-02,nao lembro senha nao redefinir
+984,Como funciona a participação nos resultados?,Outros,neutro,4,email,2024-01-23,funciona participacao resultados
+985,Não consigo usar o cartão para pagamentos recorrentes.,Problemas com cartões,negativo,3,aplicativo,2024-06-12,nao usar cartao pagamentos recorrentes
+986,Demorou mais de uma semana para resolver meu problema.,Demora no atendimento,negativo,2,telefone,2024-03-03,demorou semana resolver problema
+987,Gostei muito da forma como fui atendido.,Elogios e avaliações positivas,positivo,4,chat,2024-07-12,gostei forma atendido
+988,Fiz um Pix e o dinheiro não chegou para o destinatário.,Problemas com Pix e transferências,negativo,3,telefone,2024-06-24,fiz pix dinheiro nao chegou destinatario
+989,O sistema não aceita meu endereço para cadastro.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-07-21,sistema nao aceita endereco cadastro
+990,Verifico no extrato um débito não autorizado.,Cobranças indevidas,negativo,2,email,2024-09-04,verifico extrato debito nao autorizado
+991,O cartão não funciona pelo Google Pay.,Problemas com cartões,negativo,2,agência,2024-05-06,cartao nao funciona google pay
+992,Estou tendo dificuldades para acessar minha conta pelo aplicativo.,Problemas no aplicativo,negativo,2,email,2024-05-22,tendo dificuldades acessar aplicativo
+993,Estou tendo dificuldades para acessar minha conta pelo aplicativo.,Problemas no aplicativo,negativo,1,telefone,2024-12-23,tendo dificuldades acessar aplicativo
+994,O tempo de espera no telefone é inaceitável.,Demora no atendimento,negativo,1,agência,2024-12-30,tempo espera telefone inaceitavel
+995,O cartão não passa no débito.,Problemas com cartões,negativo,3,aplicativo,2024-01-15,cartao nao passa debito
+996,Minha conta foi suspensa sem comunicação.,Problemas de acesso à conta,negativo,1,aplicativo,2024-03-31,suspensa comunicacao
+997,Tentei pagar uma conta por transferência e deu erro.,Problemas com Pix e transferências,negativo,1,email,2024-01-14,tentei pagar transferencia deu erro
+998,O cartão não está sendo aceito nas maquininhas.,Problemas com cartões,negativo,2,email,2024-08-22,cartao nao sendo aceito maquininhas
+999,A transferência foi estornada sem motivo.,Problemas com Pix e transferências,negativo,1,chat,2024-07-05,transferencia estornada motivo
+1000,O app apresenta mensagem de erro ao tentar acessar.,Problemas no aplicativo,negativo,1,aplicativo,2024-02-01,app apresenta mensagem erro tentar acessar
+1001,Não lembro minha senha e não consigo redefinir.,Problemas de acesso à conta,negativo,2,aplicativo,2024-04-02,nao lembro senha nao redefinir
+1002,Meu Pix foi devolvido sem justificativa.,Problemas com Pix e transferências,negativo,2,chat,2024-06-21,pix devolvido justificativa
+1003,Preciso de informações sobre crédito rural.,Outros,neutro,4,agência,2024-09-27,informacoes sobre credito rural
+1004,O aplicativo não reconhece minha senha.,Problemas no aplicativo,negativo,1,email,2024-09-01,aplicativo nao reconhece senha
+1005,Não consigo fazer um empréstimo pelo sistema.,Dificuldades com serviços bancários,negativo,1,agência,2024-09-15,nao fazer emprestimo sistema
+1006,Aplicativo fica pedindo atualização mas não atualiza.,Problemas no aplicativo,negativo,3,agência,2024-03-20,aplicativo fica pedindo atualizacao nao atualiza
+1007,Não estou recebendo notificações de uso do cartão.,Problemas com cartões,negativo,1,chat,2024-09-17,nao recebendo notificacoes uso cartao
+1008,Não tenho retorno dos atendentes.,Demora no atendimento,negativo,2,telefone,2024-11-01,nao retorno atendentes
+1009,Não recebi confirmação do Pix enviado.,Problemas com Pix e transferências,negativo,2,aplicativo,2024-09-16,nao recebi confirmacao pix enviado
+1010,Não consigo visualizar meu histórico de transações.,Dificuldades com serviços bancários,negativo,2,chat,2024-03-03,nao visualizar historico transacoes
+1011,Tive o cartão furtado e o bloqueio foi demorado.,Problemas com cartões,negativo,2,email,2024-06-09,cartao furtado bloqueio demorado
+1012,Quero cancelar um serviço mas não consigo.,Dificuldades com serviços bancários,negativo,3,chat,2024-03-24,cancelar servico nao
+1013,Cobrança indevida de IOF.,Cobranças indevidas,negativo,1,email,2024-01-21,cobranca indevida iof
+1014,O cartão não funciona em compras internacionais.,Problemas com cartões,negativo,1,agência,2024-11-04,cartao nao funciona compras internacionais
+1015,Fica tocando e ninguém atende.,Demora no atendimento,negativo,2,telefone,2024-05-11,fica tocando ninguem atende
+1016,Aplicativo não abre desde ontem.,Problemas no aplicativo,negativo,1,email,2024-06-14,aplicativo nao abre desde ontem
+1017,Não consegui cancelar uma transferência agendada.,Problemas com Pix e transferências,negativo,2,telefone,2024-08-08,nao cancelar transferencia agendada
+1018,Compras foram feitas com meu cartão sem minha autorização.,Problemas com cartões,negativo,2,agência,2024-04-12,compras feitas cartao autorizacao
+1019,Preciso de segunda via do boleto de mensalidade.,Outros,neutro,3,aplicativo,2024-08-12,segunda via boleto mensalidade
+1020,O cartão foi bloqueado após viagem.,Problemas com cartões,negativo,1,telefone,2024-06-11,cartao bloqueado apos viagem
+1021,O chat demorou para responder.,Demora no atendimento,negativo,3,telefone,2024-09-11,chat demorou responder
+1022,O aplicativo demora demais para carregar.,Problemas no aplicativo,negativo,2,telefone,2024-02-08,aplicativo demora demais carregar
+1023,Estão cobrando tarifas que não concordei.,Cobranças indevidas,negativo,1,telefone,2024-07-27,estao cobrando tarifas nao concordei
+1024,Não entendo como funciona meu investimento.,Dificuldades com serviços bancários,negativo,3,aplicativo,2024-01-24,nao entendo funciona investimento
+1025,Fiz transferência e o valor foi debitado duas vezes.,Problemas com Pix e transferências,negativo,2,telefone,2024-08-31,fiz transferencia valor debitado duas vezes
+1026,O sistema diz que meu usuário não existe.,Problemas de acesso à conta,negativo,1,chat,2024-06-07,sistema diz usuario nao existe
+1027,Estão cobrando tarifa de conta que foi encerrada.,Cobranças indevidas,negativo,2,email,2024-01-19,estao cobrando tarifa encerrada
+1028,Não recebi meu novo cartão.,Problemas com cartões,negativo,2,aplicativo,2024-11-21,nao recebi novo cartao
+1029,A cobrança de anuidade foi feita incorretamente.,Cobranças indevidas,negativo,2,chat,2024-10-28,cobranca anuidade feita incorretamente
+1030,Esperei 40 minutos na fila da agência.,Demora no atendimento,negativo,2,aplicativo,2024-12-11,esperei minutos fila agencia
+1031,Recomendo a Sicredi pelo atendimento diferenciado.,Elogios e avaliações positivas,positivo,5,agência,2024-05-04,recomendo diferenciado
+1032,Não consigo entrar no aplicativo.,Problemas no aplicativo,negativo,1,telefone,2024-03-12,nao entrar aplicativo
+1033,Atendimento humanizado e eficiente.,Elogios e avaliações positivas,positivo,5,telefone,2024-10-15,humanizado eficiente
+1034,Conta com tarifa justa e ótimos serviços.,Elogios e avaliações positivas,positivo,5,telefone,2024-10-04,tarifa justa otimos servicos
+1035,O seguro foi cobrado mesmo após o cancelamento.,Cobranças indevidas,negativo,2,agência,2024-12-21,seguro cobrado apos cancelamento
+1036,Recebi uma taxa que não estava prevista.,Cobranças indevidas,negativo,3,chat,2024-10-11,recebi taxa nao prevista
+1037,Tela do aplicativo ficou preta após a última atualização.,Problemas no aplicativo,negativo,2,agência,2024-11-25,tela aplicativo ficou preta apos ultima atualizacao
+1038,A cooperativa se preocupa com o cliente.,Elogios e avaliações positivas,positivo,5,agência,2024-09-08,cooperativa preocupa
+1039,O sistema recusou minha transferência bancária.,Problemas com Pix e transferências,negativo,2,email,2024-12-22,sistema recusou transferencia bancaria
+1040,Aplicativo fica pedindo atualização mas não atualiza.,Problemas no aplicativo,negativo,1,chat,2024-04-21,aplicativo fica pedindo atualizacao nao atualiza
+1041,O aplicativo não reconhece minha senha.,Problemas no aplicativo,negativo,1,email,2024-02-11,aplicativo nao reconhece senha
+1042,Transação foi aprovada mas o produto não foi entregue.,Problemas com cartões,negativo,2,chat,2024-08-20,transacao aprovada produto nao entregue
+1043,Gostaria de participar das assembleias da cooperativa.,Outros,neutro,4,agência,2024-10-05,participar assembleias cooperativa
+1044,Fui debitado por um seguro que não contratei.,Cobranças indevidas,negativo,1,telefone,2024-06-10,debitado seguro nao contratei
+1045,Solicitar segunda via do cartão está muito difícil.,Problemas com cartões,negativo,1,chat,2024-11-10,solicitar segunda via cartao dificil
+1046,O aplicativo não reconhece minha digital.,Problemas de acesso à conta,negativo,3,telefone,2024-06-07,aplicativo nao reconhece digital
+1047,O chip do cartão não funciona.,Problemas com cartões,negativo,3,agência,2024-10-14,chip cartao nao funciona
+1048,O reconhecimento facial não funciona.,Problemas de acesso à conta,negativo,2,aplicativo,2024-09-15,reconhecimento facial nao funciona
+1049,Gostaria de mudar de agência.,Outros,neutro,3,agência,2024-06-12,mudar agencia
+1050,Demorou mais de uma semana para resolver meu problema.,Demora no atendimento,negativo,2,aplicativo,2024-12-05,demorou semana resolver problema
+1051,Recomendo a Sicredi pelo atendimento diferenciado.,Elogios e avaliações positivas,positivo,4,email,2024-04-07,recomendo diferenciado
+1052,O atendimento presencial está sobrecarregado.,Demora no atendimento,negativo,2,aplicativo,2024-03-05,presencial sobrecarregado
+1053,Quero cancelar o débito automático mas não encontro a opção.,Dificuldades com serviços bancários,negativo,1,agência,2024-06-06,cancelar debito automatico nao encontro opcao
+1054,Não consigo cadastrar uma chave Pix.,Problemas com Pix e transferências,negativo,2,email,2024-12-27,nao cadastrar chave pix
+1055,O processo de contratação de seguro é muito complicado.,Dificuldades com serviços bancários,negativo,3,email,2024-03-01,processo contratacao seguro complicado
+1056,Fui bem orientado sobre meus investimentos.,Elogios e avaliações positivas,positivo,4,aplicativo,2024-08-11,bem orientado sobre investimentos
+1057,Preciso de segunda via do boleto de mensalidade.,Outros,neutro,4,telefone,2024-06-01,segunda via boleto mensalidade
+1058,O app não abre quando tento acessar.,Problemas no aplicativo,negativo,1,email,2024-11-04,app nao abre tento acessar
+1059,Não estou recebendo notificações de uso do cartão.,Problemas com cartões,negativo,2,chat,2024-03-21,nao recebendo notificacoes uso cartao
+1060,Como funciona a participação nos resultados?,Outros,neutro,4,agência,2024-06-18,funciona participacao resultados
+1061,O aplicativo melhorou muito com a atualização.,Elogios e avaliações positivas,positivo,4,telefone,2024-06-10,aplicativo melhorou atualizacao
+1062,Os juros do financiamento são diferentes do informado.,Dificuldades com serviços bancários,negativo,3,agência,2024-03-16,juros financiamento sao diferentes informado
+1063,Meu acesso foi revogado sem motivo.,Problemas de acesso à conta,negativo,2,telefone,2024-04-25,acesso revogado motivo
+1064,Gostaria de informações sobre os seguros oferecidos.,Outros,neutro,3,email,2024-01-16,informacoes sobre seguros oferecidos
+1065,Não recebi o comprovante de abertura de conta.,Dificuldades com serviços bancários,negativo,2,aplicativo,2024-10-15,nao recebi comprovante abertura
+1066,Fiz transferência e o valor foi debitado duas vezes.,Problemas com Pix e transferências,negativo,3,agência,2024-10-07,fiz transferencia valor debitado duas vezes
+1067,Tentei fazer uma transferência TED e não foi.,Problemas com Pix e transferências,negativo,2,chat,2024-08-11,tentei fazer transferencia ted nao
+1068,Adoro ser cooperado da Sicredi.,Elogios e avaliações positivas,positivo,4,telefone,2024-02-12,adoro cooperado
+1069,A proposta de financiamento sumiu do sistema.,Dificuldades com serviços bancários,negativo,2,telefone,2024-05-06,proposta financiamento sumiu sistema
+1070,"Ótimo atendimento, parabéns à equipe.",Elogios e avaliações positivas,positivo,5,telefone,2024-01-02,otimo parabens equipe
+1071,O reconhecimento facial não funciona.,Problemas de acesso à conta,negativo,1,aplicativo,2024-05-06,reconhecimento facial nao funciona
+1072,Não deveria ter sido cobrado essa taxa.,Cobranças indevidas,negativo,2,chat,2024-10-18,nao deveria ter sido cobrado taxa
+1073,Quero saber sobre os benefícios do cartão.,Outros,neutro,4,email,2024-10-12,saber sobre beneficios cartao
+1074,A simulação de crédito apresenta valores inconsistentes.,Dificuldades com serviços bancários,negativo,1,telefone,2024-11-08,simulacao credito apresenta valores inconsistentes
+1075,O sistema pede um token que não recebi.,Problemas de acesso à conta,negativo,1,aplicativo,2024-04-14,sistema pede token nao recebi
+1076,O cartão foi expirado antes do prazo.,Problemas com cartões,negativo,2,telefone,2024-02-28,cartao expirado antes prazo
+1077,Cobrança duplicada no mesmo extrato.,Cobranças indevidas,negativo,2,aplicativo,2024-04-28,cobranca duplicada extrato
+1078,Não consigo recuperar meu acesso.,Problemas de acesso à conta,negativo,2,email,2024-12-26,nao recuperar acesso
+1079,A cobrança de anuidade foi feita incorretamente.,Cobranças indevidas,negativo,3,email,2024-05-24,cobranca anuidade feita incorretamente
+1080,Estão cobrando tarifas que não concordei.,Cobranças indevidas,negativo,1,aplicativo,2024-05-30,estao cobrando tarifas nao concordei

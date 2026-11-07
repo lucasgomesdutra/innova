@@ -1,0 +1,27 @@
+# =============================================================================
+# DETECTOR DE PROBLEMAS NO ATENDIMENTO — SICREDI
+# requirements.txt — Dependências do projeto (compatível com Python 3.13+)
+# =============================================================================
+
+# Manipulação de dados
+pandas>=2.2
+numpy>=2.0
+
+# Machine Learning
+scikit-learn>=1.5
+joblib
+
+# NLP e processamento de texto
+nltk>=3.8
+
+# Visualização
+matplotlib>=3.9
+plotly>=5.22
+seaborn>=0.13
+
+# Painel web
+streamlit>=1.35
+
+# Utilitários
+python-dateutil>=2.9
+tqdm>=4.66
