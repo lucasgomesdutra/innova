@@ -1,0 +1,156 @@
+{
+  "data_relatorio": "2026-11-06 20:53:58",
+  "total_atendimentos": 1080,
+  "total_reclamacoes": 840,
+  "total_positivos": 120,
+  "percentual_negativo": 77.78,
+  "ranking_problemas": [
+    {
+      "categoria": "Problemas com Pix e transferências",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 1
+    },
+    {
+      "categoria": "Demora no atendimento",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 2
+    },
+    {
+      "categoria": "Problemas no aplicativo",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 3
+    },
+    {
+      "categoria": "Problemas com cartões",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 4
+    },
+    {
+      "categoria": "Problemas de acesso à conta",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 5
+    },
+    {
+      "categoria": "Cobranças indevidas",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 6
+    },
+    {
+      "categoria": "Dificuldades com serviços bancários",
+      "total_reclamacoes": 120,
+      "percentual": 14.29,
+      "rank": 7
+    }
+  ],
+  "alertas_aumento": [
+    {
+      "categoria": "Problemas com Pix e transferências",
+      "periodo_atual": "2024-12",
+      "periodo_anterior": "2024-11",
+      "volume_atual": 14,
+      "volume_anterior": 6,
+      "variacao_percentual": 133.33,
+      "sugestao": "Aumento de 133.3% em 'Problemas com Pix e transferências' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+    },
+    {
+      "categoria": "Problemas no aplicativo",
+      "periodo_atual": "2024-12",
+      "periodo_anterior": "2024-11",
+      "volume_atual": 12,
+      "volume_anterior": 7,
+      "variacao_percentual": 71.43,
+      "sugestao": "Aumento de 71.4% em 'Problemas no aplicativo' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+    },
+    {
+      "categoria": "Cobranças indevidas",
+      "periodo_atual": "2024-12",
+      "periodo_anterior": "2024-11",
+      "volume_atual": 16,
+      "volume_anterior": 10,
+      "variacao_percentual": 60.0,
+      "sugestao": "Aumento de 60.0% em 'Cobranças indevidas' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+    },
+    {
+      "categoria": "Demora no atendimento",
+      "periodo_atual": "2024-12",
+      "periodo_anterior": "2024-11",
+      "volume_atual": 14,
+      "volume_anterior": 9,
+      "variacao_percentual": 55.56,
+      "sugestao": "Aumento de 55.6% em 'Demora no atendimento' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+    },
+    {
+      "categoria": "Dificuldades com serviços bancários",
+      "periodo_atual": "2024-12",
+      "periodo_anterior": "2024-11",
+      "volume_atual": 9,
+      "volume_anterior": 7,
+      "variacao_percentual": 28.57,
+      "sugestao": "Aumento de 28.6% em 'Dificuldades com serviços bancários' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+    }
+  ],
+  "exemplos_por_categoria": {
+    "Cobranças indevidas": [
+      "A corretagem foi cobrada indevidamente.",
+      "Fui cobrado por limite de crédito que não solicitei.",
+      "Verifico no extrato um débito não autorizado.",
+      "Me cobraram mais do que deveria.",
+      "Apareceu uma cobrança que não reconheço no extrato."
+    ],
+    "Dificuldades com serviços bancários": [
+      "O saldo do consórcio não atualiza corretamente.",
+      "Não consigo visualizar meu histórico de transações.",
+      "O processo de encerramento de conta é complicado.",
+      "Não entendo as taxas cobradas no meu financiamento.",
+      "Preciso de renegociação mas o sistema não permite."
+    ],
+    "Problemas de acesso à conta": [
+      "Minha senha foi bloqueada.",
+      "Não consigo completar o processo de autenticação.",
+      "O reconhecimento facial não funciona.",
+      "Não consigo entrar na conta pelo internet banking.",
+      "Não consigo configurar o segundo fator de autenticação."
+    ],
+    "Demora no atendimento": [
+      "Não consigo falar com um atendente.",
+      "Passei pelo URA e não consegui falar com ninguém.",
+      "O gerente não retorna as ligações.",
+      "Ninguém responde os meus e-mails enviados ao suporte.",
+      "O chatbot não resolve e não passa para humano."
+    ],
+    "Problemas com Pix e transferências": [
+      "A transferência está aparecendo como processando há horas.",
+      "Pix enviado para chave errada, quero estorno.",
+      "O limite de Pix noturno está bloqueando minha transferência.",
+      "Erro ao tentar enviar Pix.",
+      "Não consigo fazer Pix para outro banco."
+    ],
+    "Problemas com cartões": [
+      "Não consigo desbloquear meu cartão.",
+      "A senha do cartão não está sendo aceita.",
+      "O chip do cartão não funciona.",
+      "Fiz uma compra e o cartão foi recusado.",
+      "O cartão foi expirado antes do prazo."
+    ],
+    "Problemas no aplicativo": [
+      "O aplicativo ficou lento e não carrega as informações.",
+      "O login biométrico parou de funcionar no app.",
+      "O aplicativo da Sicredi parou de funcionar no meu celular.",
+      "O app não abre quando tento acessar.",
+      "App fecha sozinho sem motivo aparente."
+    ]
+  },
+  "sugestoes_investigacao": [
+    "'Problemas com Pix e transferências' representa 14.3% das reclamações. Sugere-se revisar os processos relacionados a esta categoria.",
+    "77.8% dos comentários são negativos. Sugere-se uma revisão ampla da experiência do cliente.",
+    "Aumento de 133.3% em 'Problemas com Pix e transferências' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema.",
+    "Aumento de 71.4% em 'Problemas no aplicativo' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema.",
+    "Aumento de 60.0% em 'Cobranças indevidas' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema."
+  ]
+}
