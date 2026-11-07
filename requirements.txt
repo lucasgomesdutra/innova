@@ -19,8 +19,8 @@ matplotlib>=3.9
 plotly>=5.22
 seaborn>=0.13
 
-# Painel web
-streamlit>=1.35
+# Servidor web
+flask>=3.0
 
 # Utilitários
 python-dateutil>=2.9

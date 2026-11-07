@@ -1,7 +1,5 @@
-======================================================================
   DETECTOR DE PROBLEMAS NO ATENDIMENTO — SICREDI
   Relatório gerado em: 2026-11-06 20:53:58
-======================================================================
 
 VISÃO GERAL
 ----------------------------------------
@@ -87,7 +85,96 @@ EXEMPLOS DE COMENTÁRIOS POR CATEGORIA
     • O app não abre quando tento acessar.
     • App fecha sozinho sem motivo aparente.
 
-======================================================================
+  AVISO: Este relatório é gerado automaticamente por um modelo de IA.
+  Os resultados são indicativos e devem ser revisados por profissionais.
+  Dados utilizados são exclusivamente fictícios para fins acadêmicos.
+  DETECTOR DE PROBLEMAS NO ATENDIMENTO — SICREDI
+  Relatório gerado em: 2026-11-06 20:53:58
+
+VISÃO GERAL
+----------------------------------------
+  Total de atendimentos analisados : 1080
+  Comentários negativos            : 840  (77.8%)
+  Comentários positivos            : 120
+
+RANKING DE PROBLEMAS (por volume de reclamações)
+----------------------------------------
+  # 1  Problemas com Pix e transferências             120 reclamações  (14.3%)
+  # 2  Demora no atendimento                          120 reclamações  (14.3%)
+  # 3  Problemas no aplicativo                        120 reclamações  (14.3%)
+  # 4  Problemas com cartões                          120 reclamações  (14.3%)
+  # 5  Problemas de acesso à conta                    120 reclamações  (14.3%)
+  # 6  Cobranças indevidas                            120 reclamações  (14.3%)
+  # 7  Dificuldades com serviços bancários            120 reclamações  (14.3%)
+
+ALERTAS DE AUMENTO
+----------------------------------------
+  ⚠  Problemas com Pix e transferências: +133.3% em 2024-12 (era 6, passou para 14)
+  ⚠  Problemas no aplicativo: +71.4% em 2024-12 (era 7, passou para 12)
+  ⚠  Cobranças indevidas: +60.0% em 2024-12 (era 10, passou para 16)
+  ⚠  Demora no atendimento: +55.6% em 2024-12 (era 9, passou para 14)
+  ⚠  Dificuldades com serviços bancários: +28.6% em 2024-12 (era 7, passou para 9)
+
+SUGESTÕES DE INVESTIGAÇÃO
+----------------------------------------
+  → 'Problemas com Pix e transferências' representa 14.3% das reclamações. Sugere-se revisar os processos relacionados a esta categoria.
+  → 77.8% dos comentários são negativos. Sugere-se uma revisão ampla da experiência do cliente.
+  → Aumento de 133.3% em 'Problemas com Pix e transferências' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema.
+  → Aumento de 71.4% em 'Problemas no aplicativo' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema.
+  → Aumento de 60.0% em 'Cobranças indevidas' no período 2024-12. Recomenda-se investigar se há mudanças recentes relacionadas a este tema.
+
+EXEMPLOS DE COMENTÁRIOS POR CATEGORIA
+----------------------------------------
+
+  [Cobranças indevidas]
+    • A corretagem foi cobrada indevidamente.
+    • Fui cobrado por limite de crédito que não solicitei.
+    • Verifico no extrato um débito não autorizado.
+    • Me cobraram mais do que deveria.
+    • Apareceu uma cobrança que não reconheço no extrato.
+
+  [Dificuldades com serviços bancários]
+    • O saldo do consórcio não atualiza corretamente.
+    • Não consigo visualizar meu histórico de transações.
+    • O processo de encerramento de conta é complicado.
+    • Não entendo as taxas cobradas no meu financiamento.
+    • Preciso de renegociação mas o sistema não permite.
+
+  [Problemas de acesso à conta]
+    • Minha senha foi bloqueada.
+    • Não consigo completar o processo de autenticação.
+    • O reconhecimento facial não funciona.
+    • Não consigo entrar na conta pelo internet banking.
+    • Não consigo configurar o segundo fator de autenticação.
+
+  [Demora no atendimento]
+    • Não consigo falar com um atendente.
+    • Passei pelo URA e não consegui falar com ninguém.
+    • O gerente não retorna as ligações.
+    • Ninguém responde os meus e-mails enviados ao suporte.
+    • O chatbot não resolve e não passa para humano.
+
+  [Problemas com Pix e transferências]
+    • A transferência está aparecendo como processando há horas.
+    • Pix enviado para chave errada, quero estorno.
+    • O limite de Pix noturno está bloqueando minha transferência.
+    • Erro ao tentar enviar Pix.
+    • Não consigo fazer Pix para outro banco.
+
+  [Problemas com cartões]
+    • Não consigo desbloquear meu cartão.
+    • A senha do cartão não está sendo aceita.
+    • O chip do cartão não funciona.
+    • Fiz uma compra e o cartão foi recusado.
+    • O cartão foi expirado antes do prazo.
+
+  [Problemas no aplicativo]
+    • O aplicativo ficou lento e não carrega as informações.
+    • O login biométrico parou de funcionar no app.
+    • O aplicativo da Sicredi parou de funcionar no meu celular.
+    • O app não abre quando tento acessar.
+    • App fecha sozinho sem motivo aparente.
+
   AVISO: Este relatório é gerado automaticamente por um modelo de IA.
   Os resultados são indicativos e devem ser revisados por profissionais.
   Dados utilizados são exclusivamente fictícios para fins acadêmicos.
