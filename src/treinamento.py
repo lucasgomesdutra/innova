@@ -45,6 +45,7 @@ from preprocessing import carregar_dados, preprocessar_dataframe
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CAMINHO_CSV_RAW       = os.path.join(BASE_DIR, "data", "raw", "atendimentos.csv")
+CAMINHO_CSV_REAIS     = os.path.join(BASE_DIR, "data", "raw", "dados_reais_exemplo.csv")
 CAMINHO_CSV_PROC      = os.path.join(BASE_DIR, "data", "processed", "atendimentos_processados.csv")
 CAMINHO_MODELO_CAT    = os.path.join(BASE_DIR, "models", "modelo_categorias.joblib")
 CAMINHO_MODELO_SENT   = os.path.join(BASE_DIR, "models", "modelo_sentimentos.joblib")
@@ -189,6 +190,13 @@ def treinar(test_size: float = 0.20, random_state: int = 42) -> dict:
     # -----------------------------------------------------------------
     print("\n[1/5] Carregando e pré-processando dados...")
     df = carregar_dados(CAMINHO_CSV_RAW)
+
+    # Incorpora dados reais se o arquivo existir
+    if os.path.exists(CAMINHO_CSV_REAIS):
+        df_reais = carregar_dados(CAMINHO_CSV_REAIS)
+        df = pd.concat([df, df_reais], ignore_index=True)
+        print(f"  + {len(df_reais)} registros reais incorporados de dados_reais_exemplo.csv")
+
     df = preprocessar_dataframe(df, usar_stemming=False)
 
     # Salva versão processada

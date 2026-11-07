@@ -1,0 +1,4 @@
+﻿id,data,texto,categoria,sentimento,confianca_categoria,confianca_sentimento,requer_revisao
+1,2026-11-07,"Rápido e fácil de fazer transferências!
+",Problemas com Pix e transferências,negativo,0.3209,0.6633,True
+2,2026-11-07,Rápido e fácil de fazer transferências!,Elogios e avaliações positivas,positivo,0.9109,0.9642,False
