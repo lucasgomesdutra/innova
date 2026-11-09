@@ -1,4 +1,7 @@
-﻿id,data,texto,categoria,sentimento,confianca_categoria,confianca_sentimento,requer_revisao
-1,2026-11-07,"Rápido e fácil de fazer transferências!
-",Problemas com Pix e transferências,negativo,0.3209,0.6633,True
-2,2026-11-07,Rápido e fácil de fazer transferências!,Elogios e avaliações positivas,positivo,0.9109,0.9642,False
+id,data,texto,categoria,sentimento,confianca_categoria,confianca_sentimento,requer_revisao
+1,2026-11-09,Fiz um Pix ontem à noite e até agora o dinheiro não chegou na outra conta.,Problemas com Pix e transferências,negativo,0.8921,0.9517,False
+2,2026-11-09,"Fiquei quase duas horas esperando atendimento e ninguém resolveu meu problema",Demora no atendimento,negativo,0.4898,0.5641,False
+3,2026-11-09,"Meu cartão foi bloqueado durante uma compra e não consigo desbloquear",Problemas com cartões,negativo,0.9449,0.9651,False
+4,2026-11-09,O aplicativo demora muito para carregar e trava quando consulto meu extrato,Problemas no aplicativo,negativo,0.7517,0.7761,False
+5,2026-11-09,Minha conta foi bloqueada e não recebi nenhuma explicação sobre o motivo,Problemas de acesso à conta,negativo,0.4874,0.8615,False
+6,2026-11-09,"O aplicativo é muito fácil de usar, consigo resolver praticamente tudo pelo celular",Elogios e avaliações positivas,positivo,0.7715,0.8509,False

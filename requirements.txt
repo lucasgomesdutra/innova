@@ -22,6 +22,9 @@ seaborn>=0.13
 # Painel web
 streamlit>=1.35
 
+# Exportação
+openpyxl>=3.1
+
 # Utilitários
 python-dateutil>=2.9
 tqdm>=4.66
