@@ -46,6 +46,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CAMINHO_CSV_RAW       = os.path.join(BASE_DIR, "data", "raw", "atendimentos.csv")
 CAMINHO_CSV_REAIS     = os.path.join(BASE_DIR, "data", "raw", "dados_reais_exemplo.csv")
+CAMINHO_CSV_27K       = os.path.join(BASE_DIR, "data", "raw", "atendimentos_27000.csv")
 CAMINHO_CSV_PROC      = os.path.join(BASE_DIR, "data", "processed", "atendimentos_processados.csv")
 CAMINHO_MODELO_CAT    = os.path.join(BASE_DIR, "models", "modelo_categorias.joblib")
 CAMINHO_MODELO_SENT   = os.path.join(BASE_DIR, "models", "modelo_sentimentos.joblib")
@@ -59,7 +60,7 @@ CAMINHO_CONF_SENT     = os.path.join(BASE_DIR, "reports", "matriz_confusao_senti
 
 def criar_pipeline_classificacao(
     ngram_range=(1, 2),
-    max_features=15000,
+    max_features=30000,
     C=5.0,
     max_iter=1000,
     class_weight="balanced",
@@ -69,7 +70,7 @@ def criar_pipeline_classificacao(
 
     Escolhas técnicas:
       - TF-IDF com bigramas captura frases como "não funciona", "não abre"
-      - max_features=15000 cobre o vocabulário da base sem overfit
+      - max_features=30000 cobre o vocabulário ampliado do dataset de 27k
       - Regressão Logística é robusta, interpretável e eficiente para texto
       - class_weight='balanced' compensa categorias com menos exemplos
       - C=5.0 permite alguma regularização sem penalizar demais
@@ -189,39 +190,88 @@ def treinar(test_size: float = 0.20, random_state: int = 42) -> dict:
     # 1. Carregar dados
     # -----------------------------------------------------------------
     print("\n[1/5] Carregando e pré-processando dados...")
-    df = carregar_dados(CAMINHO_CSV_RAW)
 
-    # Incorpora dados reais se o arquivo existir
+    # --- base original (atendimentos.csv + dados_reais_exemplo.csv) ---
+    df_base = carregar_dados(CAMINHO_CSV_RAW)
     if os.path.exists(CAMINHO_CSV_REAIS):
         df_reais = carregar_dados(CAMINHO_CSV_REAIS)
-        df = pd.concat([df, df_reais], ignore_index=True)
-        print(f"  + {len(df_reais)} registros reais incorporados de dados_reais_exemplo.csv")
+        df_base = pd.concat([df_base, df_reais], ignore_index=True)
+        print(f"  + {len(df_reais)} registros de dados_reais_exemplo.csv")
 
-    df = preprocessar_dataframe(df, usar_stemming=False)
+    # Normaliza labels da base original (remove espaços/case)
+    df_base["categoria"]  = df_base["categoria"].str.strip()
+    df_base["sentimento"] = df_base["sentimento"].str.strip().str.lower()
 
-    # Salva versão processada
+    # --- dataset grande de 27 000 registros ---
+    df_27k = None
+    if os.path.exists(CAMINHO_CSV_27K):
+        df_27k = pd.read_csv(CAMINHO_CSV_27K, encoding="utf-8-sig")
+        # garante colunas mínimas
+        cols = ["texto", "categoria", "sentimento"]
+        if "particao" in df_27k.columns:
+            cols.append("particao")
+        df_27k = df_27k[cols].copy()
+        df_27k = df_27k[df_27k["texto"].notna() & (df_27k["texto"].str.strip() != "")]
+        # Normaliza labels
+        df_27k["categoria"]  = df_27k["categoria"].str.strip()
+        df_27k["sentimento"] = df_27k["sentimento"].str.strip().str.lower()
+        print(f"  + {len(df_27k)} registros de atendimentos_27000.csv")
+
+    # --- pré-processa base original ---
+    df_base = preprocessar_dataframe(df_base, usar_stemming=False)
+
+    # Salva versão processada (apenas base original, como histórico)
     os.makedirs(os.path.dirname(CAMINHO_CSV_PROC), exist_ok=True)
-    df.to_csv(CAMINHO_CSV_PROC, index=False, encoding="utf-8-sig")
-    print(f"  {len(df)} registros prontos para treinamento.")
-    print(f"  Distribuição de categorias:\n{df['categoria'].value_counts().to_string()}")
+    df_base.to_csv(CAMINHO_CSV_PROC, index=False, encoding="utf-8-sig")
 
     # -----------------------------------------------------------------
-    # 2. Divisão treino / teste — estratificada por categoria
+    # 2. Divisão treino / teste
     # -----------------------------------------------------------------
-    print(f"\n[2/5] Dividindo dados (treino={1-test_size:.0%} / teste={test_size:.0%})...")
-    X = df["texto_limpo"]
-    y_cat  = df["categoria"]
-    y_sent = df["sentimento"]
+    print(f"\n[2/5] Montando conjuntos de treino e teste...")
 
-    X_train, X_test, y_cat_train, y_cat_test = train_test_split(
-        X, y_cat, test_size=test_size, random_state=random_state, stratify=y_cat
-    )
-    # Para sentimentos: usa os mesmos índices do split de categoria
-    # para garantir que os textos sejam os mesmos em ambos os modelos
-    y_sent_train = y_sent.iloc[X_train.index]
-    y_sent_test  = y_sent.iloc[X_test.index]
+    if df_27k is not None and "particao" in df_27k.columns:
+        # Usa a partição pré-definida do arquivo 27k
+        df_27k_proc = preprocessar_dataframe(df_27k.drop(columns=["particao"]),
+                                              usar_stemming=False)
+        df_27k_proc["particao"] = df_27k["particao"].values
 
-    print(f"  Treino: {len(X_train)} | Teste: {len(X_test)}")
+        df_train_27k = df_27k_proc[df_27k_proc["particao"] == "treino"]
+        df_test_27k  = df_27k_proc[df_27k_proc["particao"] == "teste"]
+
+        # Base original vai inteira para treino (é pequena)
+        X_train = pd.concat([df_base["texto_limpo"], df_train_27k["texto_limpo"]], ignore_index=True)
+        y_cat_train  = pd.concat([df_base["categoria"],   df_train_27k["categoria"]],  ignore_index=True)
+        y_sent_train = pd.concat([df_base["sentimento"],  df_train_27k["sentimento"]], ignore_index=True)
+
+        X_test       = df_test_27k["texto_limpo"].reset_index(drop=True)
+        y_cat_test   = df_test_27k["categoria"].reset_index(drop=True)
+        y_sent_test  = df_test_27k["sentimento"].reset_index(drop=True)
+
+    elif df_27k is not None:
+        # sem coluna 'particao': junta tudo e faz split aleatório
+        df_27k_proc = preprocessar_dataframe(df_27k, usar_stemming=False)
+        df_all = pd.concat([df_base, df_27k_proc], ignore_index=True)
+        X_train, X_test, y_cat_train, y_cat_test = train_test_split(
+            df_all["texto_limpo"], df_all["categoria"],
+            test_size=test_size, random_state=random_state, stratify=df_all["categoria"]
+        )
+        y_sent_train = df_all["sentimento"].iloc[X_train.index]
+        y_sent_test  = df_all["sentimento"].iloc[X_test.index]
+
+    else:
+        # só base original
+        X = df_base["texto_limpo"]
+        y_cat  = df_base["categoria"]
+        y_sent = df_base["sentimento"]
+        X_train, X_test, y_cat_train, y_cat_test = train_test_split(
+            X, y_cat, test_size=test_size, random_state=random_state, stratify=y_cat
+        )
+        y_sent_train = y_sent.iloc[X_train.index]
+        y_sent_test  = y_sent.iloc[X_test.index]
+
+    total = len(X_train) + len(X_test)
+    print(f"  Total: {total} registros | Treino: {len(X_train)} | Teste: {len(X_test)}")
+    print(f"  Distribuição de categorias (treino):\n{y_cat_train.value_counts().to_string()}")
 
     # -----------------------------------------------------------------
     # 3. Treinar classificador de categorias
@@ -229,7 +279,7 @@ def treinar(test_size: float = 0.20, random_state: int = 42) -> dict:
     print("\n[3/5] Treinando classificador de CATEGORIAS...")
     pipe_cat = criar_pipeline_classificacao(C=5.0)
     pipe_cat.fit(X_train, y_cat_train)
-    validacao_cruzada(pipe_cat, X, y_cat, nome="Categorias")
+    validacao_cruzada(pipe_cat, X_train, y_cat_train, nome="Categorias")
     metricas_cat = avaliar_modelo(pipe_cat, X_test, y_cat_test,
                                   nome="Categorias",
                                   caminho_figura=CAMINHO_CONF_CAT)
@@ -240,7 +290,7 @@ def treinar(test_size: float = 0.20, random_state: int = 42) -> dict:
     print("\n[4/5] Treinando classificador de SENTIMENTOS...")
     pipe_sent = criar_pipeline_classificacao(C=3.0, ngram_range=(1, 2))
     pipe_sent.fit(X_train, y_sent_train)
-    validacao_cruzada(pipe_sent, X, y_sent, nome="Sentimentos")
+    validacao_cruzada(pipe_sent, X_train, y_sent_train, nome="Sentimentos")
     metricas_sent = avaliar_modelo(pipe_sent, X_test, y_sent_test,
                                    nome="Sentimentos",
                                    caminho_figura=CAMINHO_CONF_SENT)
