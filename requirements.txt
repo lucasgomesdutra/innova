@@ -13,6 +13,7 @@ joblib
 
 # NLP e processamento de texto
 nltk>=3.8
+sentence-transformers>=3.0
 
 # Visualização
 matplotlib>=3.9

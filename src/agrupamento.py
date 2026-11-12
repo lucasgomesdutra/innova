@@ -192,6 +192,55 @@ def resumo_clusters(df: pd.DataFrame,
 
 
 # =============================================================================
+# BRIDGE SEMÂNTICO — delega para agrupamento_semantico.py quando disponível
+# =============================================================================
+
+def agrupar_com_fallback(df: pd.DataFrame,
+                          coluna_texto: str = "texto",
+                          n_clusters: int | None = None,
+                          usar_semantico: bool = True,
+                          random_state: int = 42):
+    """
+    Agrupa comentários usando embeddings semânticos quando disponível,
+    com fallback automático para TF-IDF caso sentence-transformers não esteja instalado.
+
+    Args:
+        df: DataFrame com coluna de texto
+        coluna_texto: nome da coluna de texto
+        n_clusters: número de clusters (None = automático)
+        usar_semantico: se True, tenta usar sentence-transformers
+        random_state: semente
+
+    Returns:
+        (df_com_cluster, km, objeto_vetorizador)
+        - coluna adicionada: 'cluster_semantico' (semântico) ou 'cluster_id' (TF-IDF)
+    """
+    if usar_semantico:
+        try:
+            from agrupamento_semantico import agrupar_semanticamente
+            return agrupar_semanticamente(
+                df,
+                coluna_texto=coluna_texto,
+                n_clusters=n_clusters,
+                chave_cache="dashboard",
+                random_state=random_state,
+            )
+        except ImportError:
+            print("[agrupamento] sentence-transformers indisponível, usando TF-IDF.")
+
+    # Fallback: TF-IDF original
+    coluna_limpa = "texto_limpo"
+    if coluna_limpa not in df.columns:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from preprocessing import preprocessar_serie
+        df = df.copy()
+        df[coluna_limpa] = preprocessar_serie(df[coluna_texto])
+
+    return agrupar_comentarios(df, coluna_texto_limpo=coluna_limpa,
+                                n_clusters=n_clusters, random_state=random_state)
+
+
+# =============================================================================
 # EXECUÇÃO DIRETA
 # =============================================================================
 

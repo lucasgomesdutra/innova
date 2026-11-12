@@ -39,9 +39,11 @@ STOPWORDS_PT = set(stopwords.words("portuguese"))
 STOPWORDS_EXTRAS = {
     "sicredi", "banco", "conta", "cliente", "atendimento",
     "quero", "preciso", "gostaria", "favor", "obrigado",
-    "boa", "bom", "dia", "tarde", "noite", "olá", "oi",
+    "dia", "tarde", "noite", "olá", "oi",
     "consegui", "consigo",
 }
+# Nota: "bom", "boa" foram removidos das stopwords pois são indicadores
+# de sentimento positivo ("muito bom", "bom atendimento")
 
 STOPWORDS_TODAS = STOPWORDS_PT | STOPWORDS_EXTRAS
 

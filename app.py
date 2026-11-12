@@ -21,6 +21,7 @@ from classificacao import classificar_comentario
 from analise_problemas import gerar_relatorio_problemas, rankear_problemas
 from analise_sentimentos import resumo_sentimentos, sentimentos_por_periodo, sentimentos_por_categoria
 from relatorios import gerar_todos_relatorios
+from insights import gerar_insights_completos
 
 # =============================================================================
 # CONFIGURAÇÃO
@@ -724,7 +725,7 @@ elif pagina == "🔍 Análise com IA":
 
 
 # =============================================================================
-# 4. PROBLEMAS RECORRENTES
+# 4. PROBLEMAS RECORRENTES (página unificada)
 # =============================================================================
 
 # =============================================================================
@@ -733,88 +734,209 @@ elif pagina == "🔍 Análise com IA":
 
 elif pagina == "🚨 Problemas Identificados":
     st.markdown("## 🚨 Problemas Identificados")
-    st.caption("Gerencie os problemas identificados pela IA, defina prioridade e acompanhe o andamento.")
+    st.caption("Gerencie os problemas identificados pela IA, visualize agrupamentos semânticos e acompanhe o andamento.")
     st.markdown("<hr style='border:none;border-top:1px solid #e2e8f0;margin:6px 0 16px;'>",
                 unsafe_allow_html=True)
 
     if df_all is None:
         _vazio()
     else:
-        df_prob = pd.read_csv(CAMINHO_PROBLEMAS, encoding="utf-8-sig")
-        ranking = rankear_problemas(df_all)
+        aba1, aba2, aba3 = st.tabs(["📋 Gerenciamento", "🧠 Agrupamento Semântico", "📈 Urgência"])
 
-        # Adiciona categorias novas ao gerenciamento automaticamente
-        if ranking is not None and not ranking.empty:
-            for _, row in ranking.iterrows():
-                cat = row["categoria"]
-                if cat not in df_prob["categoria"].values:
-                    novo = pd.DataFrame([{
-                        "id": len(df_prob) + 1, "categoria": cat,
-                        "prioridade": "Média" if row["percentual"] > 20 else "Baixa",
-                        "status": "Pendente", "observacao": "",
-                        "criado_em": datetime.now().strftime("%Y-%m-%d"),
-                        "atualizado_em": datetime.now().strftime("%Y-%m-%d"),
-                    }])
-                    df_prob = pd.concat([df_prob, novo], ignore_index=True)
-            df_prob.to_csv(CAMINHO_PROBLEMAS, index=False, encoding="utf-8-sig")
+        # ── Aba 1: Gerenciamento (idêntico ao anterior) ──────────────────────
+        with aba1:
+            df_prob = pd.read_csv(CAMINHO_PROBLEMAS, encoding="utf-8-sig")
+            ranking = rankear_problemas(df_all)
 
-        # Exibe e permite editar
-        rel = gerar_relatorio_problemas(df_all)
-        alertas = rel["alertas_aumento"]
+            if ranking is not None and not ranking.empty:
+                for _, row in ranking.iterrows():
+                    cat = row["categoria"]
+                    if cat not in df_prob["categoria"].values:
+                        novo = pd.DataFrame([{
+                            "id": len(df_prob) + 1, "categoria": cat,
+                            "prioridade": "Média" if row["percentual"] > 20 else "Baixa",
+                            "status": "Pendente", "observacao": "",
+                            "criado_em": datetime.now().strftime("%Y-%m-%d"),
+                            "atualizado_em": datetime.now().strftime("%Y-%m-%d"),
+                        }])
+                        df_prob = pd.concat([df_prob, novo], ignore_index=True)
+                df_prob.to_csv(CAMINHO_PROBLEMAS, index=False, encoding="utf-8-sig")
 
-        if alertas:
-            st.markdown("#### ⚡ Alertas Ativos")
-            for a in alertas[:5]:
-                st.markdown(f"""
-                <div style='background:#fff7ed;border-left:4px solid {AMARELO};border-radius:6px;
-                            padding:10px 14px;margin-bottom:8px;'>
-                    <b>{a['categoria']}</b> — aumento de {a['variacao_percentual']:.1f}% em {a['periodo_atual']}
-                </div>""", unsafe_allow_html=True)
+            rel = gerar_relatorio_problemas(df_all)
+            alertas = rel["alertas_aumento"]
+
+            if alertas:
+                st.markdown("#### ⚡ Alertas Ativos")
+                for a in alertas[:5]:
+                    st.markdown(f"""
+                    <div style='background:#fff7ed;border-left:4px solid {AMARELO};border-radius:6px;
+                                padding:10px 14px;margin-bottom:8px;'>
+                        <b>{a['categoria']}</b> — aumento de {a['variacao_percentual']:.1f}% em {a['periodo_atual']}
+                    </div>""", unsafe_allow_html=True)
+                st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
+
+            st.markdown("#### 📋 Gerenciamento de Problemas")
+            df_prob_edit = df_prob.copy()
+            for i, row in df_prob_edit.iterrows():
+                rec_count = 0
+                if ranking is not None:
+                    match = ranking[ranking["categoria"] == row["categoria"]]
+                    if not match.empty:
+                        rec_count = int(match.iloc[0]["total_reclamacoes"])
+
+                cp, cs, cobs, cbtn = st.columns([1.5, 1.5, 3, 0.8])
+                with cp:
+                    nova_prior = st.selectbox("Prioridade", ["Alta","Média","Baixa"],
+                                              index=["Alta","Média","Baixa"].index(str(row["prioridade"])),
+                                              key=f"prior_{i}", label_visibility="collapsed")
+                with cs:
+                    novo_status = st.selectbox("Status", ["Pendente","Em análise","Resolvido"],
+                                               index=["Pendente","Em análise","Resolvido"].index(str(row["status"])),
+                                               key=f"status_{i}", label_visibility="collapsed")
+                with cobs:
+                    nova_obs = st.text_input("Observação", value=str(row["observacao"]) if pd.notna(row["observacao"]) else "",
+                                             key=f"obs_{i}", label_visibility="collapsed",
+                                             placeholder=f"{row['categoria']} · {rec_count} reclamações")
+                with cbtn:
+                    if st.button("💾", key=f"save_{i}", use_container_width=True):
+                        df_prob.at[i, "prioridade"]    = nova_prior
+                        df_prob.at[i, "status"]        = novo_status
+                        df_prob.at[i, "observacao"]    = nova_obs
+                        df_prob.at[i, "atualizado_em"] = datetime.now().strftime("%Y-%m-%d")
+                        df_prob.to_csv(CAMINHO_PROBLEMAS, index=False, encoding="utf-8-sig")
+                        st.success("Salvo!", icon="✅")
+
             st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
+            st.markdown("#### 💬 Exemplos por Categoria")
+            exemplos = {k: v for k, v in rel["exemplos_por_categoria"].items() if v}
+            for cat, exs in exemplos.items():
+                with st.expander(f"📂 {cat} ({len(exs)} exemplo(s))"):
+                    for ex in exs:
+                        st.markdown(f"• {ex}")
 
-        st.markdown("#### 📋 Gerenciamento de Problemas")
-        cores_prior = {"Alta": VERMELHO, "Média": AMARELO, "Baixa": VERDE}
-        cores_status = {"Pendente": CINZA, "Em análise": AZUL, "Resolvido": VERDE}
+            st.caption("⚠️ Resultados gerados por IA. Indicativos — revisar antes de qualquer decisão.")
 
-        df_prob_edit = df_prob.copy()
-        for i, row in df_prob_edit.iterrows():
-            rec_count = 0
-            if ranking is not None:
-                match = ranking[ranking["categoria"] == row["categoria"]]
-                if not match.empty:
-                    rec_count = int(match.iloc[0]["total_reclamacoes"])
+        # ── Aba 2: Agrupamento Semântico ─────────────────────────────────────
+        with aba2:
+            st.markdown("#### 🧠 Grupos Semânticos de Reclamações")
+            st.caption(
+                "O modelo de linguagem (sentence-transformers) agrupa avaliações pelo **significado**, "
+                "não apenas por palavras-chave. Frases como *\"meu Pix não caiu\"* e "
+                "*\"fiz uma transferência e o dinheiro não chegou\"* aparecem no mesmo grupo."
+            )
 
-            cp, cs, cobs, cbtn = st.columns([1.5, 1.5, 3, 0.8])
-            with cp:
-                nova_prior = st.selectbox("Prioridade", ["Alta","Média","Baixa"],
-                                          index=["Alta","Média","Baixa"].index(str(row["prioridade"])),
-                                          key=f"prior_{i}", label_visibility="collapsed")
-            with cs:
-                novo_status = st.selectbox("Status", ["Pendente","Em análise","Resolvido"],
-                                           index=["Pendente","Em análise","Resolvido"].index(str(row["status"])),
-                                           key=f"status_{i}", label_visibility="collapsed")
-            with cobs:
-                nova_obs = st.text_input("Observação", value=str(row["observacao"]) if pd.notna(row["observacao"]) else "",
-                                         key=f"obs_{i}", label_visibility="collapsed",
-                                         placeholder=f"{row['categoria']} · {rec_count} reclamações")
-            with cbtn:
-                if st.button("💾", key=f"save_{i}", use_container_width=True):
-                    df_prob.at[i, "prioridade"]    = nova_prior
-                    df_prob.at[i, "status"]        = novo_status
-                    df_prob.at[i, "observacao"]    = nova_obs
-                    df_prob.at[i, "atualizado_em"] = datetime.now().strftime("%Y-%m-%d")
-                    df_prob.to_csv(CAMINHO_PROBLEMAS, index=False, encoding="utf-8-sig")
-                    st.success("Salvo!", icon="✅")
+            # Filtra negativos para clustering de problemas
+            df_neg = df_all[df_all["sentimento"] == "negativo"].reset_index(drop=True)
 
-        st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
-        st.markdown("#### 💬 Exemplos por Categoria")
-        exemplos = {k: v for k, v in rel["exemplos_por_categoria"].items() if v}
-        for cat, exs in exemplos.items():
-            with st.expander(f"📂 {cat} ({len(exs)} exemplo(s))"):
-                for ex in exs:
-                    st.markdown(f"• {ex}")
+            if len(df_neg) < 6:
+                st.info("São necessárias pelo menos 6 avaliações negativas para o agrupamento semântico.")
+            else:
+                n_clusters_input = st.slider(
+                    "Número de grupos (0 = automático)",
+                    min_value=0, max_value=15, value=0,
+                    help="0 usa o Silhouette Score para encontrar o número ideal automaticamente."
+                )
 
-        st.caption("⚠️ Resultados gerados por IA. Indicativos — revisar antes de qualquer decisão.")
+                if st.button("🔍 Gerar Agrupamento Semântico", type="primary"):
+                    with st.spinner("Gerando embeddings e agrupando por significado… (primeira vez pode demorar ~30s para baixar o modelo)"):
+                        try:
+                            from agrupamento_semantico import agrupar_semanticamente, resumo_clusters_semanticos
+                            n_clus = None if n_clusters_input == 0 else n_clusters_input
+                            df_clus, km, embeddings = agrupar_semanticamente(
+                                df_neg,
+                                coluna_texto="texto",
+                                n_clusters=n_clus,
+                                chave_cache="problemas_negativos",
+                            )
+                            resumos = resumo_clusters_semanticos(df_clus, embeddings, km)
+                            st.session_state["resumos_clusters"] = resumos
+                            st.session_state["insights_gerados"] = gerar_insights_completos(df_all, resumos)
+                        except Exception as e:
+                            st.error(f"Erro ao gerar agrupamento: {e}")
+                            resumos = None
+
+                resumos = st.session_state.get("resumos_clusters")
+                if resumos:
+                    st.markdown(f"**{len(resumos)} grupos identificados**")
+                    st.markdown("<div style='height:4px'></div>", unsafe_allow_html=True)
+
+                    for r in resumos:
+                        cor_sent = {"negativo": VERMELHO, "positivo": VERDE, "neutro": AMARELO}.get(
+                            r.get("sentimento_predominante", ""), CINZA)
+                        coesao_pct = int(r["coesao"] * 100)
+
+                        with st.expander(
+                            f"Grupo {r['cluster_id']+1} — {r['tamanho']} avaliações · "
+                            f"{r.get('categoria_predominante','?')} · coesão {coesao_pct}%"
+                        ):
+                            c_info, c_ex = st.columns([1, 2])
+                            with c_info:
+                                st.markdown(f"""
+                                <div style='background:#f8fafc;border-radius:8px;padding:12px;'>
+                                    <div style='font-size:12px;color:#64748b;'>CATEGORIA PREDOMINANTE</div>
+                                    <div style='font-size:14px;font-weight:600;color:#1e293b;margin:4px 0;'>
+                                        {r.get('categoria_predominante','Não definida')}
+                                    </div>
+                                    <div style='font-size:12px;color:#64748b;margin-top:8px;'>SENTIMENTO</div>
+                                    <div style='font-size:14px;font-weight:600;color:{cor_sent};'>
+                                        {r.get('sentimento_predominante','?').capitalize()}
+                                    </div>
+                                    <div style='font-size:12px;color:#64748b;margin-top:8px;'>COESÃO SEMÂNTICA</div>
+                                    <div style='font-size:13px;color:#1e293b;'>{coesao_pct}%</div>
+                                </div>""", unsafe_allow_html=True)
+                            with c_ex:
+                                st.markdown("**Avaliações mais representativas:**")
+                                for ex in r.get("textos_representativos", []):
+                                    st.markdown(f"""
+                                    <div style='background:#fff;border-left:3px solid {VERDE};
+                                                border-radius:0 6px 6px 0;padding:8px 12px;
+                                                margin-bottom:6px;font-size:13px;color:#374151;'>
+                                        {ex}
+                                    </div>""", unsafe_allow_html=True)
+
+        # ── Aba 3: Score de Urgência ──────────────────────────────────────────
+        with aba3:
+            st.markdown("#### 📈 Score de Urgência por Categoria")
+            st.caption(
+                "Combina volume de reclamações (50%), tendência de crescimento (30%) e "
+                "proporção negativo/total (20%) para priorizar onde agir primeiro."
+            )
+
+            insights_data = st.session_state.get("insights_gerados") or gerar_insights_completos(df_all)
+            urgencia = insights_data.get("urgencia", [])
+
+            if not urgencia:
+                st.info("Dados insuficientes para calcular urgência.")
+            else:
+                for u in urgencia:
+                    score = u["score_urgencia"]
+                    cor_barra = VERMELHO if score >= 70 else AMARELO if score >= 40 else VERDE
+                    st.markdown(f"""
+                    <div style='background:#fff;border:1px solid #e2e8f0;border-radius:10px;
+                                padding:14px 18px;margin-bottom:10px;'>
+                        <div style='display:flex;justify-content:space-between;align-items:center;'>
+                            <div style='font-size:14px;font-weight:600;color:#1e293b;'>{u['categoria']}</div>
+                            <div style='font-size:20px;font-weight:800;color:{cor_barra};'>{score:.0f}<span style='font-size:12px;color:#9ca3af;'>/100</span></div>
+                        </div>
+                        <div style='background:#f1f5f9;border-radius:4px;height:6px;margin:8px 0;'>
+                            <div style='background:{cor_barra};width:{score}%;height:6px;border-radius:4px;'></div>
+                        </div>
+                        <div style='display:flex;gap:16px;font-size:12px;color:#64748b;'>
+                            <span>🔴 {u['volume_reclamacoes']} reclamações</span>
+                            <span>📈 {u['variacao_mensal']:+.1f}% mês a mês</span>
+                            <span>⚖️ {u['proporcao_negativo']:.1f}% negativos na categoria</span>
+                        </div>
+                    </div>""", unsafe_allow_html=True)
+
+                if insights_data.get("alertas_texto"):
+                    st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
+                    st.markdown("#### 💡 Insights Automáticos")
+                    for texto in insights_data["alertas_texto"]:
+                        st.markdown(f"""
+                        <div style='background:#f0fdf4;border-left:3px solid {VERDE};border-radius:0 6px 6px 0;
+                                    padding:10px 14px;margin-bottom:6px;font-size:13px;color:#1e293b;'>
+                            {texto}
+                        </div>""", unsafe_allow_html=True)
 
 
 # =============================================================================

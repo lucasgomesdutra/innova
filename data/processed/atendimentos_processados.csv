@@ -134,7 +134,7 @@
 133.0,"Não consigo abrir o app, fica carregando e não entra.",Problemas no aplicativo,negativo,2.0,telefone,2024-12-09,nao abrir app fica carregando nao entra
 134.0,Meu acesso está sendo negado mesmo com credenciais corretas.,Problemas de acesso à conta,negativo,1.0,chat,2024-08-29,acesso sendo negado credenciais corretas
 135.0,O atendimento online está muito lento.,Demora no atendimento,negativo,2.0,chat,2024-12-06,online lento
-136.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,chat,2024-03-19,aplicativo
+136.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,chat,2024-03-19,bom aplicativo
 137.0,Meu cartão virtual não aparece no aplicativo.,Problemas com cartões,negativo,3.0,agência,2024-05-20,cartao virtual nao aparece aplicativo
 138.0,Preciso de uma declaração bancária mas não consigo emitir.,Dificuldades com serviços bancários,negativo,1.0,agência,2024-03-19,declaracao bancaria nao emitir
 139.0,"Pix enviado para chave errada, quero estorno.",Problemas com Pix e transferências,negativo,1.0,telefone,2024-08-03,pix enviado chave errada estorno
@@ -281,7 +281,7 @@
 280.0,O app não abre quando tento acessar.,Problemas no aplicativo,negativo,3.0,agência,2024-04-22,app nao abre tento acessar
 281.0,O sistema de chat não funciona bem.,Demora no atendimento,negativo,3.0,telefone,2024-11-27,sistema chat nao funciona bem
 282.0,O extrato bancário não está correto.,Dificuldades com serviços bancários,negativo,2.0,aplicativo,2024-02-15,extrato bancario nao correto
-283.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,email,2024-05-05,aplicativo
+283.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,email,2024-05-05,bom aplicativo
 284.0,"Pix instantâneo e sem custo, excelente serviço.",Elogios e avaliações positivas,positivo,4.0,agência,2024-11-02,pix instantaneo custo excelente servico
 285.0,Não lembro minha senha e não consigo redefinir.,Problemas de acesso à conta,negativo,2.0,aplicativo,2024-04-02,nao lembro senha nao redefinir
 286.0,Não consigo fazer Pix para outro banco.,Problemas com Pix e transferências,negativo,2.0,chat,2024-06-12,nao fazer pix outro
@@ -342,7 +342,7 @@
 341.0,Quero cancelar um Pix agendado mas não consigo.,Problemas com Pix e transferências,negativo,2.0,telefone,2024-08-24,cancelar pix agendado nao
 342.0,Não consigo ver meu limite disponível.,Problemas com cartões,negativo,1.0,aplicativo,2024-06-07,nao ver limite disponivel
 343.0,O cartão não passa no débito.,Problemas com cartões,negativo,3.0,chat,2024-11-29,cartao nao passa debito
-344.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,chat,2024-04-27,aplicativo
+344.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,chat,2024-04-27,bom aplicativo
 345.0,Fiquei na fila por muito tempo sem ser chamado.,Demora no atendimento,negativo,2.0,email,2024-01-19,fiquei fila tempo chamado
 346.0,Tenho interesse em investir mas não sei como começar.,Outros,neutro,3.0,aplicativo,2024-08-12,interesse investir nao sei comecar
 347.0,Fiz uma compra e o cartão foi recusado.,Problemas com cartões,negativo,3.0,email,2024-05-03,fiz compra cartao recusado
@@ -460,7 +460,7 @@
 459.0,Como funciona a portabilidade de crédito?,Outros,neutro,3.0,email,2024-09-21,funciona portabilidade credito
 460.0,Não aparece o histórico de Pix no aplicativo.,Problemas com Pix e transferências,negativo,2.0,agência,2024-09-05,nao aparece historico pix aplicativo
 461.0,Não recebi meu novo cartão.,Problemas com cartões,negativo,2.0,chat,2024-05-09,nao recebi novo cartao
-462.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,email,2024-12-01,aplicativo
+462.0,Muito bom o atendimento pelo aplicativo.,Elogios e avaliações positivas,positivo,5.0,email,2024-12-01,bom aplicativo
 463.0,App não abre após atualização do sistema operacional.,Problemas no aplicativo,negativo,3.0,email,2024-09-24,app nao abre apos atualizacao sistema operacional
 464.0,Meu cartão foi cancelado sem aviso prévio.,Problemas com cartões,negativo,3.0,telefone,2024-06-09,cartao cancelado aviso previo
 465.0,A proposta de financiamento sumiu do sistema.,Dificuldades com serviços bancários,negativo,1.0,agência,2024-06-11,proposta financiamento sumiu sistema
@@ -1171,6 +1171,17 @@
 ,O aplicativo fica carregando e não abre,Problemas no aplicativo,negativo,,,,aplicativo fica carregando nao abre
 ,Não consigo acessar o extrato bancário pelo app,Problemas no aplicativo,negativo,,,,nao acessar extrato bancario app
 ,O aplicativo está apresentando muitas falhas,Problemas no aplicativo,negativo,,,,aplicativo apresentando muitas falhas
+,O app não carrega nenhuma tela depois do login,Problemas no aplicativo,negativo,,,,app nao carrega nenhuma tela login
+,Toda vez que abro o app ele cai imediatamente,Problemas no aplicativo,negativo,,,,toda vez abro app cai imediatamente
+,O aplicativo não funciona no meu celular novo,Problemas no aplicativo,negativo,,,,aplicativo nao funciona celular novo
+,Recebo mensagem de erro ao tentar acessar o extrato,Problemas no aplicativo,negativo,,,,recebo mensagem erro tentar acessar extrato
+,O app fica travado na tela de carregamento,Problemas no aplicativo,negativo,,,,app fica travado tela carregamento
+,Não aparecem minhas transações no histórico do app,Problemas no aplicativo,negativo,,,,nao aparecem transacoes historico app
+,O aplicativo sumiu do meu celular após atualização,Problemas no aplicativo,negativo,,,,aplicativo sumiu celular apos atualizacao
+,Não consigo instalar o aplicativo no meu celular,Problemas no aplicativo,negativo,,,,nao instalar aplicativo celular
+,O app não abre desde que troquei de celular,Problemas no aplicativo,negativo,,,,app nao abre desde troquei celular
+,A versão nova do app está pior que a anterior,Problemas no aplicativo,negativo,,,,versao nova app pior anterior
+,O aplicativo consome muita bateria e esquenta o celular,Problemas no aplicativo,negativo,,,,aplicativo consome muita bateria esquenta celular
 ,Fiz um Pix e o dinheiro não chegou,Problemas com Pix e transferências,negativo,,,,fiz pix dinheiro nao chegou
 ,Meu Pix está demorando muito para cair,Problemas com Pix e transferências,negativo,,,,pix demorando cair
 ,Transferi dinheiro e o valor não apareceu na outra conta,Problemas com Pix e transferências,negativo,,,,transferi dinheiro valor nao apareceu outra
@@ -1182,6 +1193,14 @@
 ,Não consigo cadastrar uma chave Pix,Problemas com Pix e transferências,negativo,,,,nao cadastrar chave pix
 ,"Meu Pix aparece como concluído, mas o destinatário não recebeu",Problemas com Pix e transferências,negativo,,,,pix aparece concluido destinatario nao recebeu
 ,Estou recebendo erro ao tentar fazer uma transferência,Problemas com Pix e transferências,negativo,,,,recebendo erro tentar fazer transferencia
+,O Pix foi debitado mas ficou com status pendente há dois dias,Problemas com Pix e transferências,negativo,,,,pix debitado ficou status pendente ha dois dias
+,Não consigo agendar uma transferência pelo app,Problemas com Pix e transferências,negativo,,,,nao agendar transferencia app
+,Minha chave Pix foi deletada sem eu pedir,Problemas com Pix e transferências,negativo,,,,chave pix deletada pedir
+,O limite do Pix noturno está muito baixo e não consigo alterar,Problemas com Pix e transferências,negativo,,,,limite pix noturno baixo nao alterar
+,Transferência feita e o dinheiro sumiu sem chegar no destino,Problemas com Pix e transferências,negativo,,,,transferencia feita dinheiro sumiu chegar destino
+,Pix recusado mesmo tendo saldo suficiente na conta,Problemas com Pix e transferências,negativo,,,,pix recusado tendo saldo suficiente
+,Fiz uma TED e o dinheiro ainda não foi compensado,Problemas com Pix e transferências,negativo,,,,fiz ted dinheiro ainda nao compensado
+,O valor foi debitado duas vezes na mesma transferência,Problemas com Pix e transferências,negativo,,,,valor debitado duas vezes mesma transferencia
 ,Fui cobrado por um serviço que não contratei,Cobranças indevidas,negativo,,,,cobrado servico nao contratei
 ,Apareceu uma cobrança desconhecida na minha conta,Cobranças indevidas,negativo,,,,apareceu cobranca desconhecida
 ,Estão descontando um valor que eu não reconheço,Cobranças indevidas,negativo,,,,estao descontando valor nao reconheco
@@ -1192,6 +1211,14 @@
 ,Meu saldo diminuiu por causa de uma cobrança desconhecida,Cobranças indevidas,negativo,,,,saldo diminuiu causa cobranca desconhecida
 ,Foi descontado dinheiro da minha conta sem autorização,Cobranças indevidas,negativo,,,,descontado dinheiro autorizacao
 ,Preciso contestar uma cobrança feita incorretamente,Cobranças indevidas,negativo,,,,contestar cobranca feita incorretamente
+,Fui cobrado por um seguro que nunca solicitei,Cobranças indevidas,negativo,,,,cobrado seguro nunca solicitei
+,Estão descontando tarifa de manutenção sem aviso,Cobranças indevidas,negativo,,,,estao descontando tarifa manutencao aviso
+,Cobrança de anuidade que deveria estar isenta,Cobranças indevidas,negativo,,,,cobranca anuidade deveria isenta
+,Débito automático não autorizado por mim,Cobranças indevidas,negativo,,,,debito automatico nao autorizado mim
+,Foram cobradas duas vezes a mesma fatura,Cobranças indevidas,negativo,,,,cobradas duas vezes mesma fatura
+,Taxa debitada sem informação prévia no contrato,Cobranças indevidas,negativo,,,,taxa debitada informacao previa contrato
+,Cobrança de serviço que cancelei há meses ainda aparece,Cobranças indevidas,negativo,,,,cobranca servico cancelei ha meses ainda aparece
+,Valor debitado não corresponde ao combinado,Cobranças indevidas,negativo,,,,valor debitado nao corresponde combinado
 ,Esperei mais de uma hora para ser atendido,Demora no atendimento,negativo,,,,esperei hora atendido
 ,Estou esperando há muito tempo e ninguém responde,Demora no atendimento,negativo,,,,esperando ha tempo ninguem responde
 ,O atendimento pelo telefone demora demais,Demora no atendimento,negativo,,,,telefone demora demais
@@ -1202,6 +1229,14 @@
 ,Meu chamado está aberto há semanas sem solução,Demora no atendimento,negativo,,,,chamado aberto ha semanas solucao
 ,Preciso de ajuda urgente e não consigo atendimento,Demora no atendimento,negativo,,,,ajuda urgente nao
 ,Fui transferido várias vezes e ninguém resolveu minha solicitação,Demora no atendimento,negativo,,,,transferido varias vezes ninguem resolveu solicitacao
+,Três dias esperando retorno do suporte sem resposta,Demora no atendimento,negativo,,,,tres dias esperando retorno suporte resposta
+,O chat online fica me deixando na fila sem previsão,Demora no atendimento,negativo,,,,chat online fica deixando fila previsao
+,Ligo no 0800 e fico horas esperando na fila,Demora no atendimento,negativo,,,,ligo fico horas esperando fila
+,Abri um protocolo mas nunca recebi nenhum contato,Demora no atendimento,negativo,,,,abri protocolo nunca recebi nenhum contato
+,Fui até a agência e esperei duas horas sem ser atendido,Demora no atendimento,negativo,,,,ate agencia esperei duas horas atendido
+,O atendimento via chat é muito demorado e ineficiente,Demora no atendimento,negativo,,,,via chat demorado ineficiente
+,Minha reclamação tem uma semana e ainda não foi resolvida,Demora no atendimento,negativo,,,,reclamacao semana ainda nao resolvida
+,Fico esperando resposta do email há dias,Demora no atendimento,negativo,,,,fico esperando resposta email ha dias
 ,Minha senha foi bloqueada sem motivo,Problemas de acesso à conta,negativo,,,,senha bloqueada motivo
 ,Não consigo recuperar minha senha,Problemas de acesso à conta,negativo,,,,nao recuperar senha
 ,Minha conta foi bloqueada e não sei o motivo,Problemas de acesso à conta,negativo,,,,bloqueada nao sei motivo
@@ -1210,6 +1245,13 @@
 ,Meu acesso foi suspenso e preciso de ajuda,Problemas de acesso à conta,negativo,,,,acesso suspenso ajuda
 ,Não recebo o código de confirmação para entrar na conta,Problemas de acesso à conta,negativo,,,,nao recebo codigo confirmacao entrar
 ,Não consigo alterar minha senha pelo aplicativo,Problemas de acesso à conta,negativo,,,,nao alterar senha aplicativo
+,Conta bloqueada após tentativas de login que não fui eu,Problemas de acesso à conta,negativo,,,,bloqueada apos tentativas login nao
+,Token de acesso não chega no meu celular,Problemas de acesso à conta,negativo,,,,token acesso nao chega celular
+,A autenticação de dois fatores falha toda vez,Problemas de acesso à conta,negativo,,,,autenticacao dois fatores falha toda vez
+,Fui bloqueado da conta sem fazer nada de errado,Problemas de acesso à conta,negativo,,,,bloqueado fazer nada errado
+,Não consigo redefinir minha senha pelo link enviado,Problemas de acesso à conta,negativo,,,,nao redefinir senha link enviado
+,SMS de verificação nunca chega no meu número,Problemas de acesso à conta,negativo,,,,sms verificacao nunca chega numero
+,Minha biometria parou de funcionar no app,Problemas de acesso à conta,negativo,,,,biometria parou funcionar app
 ,Meu cartão foi recusado na maquininha,Problemas com cartões,negativo,,,,cartao recusado maquininha
 ,Meu cartão parou de funcionar de repente,Problemas com cartões,negativo,,,,cartao parou funcionar repente
 ,Não consigo desbloquear meu cartão,Problemas com cartões,negativo,,,,nao desbloquear cartao
@@ -1220,6 +1262,14 @@
 ,Preciso contestar uma compra feita no cartão,Problemas com cartões,negativo,,,,contestar compra feita cartao
 ,Não consigo visualizar os limites do meu cartão,Problemas com cartões,negativo,,,,nao visualizar limites cartao
 ,Meu cartão está apresentando erro em todas as compras,Problemas com cartões,negativo,,,,cartao apresentando erro todas compras
+,Cartão virtual não funciona em compras online,Problemas com cartões,negativo,,,,cartao virtual nao funciona compras online
+,Meu cartão foi clonado e fizeram compras indevidas,Problemas com cartões,negativo,,,,cartao clonado fizeram compras indevidas
+,Não recebi o cartão há mais de 30 dias,Problemas com cartões,negativo,,,,nao recebi cartao ha dias
+,A fatura do cartão está com valor errado,Problemas com cartões,negativo,,,,fatura cartao valor errado
+,Meu limite foi reduzido sem nenhum aviso,Problemas com cartões,negativo,,,,limite reduzido nenhum aviso
+,Cartão bloqueado por suspeita de fraude sem confirmação comigo,Problemas com cartões,negativo,,,,cartao bloqueado suspeita fraude confirmacao comigo
+,Não consigo aumentar o limite do meu cartão,Problemas com cartões,negativo,,,,nao aumentar limite cartao
+,Compra parcelada aparece com valor errado na fatura,Problemas com cartões,negativo,,,,compra parcelada aparece valor errado fatura
 ,Não consigo fazer um empréstimo pelo sistema,Dificuldades com serviços bancários,negativo,,,,nao fazer emprestimo sistema
 ,Minha solicitação de crédito está demorando para ser analisada,Dificuldades com serviços bancários,negativo,,,,solicitacao credito demorando analisada
 ,Não consigo contratar um financiamento pelo aplicativo,Dificuldades com serviços bancários,negativo,,,,nao contratar financiamento aplicativo
@@ -1230,13 +1280,34 @@
 ,Não consigo fazer um depósito na minha conta,Dificuldades com serviços bancários,negativo,,,,nao fazer deposito
 ,Estou com dificuldades para contratar um serviço bancário,Dificuldades com serviços bancários,negativo,,,,dificuldades contratar servico bancario
 ,Não consigo consultar as parcelas do meu financiamento,Dificuldades com serviços bancários,negativo,,,,nao consultar parcelas financiamento
+,Investimento não aparece no extrato mesmo após confirmar,Dificuldades com serviços bancários,negativo,,,,investimento nao aparece extrato apos confirmar
+,Não consigo resgatar meu investimento pelo app,Dificuldades com serviços bancários,negativo,,,,nao resgatar investimento app
+,Sistema não permite abrir conta poupança,Dificuldades com serviços bancários,negativo,,,,sistema nao permite abrir poupanca
+,Dificuldade para gerar boleto de pagamento,Dificuldades com serviços bancários,negativo,,,,dificuldade gerar boleto pagamento
+,Não consigo solicitar segundo via de extrato,Dificuldades com serviços bancários,negativo,,,,nao solicitar segundo via extrato
+,Gosto muito da facilidade para consultar meu saldo e acompanhar minhas movimentações,Elogios e avaliações positivas,positivo,,,,gosto facilidade consultar saldo acompanhar movimentacoes
+,Gosto muito de como consigo visualizar meu extrato pelo app,Elogios e avaliações positivas,positivo,,,,gosto visualizar extrato app
+,Adoro a praticidade de consultar o saldo a qualquer hora,Elogios e avaliações positivas,positivo,,,,adoro praticidade consultar saldo qualquer hora
+,A facilidade de consultar minhas movimentações é excelente,Elogios e avaliações positivas,positivo,,,,facilidade consultar movimentacoes excelente
+,Gosto muito de acompanhar meu extrato em tempo real,Elogios e avaliações positivas,positivo,,,,gosto acompanhar extrato tempo real
+,Muito prático consultar saldo e extrato pelo aplicativo,Elogios e avaliações positivas,positivo,,,,pratico consultar saldo extrato aplicativo
+,Amo a facilidade de visualizar minhas transações,Elogios e avaliações positivas,positivo,,,,amo facilidade visualizar transacoes
+,Os funcionários da agência são muito atenciosos e prestativos,Elogios e avaliações positivas,positivo,,,,funcionarios agencia sao atenciosos prestativos
+,Os funcionários da agência são excelentes e muito educados,Elogios e avaliações positivas,positivo,,,,funcionarios agencia sao excelentes educados
+,Fui muito bem atendido pelos funcionários da agência,Elogios e avaliações positivas,positivo,,,,bem atendido funcionarios agencia
+,Os atendentes são super atenciosos e resolvem tudo,Elogios e avaliações positivas,positivo,,,,atendentes sao super atenciosos resolvem tudo
+,A equipe da agência é muito prestativa e eficiente,Elogios e avaliações positivas,positivo,,,,equipe agencia prestativa eficiente
+,Os funcionários são atenciosos e sempre dispostos a ajudar,Elogios e avaliações positivas,positivo,,,,funcionarios sao atenciosos sempre dispostos ajudar
+,"Atendimento presencial excelente, funcionários muito gentis",Elogios e avaliações positivas,positivo,,,,presencial excelente funcionarios gentis
+,Funcionários da agência muito prestativos e educados,Elogios e avaliações positivas,positivo,,,,funcionarios agencia prestativos educados
+,A equipe é muito atenciosa e resolve com agilidade,Elogios e avaliações positivas,positivo,,,,equipe atenciosa resolve agilidade
 ,Rápido e fácil de fazer transferências,Elogios e avaliações positivas,positivo,,,,rapido facil fazer transferencias
 ,"Atendimento excelente, problema resolvido na hora",Elogios e avaliações positivas,positivo,,,,excelente problema resolvido hora
 ,Estou muito satisfeito com o atendimento recebido,Elogios e avaliações positivas,positivo,,,,satisfeito recebido
 ,O aplicativo é muito fácil de utilizar,Elogios e avaliações positivas,positivo,,,,aplicativo facil utilizar
 ,Consegui resolver meu problema rapidamente,Elogios e avaliações positivas,positivo,,,,resolver problema rapidamente
 ,Os funcionários foram muito atenciosos comigo,Elogios e avaliações positivas,positivo,,,,funcionarios atenciosos comigo
-,Adoro utilizar os serviços do Sicredi,Elogios e avaliações positivas,positivo,,,,adoro utilizar servicos
+,Adoro utilizar os serviços do banco,Elogios e avaliações positivas,positivo,,,,adoro utilizar servicos
 ,O atendimento foi rápido e eficiente,Elogios e avaliações positivas,positivo,,,,rapido eficiente
 ,Consegui fazer meu Pix sem nenhuma dificuldade,Elogios e avaliações positivas,positivo,,,,fazer pix nenhuma dificuldade
 ,"Excelente experiência, recomendo o banco",Elogios e avaliações positivas,positivo,,,,excelente experiencia recomendo
@@ -1245,6 +1316,197 @@
 ,Gostei da facilidade para consultar meu saldo,Elogios e avaliações positivas,positivo,,,,gostei facilidade consultar saldo
 ,Minha solicitação foi resolvida com muita rapidez,Elogios e avaliações positivas,positivo,,,,solicitacao resolvida muita rapidez
 ,Os serviços oferecidos são muito bons,Elogios e avaliações positivas,positivo,,,,servicos oferecidos sao bons
+,Muito bom,Elogios e avaliações positivas,positivo,,,,bom
+,Muito bom mesmo,Elogios e avaliações positivas,positivo,,,,bom
+,Muito bom o atendimento,Elogios e avaliações positivas,positivo,,,,bom
+,Muito bom o aplicativo,Elogios e avaliações positivas,positivo,,,,bom aplicativo
+,Muito bom a interface,Elogios e avaliações positivas,positivo,,,,bom interface
+,Muito bom o serviço,Elogios e avaliações positivas,positivo,,,,bom servico
+,Muito bom tudo,Elogios e avaliações positivas,positivo,,,,bom tudo
+,Muito bom de verdade,Elogios e avaliações positivas,positivo,,,,bom verdade
+,Bom,Elogios e avaliações positivas,positivo,,,,bom
+,Bom demais,Elogios e avaliações positivas,positivo,,,,bom demais
+,Bom atendimento,Elogios e avaliações positivas,positivo,,,,bom
+,Bom aplicativo,Elogios e avaliações positivas,positivo,,,,bom aplicativo
+,Muito boa a experiência,Elogios e avaliações positivas,positivo,,,,boa experiencia
+,Muito boa a plataforma,Elogios e avaliações positivas,positivo,,,,boa plataforma
+,Muito boa mesmo,Elogios e avaliações positivas,positivo,,,,boa
+,Ótimo,Elogios e avaliações positivas,positivo,,,,otimo
+,Ótimo atendimento,Elogios e avaliações positivas,positivo,,,,otimo
+,Ótimo aplicativo,Elogios e avaliações positivas,positivo,,,,otimo aplicativo
+,Ótimo serviço,Elogios e avaliações positivas,positivo,,,,otimo servico
+,Ótimo de verdade,Elogios e avaliações positivas,positivo,,,,otimo verdade
+,Ótima experiência,Elogios e avaliações positivas,positivo,,,,otima experiencia
+,Ótima plataforma,Elogios e avaliações positivas,positivo,,,,otima plataforma
+,Legal,Elogios e avaliações positivas,positivo,,,,legal
+,Muito legal,Elogios e avaliações positivas,positivo,,,,legal
+,Bem legal o app,Elogios e avaliações positivas,positivo,,,,bem legal app
+,Perfeito,Elogios e avaliações positivas,positivo,,,,perfeito
+,Perfeito mesmo,Elogios e avaliações positivas,positivo,,,,perfeito
+,Perfeito o atendimento,Elogios e avaliações positivas,positivo,,,,perfeito
+,Top,Elogios e avaliações positivas,positivo,,,,top
+,Top demais,Elogios e avaliações positivas,positivo,,,,top demais
+,Amei,Elogios e avaliações positivas,positivo,,,,amei
+,Amei o aplicativo,Elogios e avaliações positivas,positivo,,,,amei aplicativo
+,Amei o atendimento,Elogios e avaliações positivas,positivo,,,,amei
+,Nota 10,Elogios e avaliações positivas,positivo,,,,nota
+,Nota mil,Elogios e avaliações positivas,positivo,,,,nota mil
+,Muito satisfeito,Elogios e avaliações positivas,positivo,,,,satisfeito
+,Muito satisfeito com o serviço,Elogios e avaliações positivas,positivo,,,,satisfeito servico
+,Adorei,Elogios e avaliações positivas,positivo,,,,adorei
+,Adorei o app,Elogios e avaliações positivas,positivo,,,,adorei app
+,Adorei o atendimento,Elogios e avaliações positivas,positivo,,,,adorei
+,Parabéns pelo atendimento,Elogios e avaliações positivas,positivo,,,,parabens
+,Parabéns pelo serviço,Elogios e avaliações positivas,positivo,,,,parabens servico
+,Parabéns pela rapidez,Elogios e avaliações positivas,positivo,,,,parabens rapidez
+,Show de bola,Elogios e avaliações positivas,positivo,,,,show bola
+,Show o atendimento,Elogios e avaliações positivas,positivo,,,,show
+,Incrível o serviço,Elogios e avaliações positivas,positivo,,,,incrivel servico
+,Incrível como resolveram rápido,Elogios e avaliações positivas,positivo,,,,incrivel resolveram rapido
+,Maravilhoso o atendimento,Elogios e avaliações positivas,positivo,,,,maravilhoso
+,Muito feliz com o serviço,Elogios e avaliações positivas,positivo,,,,feliz servico
+,Fiquei muito feliz com a solução,Elogios e avaliações positivas,positivo,,,,fiquei feliz solucao
+,Simplesmente perfeito,Elogios e avaliações positivas,positivo,,,,simplesmente perfeito
+,Muito eficiente,Elogios e avaliações positivas,positivo,,,,eficiente
+,Eficiente e rápido,Elogios e avaliações positivas,positivo,,,,eficiente rapido
+,Muito prático o app,Elogios e avaliações positivas,positivo,,,,pratico app
+,Prático e intuitivo,Elogios e avaliações positivas,positivo,,,,pratico intuitivo
+,Fácil de usar,Elogios e avaliações positivas,positivo,,,,facil usar
+,Muito fácil de usar,Elogios e avaliações positivas,positivo,,,,facil usar
+,Super fácil,Elogios e avaliações positivas,positivo,,,,super facil
+,Simples e prático,Elogios e avaliações positivas,positivo,,,,simples pratico
+,Gostei muito,Elogios e avaliações positivas,positivo,,,,gostei
+,Gostei bastante do atendimento,Elogios e avaliações positivas,positivo,,,,gostei bastante
+,Gostei muito do aplicativo,Elogios e avaliações positivas,positivo,,,,gostei aplicativo
+,Muito bom o suporte,Elogios e avaliações positivas,positivo,,,,bom suporte
+,Suporte excelente,Elogios e avaliações positivas,positivo,,,,suporte excelente
+,Atendente muito atencioso,Elogios e avaliações positivas,positivo,,,,atendente atencioso
+,Atendente muito prestativo,Elogios e avaliações positivas,positivo,,,,atendente prestativo
+,Fui bem atendido,Elogios e avaliações positivas,positivo,,,,bem atendido
+,Ótimo suporte,Elogios e avaliações positivas,positivo,,,,otimo suporte
+,Resolução rápida do problema,Elogios e avaliações positivas,positivo,,,,resolucao rapida problema
+,Problema resolvido rapidamente,Elogios e avaliações positivas,positivo,,,,problema resolvido rapidamente
+,Resolveram na hora,Elogios e avaliações positivas,positivo,,,,resolveram hora
+,"Meu cartão foi bloqueado, mas consegui desbloquear pelo aplicativo sem dificuldades",Elogios e avaliações positivas,positivo,,,,cartao bloqueado desbloquear aplicativo dificuldades
+,O cartão estava bloqueado e consegui resolver pelo app em minutos,Elogios e avaliações positivas,positivo,,,,cartao bloqueado resolver app minutos
+,Tive um problema com o cartão mas o suporte resolveu na hora,Elogios e avaliações positivas,positivo,,,,problema cartao suporte resolveu hora
+,Meu cartão foi bloqueado por segurança e o desbloqueio foi muito fácil,Elogios e avaliações positivas,positivo,,,,cartao bloqueado seguranca desbloqueio facil
+,"Fiquei preocupado com o Pix, mas o dinheiro chegou normalmente",Elogios e avaliações positivas,positivo,,,,fiquei preocupado pix dinheiro chegou normalmente
+,"Pensei que o Pix tinha falhado, mas chegou certinho no destinatário",Elogios e avaliações positivas,positivo,,,,pensei pix falhado chegou certinho destinatario
+,O Pix demorou alguns minutos mas chegou sem problemas,Elogios e avaliações positivas,positivo,,,,pix demorou alguns minutos chegou problemas
+,"Fiz uma transferência e fiquei preocupado, mas o dinheiro chegou normalmente",Elogios e avaliações positivas,positivo,,,,fiz transferencia fiquei preocupado dinheiro chegou normalmente
+,Minha transferência ficou pendente por um tempo mas foi concluída com sucesso,Elogios e avaliações positivas,positivo,,,,transferencia ficou pendente tempo concluida sucesso
+,O aplicativo travou uma vez mas reiniciou e funcionou perfeitamente,Elogios e avaliações positivas,positivo,,,,aplicativo travou vez reiniciou funcionou perfeitamente
+,Tive um problema no app mas foi resolvido com a atualização,Elogios e avaliações positivas,positivo,,,,problema app resolvido atualizacao
+,O app deu erro mas logo depois voltou a funcionar normalmente,Elogios e avaliações positivas,positivo,,,,app deu erro logo voltou funcionar normalmente
+,Minha conta foi bloqueada por segurança mas consegui recuperar o acesso rapidamente,Elogios e avaliações positivas,positivo,,,,bloqueada seguranca recuperar acesso rapidamente
+,Fiquei sem acesso por um momento mas o suporte me ajudou a recuperar em minutos,Elogios e avaliações positivas,positivo,,,,fiquei acesso momento suporte ajudou recuperar minutos
+,Tive dificuldade para acessar a conta mas o atendimento foi excelente e resolveu,Elogios e avaliações positivas,positivo,,,,dificuldade acessar excelente resolveu
+,"Meu cartão foi recusado uma vez mas depois funcionou normalmente, ótimo serviço",Elogios e avaliações positivas,positivo,,,,cartao recusado vez funcionou normalmente otimo servico
+,Tive uma cobrança estranha mas o banco resolveu e estornou rapidamente,Elogios e avaliações positivas,positivo,,,,cobranca estranha resolveu estornou rapidamente
+,Precisei desbloquear o cartão e o processo pelo app foi muito simples,Elogios e avaliações positivas,positivo,,,,precisei desbloquear cartao processo app simples
+,"O Pix estava demorando mas chegou, fiquei aliviado e satisfeito com o serviço",Elogios e avaliações positivas,positivo,,,,pix demorando chegou fiquei aliviado satisfeito servico
+,Tive um pequeno problema com transferência mas foi resolvido sem dor de cabeça,Elogios e avaliações positivas,positivo,,,,pequeno problema transferencia resolvido dor cabeca
+,O atendente resolveu meu problema com o cartão bloqueado com muita agilidade,Elogios e avaliações positivas,positivo,,,,atendente resolveu problema cartao bloqueado muita agilidade
+,"Consegui desbloquear o cartão sozinho pelo aplicativo, processo muito intuitivo",Elogios e avaliações positivas,positivo,,,,desbloquear cartao sozinho aplicativo processo intuitivo
+,A transferência deu erro mas o valor não saiu e o suporte foi rápido em confirmar,Elogios e avaliações positivas,positivo,,,,transferencia deu erro valor nao saiu suporte rapido confirmar
+,"Fiquei apreensivo com o Pix mas chegou direitinho, serviço confiável",Elogios e avaliações positivas,positivo,,,,fiquei apreensivo pix chegou direitinho servico confiavel
+,Minha senha bloqueou mas redefinir pelo app foi rápido e sem complicações,Elogios e avaliações positivas,positivo,,,,senha bloqueou redefinir app rapido complicacoes
+,Finalmente consegui entrar na conta depois de muito tempo bloqueado,Elogios e avaliações positivas,positivo,,,,finalmente entrar tempo bloqueado
+,Finalmente consegui acessar minha conta após ficar bloqueado,Elogios e avaliações positivas,positivo,,,,finalmente acessar apos ficar bloqueado
+,Finalmente o problema foi resolvido depois de dias tentando,Elogios e avaliações positivas,positivo,,,,finalmente problema resolvido dias tentando
+,Finalmente resolveram meu problema com o cartão bloqueado,Elogios e avaliações positivas,positivo,,,,finalmente resolveram problema cartao bloqueado
+,Finalmente o Pix foi concluído depois de ficar pendente,Elogios e avaliações positivas,positivo,,,,finalmente pix concluido ficar pendente
+,Finalmente consegui desbloquear o cartão pelo aplicativo,Elogios e avaliações positivas,positivo,,,,finalmente desbloquear cartao aplicativo
+,Finalmente o app voltou a funcionar normalmente,Elogios e avaliações positivas,positivo,,,,finalmente app voltou funcionar normalmente
+,Depois de muito tempo bloqueado consegui recuperar meu acesso,Elogios e avaliações positivas,positivo,,,,tempo bloqueado recuperar acesso
+,Depois de dias tentando finalmente consegui fazer o Pix,Elogios e avaliações positivas,positivo,,,,dias tentando finalmente fazer pix
+,Depois de muita dificuldade o problema foi solucionado,Elogios e avaliações positivas,positivo,,,,muita dificuldade problema solucionado
+,Após muito tempo esperando finalmente fui atendido,Elogios e avaliações positivas,positivo,,,,apos tempo esperando finalmente atendido
+,Após ficar sem acesso por dias finalmente resolvi com o suporte,Elogios e avaliações positivas,positivo,,,,apos ficar acesso dias finalmente resolvi suporte
+,Por fim consegui resolver meu problema com o cartão,Elogios e avaliações positivas,positivo,,,,fim resolver problema cartao
+,Por fim o atendimento funcionou e resolvi tudo,Elogios e avaliações positivas,positivo,,,,fim funcionou resolvi tudo
+,"Ufa, finalmente o Pix chegou ao destinatário",Elogios e avaliações positivas,positivo,,,,ufa finalmente pix chegou destinatario
+,"Ufa, consegui acessar a conta depois de muito tempo bloqueado",Elogios e avaliações positivas,positivo,,,,ufa acessar tempo bloqueado
+,"Que alívio, meu dinheiro chegou normalmente",Elogios e avaliações positivas,positivo,,,,alivio dinheiro chegou normalmente
+,"Que alívio, resolveram o problema rapidamente",Elogios e avaliações positivas,positivo,,,,alivio resolveram problema rapidamente
+,"Que alívio, meu cartão foi desbloqueado",Elogios e avaliações positivas,positivo,,,,alivio cartao desbloqueado
+,Que bom que resolveram o problema do aplicativo,Elogios e avaliações positivas,positivo,,,,bom resolveram problema aplicativo
+,Ainda bem que o suporte conseguiu resolver,Elogios e avaliações positivas,positivo,,,,ainda bem suporte conseguiu resolver
+,Ainda bem que o dinheiro chegou mesmo atrasado,Elogios e avaliações positivas,positivo,,,,ainda bem dinheiro chegou atrasado
+,Depois de tentar várias vezes consegui redefinir minha senha,Elogios e avaliações positivas,positivo,,,,tentar varias vezes redefinir senha
+,Demorou mas finalmente tive retorno do suporte e resolveu,Elogios e avaliações positivas,positivo,,,,demorou finalmente retorno suporte resolveu
+,Estava nervoso mas consegui resolver o problema de acesso,Elogios e avaliações positivas,positivo,,,,nervoso resolver problema acesso
+,Tive um problema mas foi solucionado com eficiência,Elogios e avaliações positivas,positivo,,,,problema solucionado eficiencia
+,Houve uma falha mas o banco resolveu sem burocracia,Elogios e avaliações positivas,positivo,,,,falha resolveu burocracia
+,"A cobrança foi contestada e estornada rapidamente, muito satisfeito",Elogios e avaliações positivas,positivo,,,,cobranca contestada estornada rapidamente satisfeito
+,Demorou um pouco mas o atendimento foi excelente no final,Elogios e avaliações positivas,positivo,,,,demorou pouco excelente final
+,Tive dúvidas mas o atendente explicou tudo com paciência,Elogios e avaliações positivas,positivo,,,,duvidas atendente explicou tudo paciencia
+,O processo foi um pouco lento mas o resultado foi ótimo,Elogios e avaliações positivas,positivo,,,,processo pouco lento resultado otimo
+,Fiquei nervoso com a situação mas o banco resolveu tudo,Elogios e avaliações positivas,positivo,,,,fiquei nervoso situacao resolveu tudo
+,Tinha medo de perder o dinheiro mas tudo foi resolvido,Elogios e avaliações positivas,positivo,,,,medo perder dinheiro tudo resolvido
+,No início tive dificuldade mas o app é muito bom,Elogios e avaliações positivas,positivo,,,,inicio dificuldade app bom
+,Achei complicado no começo mas depois vi que é simples,Elogios e avaliações positivas,positivo,,,,achei complicado comeco vi simples
+,O cartão foi bloqueado mas o desbloqueio pelo app foi instantâneo,Elogios e avaliações positivas,positivo,,,,cartao bloqueado desbloqueio app instantaneo
+,Meu Pix ficou pendente mas foi concluído em minutos,Elogios e avaliações positivas,positivo,,,,pix ficou pendente concluido minutos
+,Estava sem acesso mas recuperei a senha facilmente,Elogios e avaliações positivas,positivo,,,,acesso recuperei senha facilmente
+,Houve uma cobrança indevida mas foi estornada no mesmo dia,Elogios e avaliações positivas,positivo,,,,cobranca indevida estornada
+,O app travou mas após reiniciar funcionou perfeitamente,Elogios e avaliações positivas,positivo,,,,app travou apos reiniciar funcionou perfeitamente
+,"Levei um susto com o saldo mas era erro de exibição, corrigido rápido",Elogios e avaliações positivas,positivo,,,,levei susto saldo erro exibicao corrigido rapido
+,Ruim,Problemas no aplicativo,negativo,,,,ruim
+,Muito ruim,Problemas no aplicativo,negativo,,,,ruim
+,Muito ruim mesmo,Problemas no aplicativo,negativo,,,,ruim
+,Péssimo,Problemas no aplicativo,negativo,,,,pessimo
+,Péssimo atendimento,Demora no atendimento,negativo,,,,pessimo
+,Péssimo aplicativo,Problemas no aplicativo,negativo,,,,pessimo aplicativo
+,Péssimo serviço,Demora no atendimento,negativo,,,,pessimo servico
+,Horrível,Problemas no aplicativo,negativo,,,,horrivel
+,Horrível o atendimento,Demora no atendimento,negativo,,,,horrivel
+,Terrível,Problemas no aplicativo,negativo,,,,terrivel
+,Terrível o serviço,Demora no atendimento,negativo,,,,terrivel servico
+,Insatisfeito,Problemas no aplicativo,negativo,,,,insatisfeito
+,Muito insatisfeito,Problemas no aplicativo,negativo,,,,insatisfeito
+,Totalmente insatisfeito,Demora no atendimento,negativo,,,,totalmente insatisfeito
+,Decepcionante,Demora no atendimento,negativo,,,,decepcionante
+,Muito decepcionante,Demora no atendimento,negativo,,,,decepcionante
+,Lamentável,Demora no atendimento,negativo,,,,lamentavel
+,Vergonhoso o serviço,Demora no atendimento,negativo,,,,vergonhoso servico
+,Absurdo o atendimento,Demora no atendimento,negativo,,,,absurdo
+,Nada funciona,Problemas no aplicativo,negativo,,,,nada funciona
+,Não funciona,Problemas no aplicativo,negativo,,,,nao funciona
+,Não resolve nada,Demora no atendimento,negativo,,,,nao resolve nada
+,Nunca resolve,Demora no atendimento,negativo,,,,nunca resolve
+,Sem solução,Demora no atendimento,negativo,,,,solucao
+,Pior app que já usei,Problemas no aplicativo,negativo,,,,pior app ja usei
+,O pior banco,Demora no atendimento,negativo,,,,pior
+,Horrível experiência,Demora no atendimento,negativo,,,,horrivel experiencia
+,Péssima experiência,Demora no atendimento,negativo,,,,pessima experiencia
+,Péssima qualidade,Problemas no aplicativo,negativo,,,,pessima qualidade
+,Muito abaixo do esperado,Demora no atendimento,negativo,,,,abaixo esperado
+,Deixou muito a desejar,Demora no atendimento,negativo,,,,deixou desejar
+,Frustrante,Demora no atendimento,negativo,,,,frustrante
+,Muito frustrante,Demora no atendimento,negativo,,,,frustrante
+,Estou decepcionado com o serviço,Demora no atendimento,negativo,,,,decepcionado servico
+,Estou arrependido de ter escolhido esse banco,Demora no atendimento,negativo,,,,arrependido ter escolhido
+,Não recomendo de forma alguma,Demora no atendimento,negativo,,,,nao recomendo forma alguma
+,Nota zero,Problemas no aplicativo,negativo,,,,nota zero
+,Gostaria de consultar as taxas para contratar um empréstimo,Outros,neutro,,,,consultar taxas contratar emprestimo
+,Quero saber as condições para contratar um financiamento,Outros,neutro,,,,saber condicoes contratar financiamento
+,Gostaria de informações sobre as taxas de empréstimo,Outros,neutro,,,,informacoes sobre taxas emprestimo
+,Como faço para contratar um empréstimo pelo aplicativo?,Outros,neutro,,,,faco contratar emprestimo aplicativo
+,Quero entender as taxas antes de contratar um crédito,Outros,neutro,,,,entender taxas antes contratar credito
+,Preciso de informações sobre as condições do empréstimo,Outros,neutro,,,,informacoes sobre condicoes emprestimo
+,Gostaria de saber os juros do crédito pessoal,Outros,neutro,,,,saber juros credito pessoal
+,Como funciona a contratação de empréstimo pelo app?,Outros,neutro,,,,funciona contratacao emprestimo app
+,Quais são as taxas para financiamento de veículo?,Outros,neutro,,,,quais sao taxas financiamento veiculo
+,Gostaria de consultar as opções de crédito disponíveis,Outros,neutro,,,,consultar opcoes credito disponiveis
+,Quero saber como simular um empréstimo,Outros,neutro,,,,saber simular emprestimo
+,Como verificar se tenho crédito pré-aprovado?,Outros,neutro,,,,verificar credito pre aprovado
+,Gostaria de informações sobre renegociação de dívidas,Outros,neutro,,,,informacoes sobre renegociacao dividas
+,Quero saber como funciona o crédito consignado,Outros,neutro,,,,saber funciona credito consignado
+,Como solicitar aumento de limite do cartão?,Outros,neutro,,,,solicitar aumento limite cartao
+,Gostaria de saber sobre refinanciamento,Outros,neutro,,,,saber sobre refinanciamento
+,Preciso entender como funciona o financiamento imobiliário,Outros,neutro,,,,entender funciona financiamento imobiliario
 ,Quero saber como abrir uma conta,Outros,neutro,,,,saber abrir
 ,Qual é o horário de funcionamento da agência?,Outros,neutro,,,,horario funcionamento agencia
 ,Quais documentos preciso para abrir uma conta?,Outros,neutro,,,,quais documentos abrir
@@ -1260,3 +1522,18 @@
 ,Gostaria de saber como funciona o programa de benefícios,Outros,neutro,,,,saber funciona programa beneficios
 ,Como faço para consultar meu limite disponível?,Outros,neutro,,,,faco consultar limite disponivel
 ,Quero informações sobre os horários de funcionamento do aplicativo,Outros,neutro,,,,informacoes sobre horarios funcionamento aplicativo
+,Qual o prazo para receber o cartão?,Outros,neutro,,,,prazo receber cartao
+,Como funciona o seguro do cartão?,Outros,neutro,,,,funciona seguro cartao
+,Quero saber sobre portabilidade de salário,Outros,neutro,,,,saber sobre portabilidade salario
+,Como abro uma conta digital?,Outros,neutro,,,,abro digital
+,Qual a diferença entre conta corrente e conta poupança?,Outros,neutro,,,,diferenca corrente poupanca
+,Preciso de informações sobre consórcio,Outros,neutro,,,,informacoes sobre consorcio
+,Como funciona o crédito pré-aprovado?,Outros,neutro,,,,funciona credito pre aprovado
+,Quero entender como funciona o rendimento da poupança,Outros,neutro,,,,entender funciona rendimento poupanca
+,Gostaria de saber sobre o programa de pontos do cartão,Outros,neutro,,,,saber sobre programa pontos cartao
+,Como solicitar declaração de imposto de renda?,Outros,neutro,,,,solicitar declaracao imposto renda
+,Quais são as opções de investimento disponíveis?,Outros,neutro,,,,quais sao opcoes investimento disponiveis
+,Como faço para encerrar minha conta?,Outros,neutro,,,,faco encerrar
+,Preciso de informações sobre o seguro de vida,Outros,neutro,,,,informacoes sobre seguro vida
+,Quero saber se posso ter dois cartões,Outros,neutro,,,,saber posso ter dois cartoes
+,Como consultar o saldo do meu benefício?,Outros,neutro,,,,consultar saldo beneficio
