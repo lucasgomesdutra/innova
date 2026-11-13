@@ -66,3 +66,19 @@
 63,2026-11-12,Meu cartão foi bloqueado durante uma compra e não consigo desbloquear.,Problemas com cartões,negativo,0.9449,0.8476,False
 64,2026-11-12,"Não consigo entrar na minha conta, aparece erro de senha mesmo digitando corretamente.",Problemas de acesso à conta,negativo,0.8922,0.997,False
 65,2026-11-12,muito ruim o atenimento,Problemas no aplicativo,negativo,0.7611,0.9356,False
+66,2026-11-12,Muito bom usar o site,Elogios e avaliações positivas,positivo,0.7661,0.8643,False
+67,2026-11-12,uma b..,Elogios e avaliações positivas,negativo,0.2622,0.6493,True
+68,2026-11-12,Demoraram muito para atender ,Elogios e avaliações positivas,negativo,0.2622,0.6493,True
+69,2026-11-12,Demoraram muito para atender ,Elogios e avaliações positivas,negativo,0.2622,0.6493,True
+70,2026-11-12,Demoraram muito para atender,Elogios e avaliações positivas,negativo,0.2622,0.6493,True
+71,2026-11-12,Atendimento muito demorado,Demora no atendimento,negativo,0.6037,0.8623,False
+72,2026-11-12,Estou com duvida se vocês são bons ou não,Dificuldades com serviços bancários,negativo,0.3153,0.9437,True
+73,2026-11-12,Não estou conseguindo fazer pix ,Problemas com Pix e transferências,negativo,0.9465,0.8901,False
+74,2026-11-12,Como acessar o site?,Problemas de acesso à conta,negativo,0.9347,0.7394,False
+75,2026-11-13,"Como eu faço um pix?
+",Problemas com Pix e transferências,neutro,0.9529,0.7022,False
+76,2026-11-13,"Como eu faço um pix?
+",Problemas com Pix e transferências,neutro,0.9529,0.7022,False
+77,2026-11-13,"Como emito um boleto?
+",Dificuldades com serviços bancários,neutro,0.9546,0.7165,False
+78,2026-11-13,"otimo sistema, cheio de atrasos!",Elogios e avaliações positivas,positivo,0.8173,0.884,False
