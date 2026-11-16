@@ -1,113 +1,113 @@
 {
   "categorias": {
-    "accuracy": 0.963,
-    "f1_macro": 0.9628,
-    "f1_weighted": 0.9628,
+    "accuracy": 0.785,
+    "f1_macro": 0.7836,
+    "f1_weighted": 0.7836,
     "report": {
       "Cobranças indevidas": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 24.0
+        "precision": 0.9940239043824701,
+        "recall": 0.8316666666666667,
+        "f1-score": 0.9056261343012704,
+        "support": 600.0
       },
       "Demora no atendimento": {
-        "precision": 0.8571428571428571,
-        "recall": 1.0,
-        "f1-score": 0.9230769230769231,
-        "support": 24.0
+        "precision": 0.8080808080808081,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.730593607305936,
+        "support": 600.0
       },
       "Dificuldades com serviços bancários": {
-        "precision": 0.96,
-        "recall": 1.0,
-        "f1-score": 0.9795918367346939,
-        "support": 24.0
+        "precision": 0.551304347826087,
+        "recall": 0.5283333333333333,
+        "f1-score": 0.5395744680851063,
+        "support": 600.0
       },
       "Elogios e avaliações positivas": {
-        "precision": 1.0,
-        "recall": 0.8333333333333334,
-        "f1-score": 0.9090909090909091,
-        "support": 24.0
+        "precision": 0.9788519637462235,
+        "recall": 0.54,
+        "f1-score": 0.6960257787325457,
+        "support": 600.0
       },
       "Outros": {
-        "precision": 1.0,
-        "recall": 0.9583333333333334,
-        "f1-score": 0.9787234042553191,
-        "support": 24.0
+        "precision": 0.553939393939394,
+        "recall": 0.7616666666666667,
+        "f1-score": 0.6414035087719299,
+        "support": 600.0
       },
       "Problemas com Pix e transferências": {
-        "precision": 1.0,
+        "precision": 0.9646302250803859,
         "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 24.0
+        "f1-score": 0.9819967266775778,
+        "support": 600.0
       },
       "Problemas com cartões": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 24.0
+        "precision": 0.75,
+        "recall": 0.91,
+        "f1-score": 0.822289156626506,
+        "support": 600.0
       },
       "Problemas de acesso à conta": {
-        "precision": 1.0,
-        "recall": 0.875,
-        "f1-score": 0.9333333333333333,
-        "support": 24.0
+        "precision": 0.8291873963515755,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8312551953449709,
+        "support": 600.0
       },
       "Problemas no aplicativo": {
-        "precision": 0.8888888888888888,
-        "recall": 1.0,
-        "f1-score": 0.9411764705882353,
-        "support": 24.0
+        "precision": 0.8289290681502086,
+        "recall": 0.9933333333333333,
+        "f1-score": 0.9037149355572404,
+        "support": 600.0
       },
-      "accuracy": 0.9629629629629629,
+      "accuracy": 0.785,
       "macro avg": {
-        "precision": 0.967336860670194,
-        "recall": 0.9629629629629631,
-        "f1-score": 0.962776986342157,
-        "support": 216.0
+        "precision": 0.8065496786174614,
+        "recall": 0.7849999999999999,
+        "f1-score": 0.7836088346003426,
+        "support": 5400.0
       },
       "weighted avg": {
-        "precision": 0.9673368606701941,
-        "recall": 0.9629629629629629,
-        "f1-score": 0.9627769863421571,
-        "support": 216.0
+        "precision": 0.8065496786174614,
+        "recall": 0.785,
+        "f1-score": 0.7836088346003426,
+        "support": 5400.0
       }
     }
   },
   "sentimentos": {
-    "accuracy": 0.9815,
-    "f1_macro": 0.9658,
-    "f1_weighted": 0.9807,
+    "accuracy": 0.7643,
+    "f1_macro": 0.7308,
+    "f1_weighted": 0.7624,
     "report": {
       "negativo": {
-        "precision": 0.9767441860465116,
-        "recall": 1.0,
-        "f1-score": 0.9882352941176471,
-        "support": 168.0
+        "precision": 0.8050576184379001,
+        "recall": 0.8383333333333334,
+        "f1-score": 0.8213585891574134,
+        "support": 3000.0
       },
       "neutro": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 24.0
+        "precision": 0.6637755102040817,
+        "recall": 0.7227777777777777,
+        "f1-score": 0.6920212765957446,
+        "support": 1800.0
       },
       "positivo": {
-        "precision": 1.0,
-        "recall": 0.8333333333333334,
-        "f1-score": 0.9090909090909091,
-        "support": 24.0
+        "precision": 0.9841772151898734,
+        "recall": 0.5183333333333333,
+        "f1-score": 0.6790393013100436,
+        "support": 600.0
       },
-      "accuracy": 0.9814814814814815,
+      "accuracy": 0.7642592592592593,
       "macro avg": {
-        "precision": 0.9922480620155039,
-        "recall": 0.9444444444444445,
-        "f1-score": 0.9657754010695188,
-        "support": 216.0
+        "precision": 0.8176701146106184,
+        "recall": 0.6931481481481482,
+        "f1-score": 0.7308063890210672,
+        "support": 5400.0
       },
       "weighted avg": {
-        "precision": 0.9819121447028423,
-        "recall": 0.9814814814814815,
-        "f1-score": 0.9807486631016042,
-        "support": 216.0
+        "precision": 0.7778657597768466,
+        "recall": 0.7642592592592593,
+        "f1-score": 0.7624328974315939,
+        "support": 5400.0
       }
     }
   }

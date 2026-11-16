@@ -283,6 +283,29 @@ TEXTOS_POR_CATEGORIA = {
         "O atendimento é sempre cordial e profissional.",
         "Problema resolvido no mesmo dia, parabéns.",
         "A Sicredi tem os melhores atendentes que já vi.",
+        # Elogios específicos sobre Pix e transferências
+        "Rápido e fácil de fazer transferências pelo aplicativo.",
+        "O Pix da Sicredi é muito rápido e prático.",
+        "Fazer transferências nunca foi tão simples.",
+        "O Pix caiu na hora, perfeito!",
+        "Transferência realizada com sucesso e sem complicação.",
+        "Adorei a facilidade de fazer Pix pelo aplicativo.",
+        "Pix instantâneo e sem custo, excelente serviço.",
+        "As transferências funcionam muito bem, sem nenhum problema.",
+        "Consigo fazer Pix com facilidade a qualquer hora.",
+        "O sistema de transferências é muito ágil e confiável.",
+        # Elogios sobre o aplicativo
+        "O aplicativo é muito intuitivo e fácil de navegar.",
+        "Nunca tive problema com o aplicativo da Sicredi.",
+        "O app funciona perfeitamente no meu celular.",
+        "Acesso minha conta pelo aplicativo sem nenhuma dificuldade.",
+        "O aplicativo carrega rápido e é muito fácil de usar.",
+        # Elogios sobre acesso e cartões
+        "Meu acesso à conta funciona sempre perfeitamente.",
+        "O cartão da Sicredi é aceito em todos os lugares.",
+        "Nunca tive problema com meu cartão.",
+        "O desbloqueio do cartão foi rápido e simples.",
+        "Estou muito satisfeito com os serviços bancários da Sicredi.",
     ],
 
     "Outros": [

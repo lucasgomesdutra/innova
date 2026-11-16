@@ -86,6 +86,15 @@ def classificar_comentario(texto: str) -> dict:
 
     texto_limpo = limpar_texto(texto)
 
+    # Se a limpeza removeu tudo (ex: "muito bom", "bom", "ótimo atendimento"),
+    # usa o texto original normalizado para não perder o significado
+    if not texto_limpo.strip():
+        import unicodedata, re
+        texto_limpo = re.sub(r"[^a-z\s]", " ",
+                             unicodedata.normalize("NFKD", texto.lower())
+                             .encode("ascii", "ignore").decode()).strip()
+
+    # Se mesmo assim ficou vazio, retorna indeterminado
     if not texto_limpo.strip():
         return {
             "texto_original": texto,
