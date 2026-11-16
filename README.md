@@ -13,7 +13,7 @@ Desenvolver um agente de IA capaz de analisar grandes volumes de textos de atend
 ## Estrutura do Projeto
 
 ```
-detector_problemas_atendimento/
+innova/
 ├── data/
 │   ├── raw/
 │   │   └── atendimentos.csv        # Base fictícia de atendimentos
@@ -70,7 +70,7 @@ detector_problemas_atendimento/
 
 ```powershell
 # 1. Acesse o diretório do projeto
-cd detector_problemas_atendimento
+cd innova
 
 # 2. Crie e ative um ambiente virtual
 python -m venv venv
