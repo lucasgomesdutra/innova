@@ -1,50 +1,101 @@
-# Detector de Problemas no Atendimento — Sicredi
+# AtendeAI — Detector Inteligente de Problemas no Atendimento
 
-Projeto acadêmico de Inteligência Artificial para análise de atendimentos e pesquisas de satisfação de clientes da Sicredi.
-
----
-
-## Objetivo
-
-Desenvolver um agente de IA capaz de analisar grandes volumes de textos de atendimentos, identificar reclamações recorrentes, agrupar relatos semelhantes e encontrar possíveis falhas nos processos internos.
+Projeto acadêmico de Inteligência Artificial desenvolvido para o **Sicredi**, capaz de analisar avaliações de clientes, classificar categorias e sentimentos, agrupar reclamações semelhantes por significado e gerar insights acionáveis para o time de atendimento.
 
 ---
 
-## Estrutura do Projeto
+## Como rodar o projeto
 
-```
-innova/
-├── data/
-│   ├── raw/
-│   │   └── atendimentos.csv        # Base fictícia de atendimentos
-│   └── processed/                  # Dados após pré-processamento
-│
-├── models/                         # Modelos treinados (.joblib)
-│
-├── reports/                        # Relatórios gerados
-│
-├── src/
-│   ├── preprocessing.py            # Limpeza e preparação dos textos
-│   ├── treinamento.py              # Treinamento dos modelos de ML
-│   ├── classificacao.py            # Classificação de novos comentários
-│   ├── analise_sentimentos.py      # Análise de sentimentos (positivo/negativo/neutro)
-│   ├── agrupamento.py              # Clustering semântico de comentários
-│   ├── analise_problemas.py        # Identificação de problemas recorrentes
-│   └── relatorios.py               # Geração de relatórios e exportação
-│
-├── tests/
-│   ├── test_preprocessing.py
-│   ├── test_classificacao.py
-│   └── test_agrupamento.py
-│
-├── app.py                          # Painel web Streamlit
-├── requirements.txt
-└── README.md
+### Pré-requisitos
+
+- Python 3.10 ou superior
+- pip atualizado
+- Git
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/lucasgomesdutra/innova.git
+cd innova
 ```
 
+### 2. Crie e ative o ambiente virtual
+
+**Windows:**
+```powershell
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Linux/Mac:**
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+> ⚠️ O pacote `sentence-transformers` (~120MB de modelo) será baixado automaticamente na primeira vez que o agrupamento semântico for utilizado. É necessário conexão com a internet nesse momento.
+
+### 4. Treine os modelos de IA
+
+```bash
+python src/treinamento.py
+```
+
+Isso vai gerar os arquivos `models/modelo_categorias.joblib` e `models/modelo_sentimentos.joblib`.
+
+> Os modelos já vêm pré-treinados no repositório. Só é necessário retreinar se você modificar os dados de treinamento.
+
+### 5. Inicie o painel web
+
+```bash
+python -m streamlit run app.py
+```
+
+Acesse no navegador: **http://localhost:8501**
+
 ---
 
-## Categorias de Classificação
+## Funcionalidades
+
+| Página | O que faz |
+|---|---|
+| 📊 Dashboard | Métricas gerais, evolução temporal, alertas e resumo da IA |
+| 📋 Avaliações | Lista todas as avaliações com filtros e busca |
+| 🔍 Análise com IA | Classifica um novo comentário em tempo real |
+| 🚨 Problemas Identificados | Gerenciamento, agrupamento semântico e score de urgência |
+| 📄 Relatórios | Gráficos completos e exportação para Excel |
+
+---
+
+## Arquitetura de IA
+
+O sistema usa **dois níveis de NLP**:
+
+### Classificação supervisionada (TF-IDF + Regressão Logística)
+- Classifica cada avaliação em **9 categorias** e **3 sentimentos**
+- Treinado com ~28.500 exemplos (base sintética + dataset de 27.000 registros)
+- Acurácia: ~80% em categorias, ~77% em sentimentos
+
+### Agrupamento semântico (sentence-transformers)
+- Modelo: `paraphrase-multilingual-MiniLM-L12-v2` (multilíngue, 384 dimensões)
+- Reconhece que *"meu Pix não caiu"*, *"transferência sumiu"* e *"dinheiro não chegou ao destino"* são o mesmo problema
+- K-Means com seleção automática do número ideal de clusters (Silhouette Score)
+- Cache em disco para não recalcular embeddings desnecessariamente
+
+### Insights automáticos
+- Score de urgência por categoria (volume + crescimento + proporção negativa)
+- Alertas de aumento mês a mês
+- Textos de insight prontos para o dashboard
+
+---
+
+## Categorias de classificação
 
 | # | Categoria |
 |---|-----------|
@@ -60,115 +111,99 @@ innova/
 
 ---
 
-## Instalação
+## Estrutura do projeto
 
-### Pré-requisitos
-- Python 3.10 ou superior
-- pip atualizado
-
-### Configuração do ambiente (Windows)
-
-```powershell
-# 1. Acesse o diretório do projeto
-cd innova
-
-# 2. Crie e ative um ambiente virtual
-python -m venv venv
-venv\Scripts\activate
-
-# 3. Instale as dependências
-pip install -r requirements.txt
-
-# 4. Baixe os recursos do NLTK (execute uma vez)
-python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt'); nltk.download('rslp')"
+```
+innova/
+├── .streamlit/
+│   └── config.toml               # Tema claro forçado
+│
+├── data/
+│   ├── raw/
+│   │   ├── atendimentos.csv          # Base sintética original
+│   │   ├── atendimentos_27000.csv    # Dataset de 27.000 registros
+│   │   ├── dados_reais_exemplo.csv   # Exemplos curados para treino (~378 registros)
+│   │   └── gerar_base.py             # Script para regenerar a base sintética
+│   └── processed/
+│       ├── atendimentos_processados.csv   # Base após pré-processamento
+│       ├── avaliacoes_reais.csv           # Avaliações inseridas pelo usuário
+│       └── problemas_gerenciados.csv      # Gerenciamento de problemas
+│
+├── models/
+│   ├── modelo_categorias.joblib      # Modelo treinado de categorias
+│   ├── modelo_sentimentos.joblib     # Modelo treinado de sentimentos
+│   ├── metricas_treinamento.json     # Métricas de avaliação dos modelos
+│   └── embeddings_cache/             # Cache de embeddings semânticos
+│
+├── reports/                          # Gráficos e relatórios gerados
+│
+├── src/
+│   ├── preprocessing.py              # Limpeza e normalização de textos
+│   ├── treinamento.py                # Pipeline de treinamento dos modelos
+│   ├── classificacao.py              # Classificação de novos comentários
+│   ├── analise_sentimentos.py        # Análise e agregação de sentimentos
+│   ├── agrupamento.py                # Clustering TF-IDF (com fallback semântico)
+│   ├── agrupamento_semantico.py      # Clustering por embeddings semânticos
+│   ├── embeddings.py                 # Geração e cache de embeddings
+│   ├── insights.py                   # Score de urgência e insights automáticos
+│   ├── analise_problemas.py          # Identificação de problemas recorrentes
+│   └── relatorios.py                 # Geração de relatórios e gráficos
+│
+├── tests/
+│   ├── test_preprocessing.py
+│   ├── test_classificacao.py
+│   └── test_agrupamento.py
+│
+├── app.py                            # Aplicação Streamlit (painel web)
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## Execução
+## Tecnologias utilizadas
 
-### 1. Treinar os modelos
+| Biblioteca | Versão mínima | Finalidade |
+|---|---|---|
+| `pandas` | 2.2 | Manipulação de dados |
+| `scikit-learn` | 1.5 | TF-IDF, Regressão Logística, K-Means |
+| `sentence-transformers` | 3.0 | Embeddings semânticos multilíngues |
+| `nltk` | 3.8 | Pré-processamento NLP em português |
+| `streamlit` | 1.35 | Interface web |
+| `plotly` | 5.22 | Gráficos interativos |
+| `matplotlib` / `seaborn` | — | Matrizes de confusão e gráficos estáticos |
+| `joblib` | — | Serialização de modelos |
+| `openpyxl` | 3.1 | Exportação para Excel |
 
-```powershell
+---
+
+## Retreinar os modelos
+
+Se você inserir novas avaliações ou modificar os dados de treinamento, retreine assim:
+
+```bash
+# Regenera a base sintética (opcional)
+python data/raw/gerar_base.py
+
+# Retreina os modelos
 python src/treinamento.py
+
+# Reinicia o app para carregar os novos modelos
+python -m streamlit run app.py
 ```
 
-### 2. Executar o painel web
-
-```powershell
-streamlit run app.py
-```
-
-### 3. Testar a classificação via terminal
-
-```powershell
-python src/classificacao.py
-```
+> ⚠️ Sempre reinicie o Streamlit após retreinar — ele mantém os modelos em cache de memória.
 
 ---
 
-## Pipeline de Funcionamento
+## Aviso
 
-```
-Textos de atendimentos
-        ↓
-  Pré-processamento (preprocessing.py)
-        ↓
-  Classificação de categoria (classificacao.py)
-        ↓
-  Análise de sentimentos (analise_sentimentos.py)
-        ↓
-  Agrupamento semântico (agrupamento.py)
-        ↓
-  Identificação de problemas recorrentes (analise_problemas.py)
-        ↓
-  Geração de relatórios (relatorios.py)
-        ↓
-  Painel de visualização (app.py)
-```
-
----
-
-## Tecnologias Utilizadas
-
-| Biblioteca | Finalidade |
-|------------|-----------|
-| pandas | Manipulação de dados |
-| scikit-learn | Classificação supervisionada, TF-IDF, K-Means |
-| sentence-transformers | Embeddings semânticos |
-| nltk | Pré-processamento NLP em português |
-| matplotlib / plotly | Visualizações |
-| streamlit | Painel web |
-| joblib | Serialização de modelos |
-
----
-
-## Aviso Importante
-
-> **Este projeto utiliza exclusivamente dados fictícios criados para fins acadêmicos.**
-> Nenhuma informação real de clientes é utilizada.
+> Este projeto utiliza dados sintéticos e exemplos curados para fins acadêmicos.
 > As classificações da IA são indicativas e devem ser revisadas por profissionais.
-> A qualidade dos resultados depende diretamente da qualidade e volume dos dados de treinamento.
-
----
-
-## Limitações Conhecidas
-
-- A base inicial é sintética, com vocabulário limitado.
-- O modelo de sentimentos utiliza regras e um classificador treinado na base fictícia, não um modelo pré-treinado em português bancário.
-- O agrupamento semântico depende da qualidade dos embeddings gerados.
-
----
-
-## Próximas Evoluções Previstas
-
-- [ ] Ingestão de dados reais anonimizados
-- [ ] Integração com modelo de linguagem pré-treinado em português (BERTimbau)
-- [ ] API REST para integração com sistemas externos
-- [ ] Alertas automáticos para picos de reclamações
+> A qualidade dos resultados depende diretamente do volume e qualidade dos dados de treinamento.
 
 ---
 
 ## Autores
 
-Projeto acadêmico — Sicredi / IA Aplicada ao Atendimento
+Projeto acadêmico — IBM / IA Aplicada ao Atendimento Sicredi
